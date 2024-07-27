@@ -7,29 +7,33 @@ public class PlayerController : MonoBehaviour
     [SerializeField] private MovementSystem _movementSystem;
     private Rigidbody2D _rb;
 
+    // private Move _moveAbility;
+    // private Dash _dashAbility;
+
     // Start is called before the first frame update
     void Start()
     {
        // Get all the abilities in the movement system
-       foreach (Ability ability in _movementSystem.movementAbilities)
-       {
-            // Check if there's a Move ability
-            if(ability.Name.value == "Move") {
+        foreach (Ability ability in _movementSystem.movementAbilities)
+        {
+            // Check if the ability is of type Move
+            if (ability is Move moveAbility)
+            {
                 Debug.Log("Moving");
-                var move = ability;
-                Debug.Log(move.description.value);
+                Debug.Log(moveAbility.description.value);
+                Debug.Log(moveAbility._maxSpeed.value);
             }
 
-            // Check if there's a Dash ability
-            if(ability.Name.value == "Dash") {
+            // Check if the ability is of type Dash
+            if (ability is Dash dashAbility)
+            {
                 Debug.Log("Dashing");
-                var dash = ability;
-                Debug.Log(dash.Name.value);
+                Debug.Log(dashAbility.Name.value);
+                Debug.Log(dashAbility.dashSpeed.value);
             }
 
             // !NOTE: Possibly use a switch statement to cycle through the abilities
-
-       }
+        }
     }
 
     // private void FixedUpdate()

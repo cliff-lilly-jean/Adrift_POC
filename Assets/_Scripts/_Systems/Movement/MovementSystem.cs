@@ -6,6 +6,4 @@ public class MovementSystem : ScriptableObject
 {
     [Header("Abilities")]
    public List<Ability> movementAbilities = new List<Ability>();
-
-   public Move move;
 }
