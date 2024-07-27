@@ -2,9 +2,14 @@ using UnityEngine;
 
 public abstract class Ability : ScriptableObject {
 
+    [Header("Attributes")]
     public StringVariable Name;
     public StringVariable description;
+
+    [Header("Cost")]
     public FloatVariable cost;
+
+    [Header("Cooldown")]
     public FloatVariable cooldown;
 
     [System.Serializable]
@@ -14,7 +19,9 @@ public abstract class Ability : ScriptableObject {
         Ki
     }
 
+    [Header("Type")]
     [SerializeField] public Type type;
 
+    // * Abstract Use method to be overridden by the implementing class
     public abstract void Use();
 }
