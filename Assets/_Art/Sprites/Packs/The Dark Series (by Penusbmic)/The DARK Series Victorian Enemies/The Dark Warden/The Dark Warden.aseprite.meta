@@ -1,0 +1,1595 @@
+fileFormatVersion: 2
+guid: b62555522ccae4aa3b698b6b118f34a3
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: 62a9f0aa5b59740cfbadc7e5f9823bb0, type: 3}
+  textureImporterSettings:
+    alphaSource: 1
+    mipMapMode: 0
+    enableMipMap: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+    convertToNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+    swizzle: 50462976
+    isReadable: 0
+    streamingMipmaps: 0
+    streamingMipmapsPriority: 0
+    vTOnly: 0
+    ignoreMipmapLimit: 0
+    nPOTScale: 1
+    sRGBTexture: 1
+    spriteMode: 2
+    spriteExtrude: 1
+    spriteMeshType: 1
+    alignment: 0
+    spritePivot: {x: 0.5, y: 0.5}
+    spritePixelsToUnits: 100
+    spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+    spriteGenerateFallbackPhysicsShape: 0
+    generateCubemap: 6
+    cubemapConvolution: 0
+    seamlessCubemap: 0
+    alphaIsTransparency: 1
+    spriteTessellationDetail: -1
+    textureType: 8
+    textureShape: 1
+    singleChannelComponent: 0
+    flipbookRows: 0
+    flipbookColumns: 0
+    ignorePngGamma: 0
+    cookieMode: 0
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+    normalMap: 0
+    textureFormat: 0
+    maxTextureSize: 0
+    lightmap: 0
+    compressionQuality: 0
+    linearTexture: 0
+    grayScaleToAlpha: 0
+    rGBM: 0
+    cubemapConvolutionSteps: 0
+    cubemapConvolutionExponent: 0
+    maxTextureSizeSet: 0
+    compressionQualitySet: 0
+    textureFormatSet: 0
+    applyGammaDecoding: 0
+  previousAsepriteImporterSettings:
+    fileImportMode: 1
+    importHiddenLayers: 0
+    layerImportMode: 1
+    defaultPivotSpace: 0
+    defaultPivotAlignment: 7
+    customPivotPosition: {x: 0.5, y: 0.5}
+    mosaicPadding: 4
+    spritePadding: 0
+    generateModelPrefab: 1
+    generateAnimationClips: 1
+    addSortingGroup: 1
+    addShadowCasters: 0
+  asepriteImporterSettings:
+    fileImportMode: 1
+    importHiddenLayers: 0
+    layerImportMode: 1
+    defaultPivotSpace: 0
+    defaultPivotAlignment: 7
+    customPivotPosition: {x: 0.5, y: 0.5}
+    mosaicPadding: 4
+    spritePadding: 0
+    generateModelPrefab: 1
+    generateAnimationClips: 1
+    addSortingGroup: 1
+    addShadowCasters: 0
+  importFileNodeState: 1
+  platformSettingsDirtyTick: 0
+  textureAssetName: 
+  singleSpriteImportData:
+  - name: 
+    originalName: 
+    pivot: {x: 0, y: 0}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    spriteID: 
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 0, y: 0}
+  animatedSpriteImportData:
+  - name: The Dark Warden_Frame_0
+    originalName: 
+    pivot: {x: 2, y: -2.857143}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 95
+      y: 401
+      width: 15
+      height: 28
+    spriteID: f54f30475e6a84378b3ab0080cbd583b
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 95, y: 401}
+  - name: The Dark Warden_Frame_1
+    originalName: 
+    pivot: {x: 2, y: -2.857143}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 95
+      y: 437
+      width: 15
+      height: 28
+    spriteID: f2126f4dddec14a50a202f625f6aa0f1
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 95, y: 437}
+  - name: The Dark Warden_Frame_2
+    originalName: 
+    pivot: {x: 2, y: -2.857143}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 95
+      y: 473
+      width: 15
+      height: 28
+    spriteID: 1698a81118a224d14b72ad6b6fe09ca9
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 95, y: 473}
+  - name: The Dark Warden_Frame_3
+    originalName: 
+    pivot: {x: 2, y: -2.857143}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 123
+      y: 165
+      width: 15
+      height: 28
+    spriteID: 80791ed31310948a58d61f9737effc40
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 123, y: 165}
+  - name: The Dark Warden_Frame_4
+    originalName: 
+    pivot: {x: 2, y: -2.857143}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 123
+      y: 201
+      width: 15
+      height: 28
+    spriteID: 6c6151f8fc8874f9bbc890d8dc8afd1d
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 123, y: 201}
+  - name: The Dark Warden_Frame_5
+    originalName: 
+    pivot: {x: 2, y: -2.857143}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 123
+      y: 237
+      width: 15
+      height: 28
+    spriteID: 6105ea7ecc5ed466f9bc883d011fd622
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 123, y: 237}
+  - name: The Dark Warden_Frame_6
+    originalName: 
+    pivot: {x: 2, y: -2.857143}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 123
+      y: 273
+      width: 15
+      height: 28
+    spriteID: b74489fb7bab8474988cd6e924626131
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 123, y: 273}
+  - name: The Dark Warden_Frame_7
+    originalName: 
+    pivot: {x: 2, y: -2.857143}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 123
+      y: 309
+      width: 15
+      height: 28
+    spriteID: 4c22b90b107714acd958cb2a7a0db9e3
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 123, y: 309}
+  - name: The Dark Warden_Frame_8
+    originalName: 
+    pivot: {x: 2, y: -2.857143}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 123
+      y: 345
+      width: 15
+      height: 28
+    spriteID: 92fe17820709d4c0995eec39a6de24bc
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 123, y: 345}
+  - name: The Dark Warden_Frame_9
+    originalName: 
+    pivot: {x: 2, y: -2.857143}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 123
+      y: 381
+      width: 15
+      height: 28
+    spriteID: f8dcc673f57c947c6803f48c0e22280b
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 123, y: 381}
+  - name: The Dark Warden_Frame_10
+    originalName: 
+    pivot: {x: 2, y: -2.857143}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 123
+      y: 417
+      width: 15
+      height: 28
+    spriteID: f431efc0191ff417c9c2d19204b56a6c
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 123, y: 417}
+  - name: The Dark Warden_Frame_11
+    originalName: 
+    pivot: {x: 2, y: -2.857143}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 123
+      y: 453
+      width: 15
+      height: 28
+    spriteID: f1fabf2b5ffb54ae594c2f54c820f7f2
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 123, y: 453}
+  - name: The Dark Warden_Frame_12
+    originalName: 
+    pivot: {x: 2, y: -2.857143}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 163
+      y: 4
+      width: 15
+      height: 28
+    spriteID: c670b690c046545d0991e1a41030f160
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 163, y: 4}
+  - name: The Dark Warden_Frame_13
+    originalName: 
+    pivot: {x: 1.7222223, y: -3.4782608}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 186
+      y: 4
+      width: 18
+      height: 23
+    spriteID: 2add2d7d9724f41babb12bdbc591eb75
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 186, y: 4}
+  - name: The Dark Warden_Frame_14
+    originalName: 
+    pivot: {x: 1.8235296, y: -3.4782608}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 186
+      y: 65
+      width: 17
+      height: 23
+    spriteID: fb9337e4d9dc24660b2ee1054b7fb3a3
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 186, y: 65}
+  - name: The Dark Warden_Frame_15
+    originalName: 
+    pivot: {x: 2, y: -3.1999998}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 163
+      y: 148
+      width: 15
+      height: 25
+    spriteID: 25d9e942067a744db8aeef51b1da938a
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 163, y: 148}
+  - name: The Dark Warden_Frame_16
+    originalName: 
+    pivot: {x: 1.7777777, y: -2.9629629}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 95
+      y: 270
+      width: 18
+      height: 27
+    spriteID: 5a076d4d6b6e44ce28f549660e5a7b54
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 95, y: 270}
+  - name: The Dark Warden_Frame_17
+    originalName: 
+    pivot: {x: 1.6, y: -2.857143}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 95
+      y: 165
+      width: 20
+      height: 28
+    spriteID: c4694e8cfc4c94209b9ccad159e0b377
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 95, y: 165}
+  - name: The Dark Warden_Frame_18
+    originalName: 
+    pivot: {x: 1.5238096, y: -2.9629629}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 64
+      y: 439
+      width: 21
+      height: 27
+    spriteID: b4c2908f7f7374dc0b9de36f4d8765cb
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 64, y: 439}
+  - name: The Dark Warden_Frame_19
+    originalName: 
+    pivot: {x: 1.6, y: -3.4782608}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 95
+      y: 370
+      width: 20
+      height: 23
+    spriteID: 8187de6d2041742708ce510407ee8c70
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 95, y: 370}
+  - name: The Dark Warden_Frame_20
+    originalName: 
+    pivot: {x: 1.7222223, y: -3.6363637}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 186
+      y: 35
+      width: 18
+      height: 22
+    spriteID: 8aab5ae8f29d94a4591aa1e57a520113
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 186, y: 35}
+  - name: The Dark Warden_Frame_21
+    originalName: 
+    pivot: {x: 1.875, y: -3.1999998}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 139
+      y: 112
+      width: 16
+      height: 25
+    spriteID: 3579528b1b6cd48da9d644bd80489a3a
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 139, y: 112}
+  - name: The Dark Warden_Frame_22
+    originalName: 
+    pivot: {x: 1.6, y: -2.9629629}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 95
+      y: 201
+      width: 20
+      height: 27
+    spriteID: 3d1f61e14750a48af8f6bab846c6c630
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 95, y: 201}
+  - name: The Dark Warden_Frame_23
+    originalName: 
+    pivot: {x: 1.5238096, y: -2.7586207}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 66
+      y: 364
+      width: 21
+      height: 29
+    spriteID: a3bc215e037d44153ae1fd939e680cff
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 66, y: 364}
+  - name: The Dark Warden_Frame_24
+    originalName: 
+    pivot: {x: 1.631579, y: -3.0769231}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 68
+      y: 478
+      width: 19
+      height: 26
+    spriteID: 28e70362067c14285a5271e8103c837c
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 68, y: 478}
+  - name: The Dark Warden_Frame_25
+    originalName: 
+    pivot: {x: 2, y: -2.857143}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 163
+      y: 40
+      width: 15
+      height: 28
+    spriteID: 57ba0519a123d4460bc01f5acfee80c7
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 163, y: 40}
+  - name: The Dark Warden_Frame_35
+    originalName: 
+    pivot: {x: 0.4878049, y: -2.9629629}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 152
+      width: 82
+      height: 27
+    spriteID: 5aa59b92f78614a0a9adf1e6b8950256
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 152}
+  - name: The Dark Warden_Frame_36
+    originalName: 
+    pivot: {x: 0.4698795, y: -2.7586207}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 4
+      width: 83
+      height: 29
+    spriteID: ce0c2258f3da347d8a3a4c3a9e570cc3
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 4}
+  - name: The Dark Warden_Frame_37
+    originalName: 
+    pivot: {x: 0.44444445, y: -2.7586207}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 41
+      width: 81
+      height: 29
+    spriteID: 1b1a605a2a20b41d1b7dbdec92078ea3
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 41}
+  - name: The Dark Warden_Frame_38
+    originalName: 
+    pivot: {x: 0.39240506, y: -2.7586207}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 78
+      width: 79
+      height: 29
+    spriteID: 668bbda4216bc4ab088fa6c4dfa78859
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 78}
+  - name: The Dark Warden_Frame_39
+    originalName: 
+    pivot: {x: 0.37974682, y: -2.7586207}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 115
+      width: 79
+      height: 29
+    spriteID: 2cac797d6ddec43f58543fc79f3255f2
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 115}
+  - name: The Dark Warden_Frame_40
+    originalName: 
+    pivot: {x: 0.37974682, y: -2.857143}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 187
+      width: 79
+      height: 28
+    spriteID: a3d70c777ff2548d59bcc1acc77505cf
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 187}
+  - name: The Dark Warden_Frame_41
+    originalName: 
+    pivot: {x: 1.631579, y: -3.0769231}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 68
+      y: 325
+      width: 19
+      height: 26
+    spriteID: 0cf0e5ea016ef4bba90045727a260961
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 68, y: 325}
+  - name: The Dark Warden_Frame_42
+    originalName: 
+    pivot: {x: 1.631579, y: -3.0769231}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 95
+      y: 236
+      width: 19
+      height: 26
+    spriteID: e0233700e84cf4c6b8f86828c6e3d1a0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 95, y: 236}
+  - name: The Dark Warden_Frame_43
+    originalName: 
+    pivot: {x: 1.0555556, y: -3.1538463}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 95
+      y: 112
+      width: 36
+      height: 26
+    spriteID: 254a685c3cc9440a6b767bef618a0324
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 95, y: 112}
+  - name: The Dark Warden_Frame_44
+    originalName: 
+    pivot: {x: 0.93023264, y: -2.892857}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 95
+      y: 76
+      width: 43
+      height: 28
+    spriteID: b99002ec40d6d48fd87ea8ad3ecb1da3
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 95, y: 76}
+  - name: The Dark Warden_Frame_45
+    originalName: 
+    pivot: {x: 0.86, y: -2.7}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 95
+      y: 38
+      width: 50
+      height: 30
+    spriteID: c4c40e1bef8434e228a9efe09c5badc4
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 95, y: 38}
+  - name: The Dark Warden_Frame_46
+    originalName: 
+    pivot: {x: 0.8461538, y: -2.612903}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 439
+      width: 52
+      height: 31
+    spriteID: 33bd8814e249b480682a54f1ed89d439
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 439}
+  - name: The Dark Warden_Frame_47
+    originalName: 
+    pivot: {x: 0.8333333, y: -2.612903}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 364
+      width: 54
+      height: 31
+    spriteID: c1ca08b9bc5d449bca9e287f5e73b2dc
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 364}
+  - name: The Dark Warden_Frame_48
+    originalName: 
+    pivot: {x: 0.8214286, y: -2.612903}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 325
+      width: 56
+      height: 31
+    spriteID: 3dc2f2732ad2745a1a6d3b0653b9210c
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 325}
+  - name: The Dark Warden_Frame_49
+    originalName: 
+    pivot: {x: 0.8214286, y: -3}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 478
+      width: 56
+      height: 28
+    spriteID: c25b3e635f49749a0bba2cd1445e6ca8
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 478}
+  - name: The Dark Warden_Frame_50
+    originalName: 
+    pivot: {x: 0.8103448, y: -3}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 403
+      width: 58
+      height: 28
+    spriteID: fc4b5d600ab0d4bbbad6112d248559f4
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 403}
+  - name: The Dark Warden_Frame_51
+    originalName: 
+    pivot: {x: 0.8, y: -7.636364}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 95
+      y: 146
+      width: 60
+      height: 11
+    spriteID: cd679f69aeb1f4671bff660bfb9941be
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 95, y: 146}
+  - name: The Dark Warden_Frame_26
+    originalName: 
+    pivot: {x: 2, y: -2.857143}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 163
+      y: 76
+      width: 15
+      height: 28
+    spriteID: c4dd59e003ae3492ab1922c3d3ffbbe5
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 163, y: 76}
+  - name: The Dark Warden_Frame_27
+    originalName: 
+    pivot: {x: 1.9375001, y: -2.857143}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 70
+      y: 403
+      width: 16
+      height: 28
+    spriteID: 71ea57b42b9694adaa1b800a83c61912
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 70, y: 403}
+  - name: The Dark Warden_Frame_28
+    originalName: 
+    pivot: {x: 2, y: -2.857143}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 163
+      y: 112
+      width: 15
+      height: 28
+    spriteID: 3f9aa62aefd314e1fa822289d29ce0bd
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 163, y: 112}
+  - name: The Dark Warden_Frame_29
+    originalName: 
+    pivot: {x: 1.6842103, y: -3.1999998}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 95
+      y: 337
+      width: 19
+      height: 25
+    spriteID: 2bfde61ac570e48b9b641760a7952558
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 95, y: 337}
+  - name: The Dark Warden_Frame_30
+    originalName: 
+    pivot: {x: 1.6, y: -3.3333333}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 95
+      y: 305
+      width: 20
+      height: 24
+    spriteID: 54041341b3aab4d67b8f3f79957de697
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 95, y: 305}
+  - name: The Dark Warden_Frame_31
+    originalName: 
+    pivot: {x: 0.68333334, y: -3.0769231}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 95
+      y: 4
+      width: 60
+      height: 26
+    spriteID: 770d50d3b4e9a4e15923df9bd7830a5a
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 95, y: 4}
+  - name: The Dark Warden_Frame_32
+    originalName: 
+    pivot: {x: 0.50000006, y: -3.0769231}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 223
+      width: 80
+      height: 26
+    spriteID: ff59887bcd31147858c3dc946a4a302e
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 223}
+  - name: The Dark Warden_Frame_33
+    originalName: 
+    pivot: {x: 0.51282054, y: -3.0769231}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 257
+      width: 78
+      height: 26
+    spriteID: fb34c079f193d424eb8e8f16534e7f25
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 257}
+  - name: The Dark Warden_Frame_34
+    originalName: 
+    pivot: {x: 0.5194805, y: -3.0769231}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 291
+      width: 77
+      height: 26
+    spriteID: b581ac59506174650973e9e9340f746a
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 291}
+  spriteSheetImportData: []
+  asepriteLayers:
+  - layerIndex: 0
+    guid: -1614089060
+    name: The Dark Warden
+    layerFlags: 0
+    layerType: 0
+    blendMode: 0
+    cells:
+    - name: The Dark Warden_Frame_0
+      frameIndex: 0
+      cellRect:
+        x: 66
+        y: 80
+        width: 15
+        height: 28
+      spriteId: f54f30475e6a84378b3ab0080cbd583b
+    - name: The Dark Warden_Frame_1
+      frameIndex: 1
+      cellRect:
+        x: 66
+        y: 80
+        width: 15
+        height: 28
+      spriteId: f2126f4dddec14a50a202f625f6aa0f1
+    - name: The Dark Warden_Frame_2
+      frameIndex: 2
+      cellRect:
+        x: 66
+        y: 80
+        width: 15
+        height: 28
+      spriteId: 1698a81118a224d14b72ad6b6fe09ca9
+    - name: The Dark Warden_Frame_3
+      frameIndex: 3
+      cellRect:
+        x: 66
+        y: 80
+        width: 15
+        height: 28
+      spriteId: 80791ed31310948a58d61f9737effc40
+    - name: The Dark Warden_Frame_4
+      frameIndex: 4
+      cellRect:
+        x: 66
+        y: 80
+        width: 15
+        height: 28
+      spriteId: 6c6151f8fc8874f9bbc890d8dc8afd1d
+    - name: The Dark Warden_Frame_5
+      frameIndex: 5
+      cellRect:
+        x: 66
+        y: 80
+        width: 15
+        height: 28
+      spriteId: 6105ea7ecc5ed466f9bc883d011fd622
+    - name: The Dark Warden_Frame_6
+      frameIndex: 6
+      cellRect:
+        x: 66
+        y: 80
+        width: 15
+        height: 28
+      spriteId: b74489fb7bab8474988cd6e924626131
+    - name: The Dark Warden_Frame_7
+      frameIndex: 7
+      cellRect:
+        x: 66
+        y: 80
+        width: 15
+        height: 28
+      spriteId: 4c22b90b107714acd958cb2a7a0db9e3
+    - name: The Dark Warden_Frame_8
+      frameIndex: 8
+      cellRect:
+        x: 66
+        y: 80
+        width: 15
+        height: 28
+      spriteId: 92fe17820709d4c0995eec39a6de24bc
+    - name: The Dark Warden_Frame_9
+      frameIndex: 9
+      cellRect:
+        x: 66
+        y: 80
+        width: 15
+        height: 28
+      spriteId: f8dcc673f57c947c6803f48c0e22280b
+    - name: The Dark Warden_Frame_10
+      frameIndex: 10
+      cellRect:
+        x: 66
+        y: 80
+        width: 15
+        height: 28
+      spriteId: f431efc0191ff417c9c2d19204b56a6c
+    - name: The Dark Warden_Frame_11
+      frameIndex: 11
+      cellRect:
+        x: 66
+        y: 80
+        width: 15
+        height: 28
+      spriteId: f1fabf2b5ffb54ae594c2f54c820f7f2
+    - name: The Dark Warden_Frame_12
+      frameIndex: 12
+      cellRect:
+        x: 66
+        y: 80
+        width: 15
+        height: 28
+      spriteId: c670b690c046545d0991e1a41030f160
+    - name: The Dark Warden_Frame_13
+      frameIndex: 13
+      cellRect:
+        x: 65
+        y: 80
+        width: 18
+        height: 23
+      spriteId: 2add2d7d9724f41babb12bdbc591eb75
+    - name: The Dark Warden_Frame_14
+      frameIndex: 14
+      cellRect:
+        x: 65
+        y: 80
+        width: 17
+        height: 23
+      spriteId: fb9337e4d9dc24660b2ee1054b7fb3a3
+    - name: The Dark Warden_Frame_15
+      frameIndex: 15
+      cellRect:
+        x: 66
+        y: 80
+        width: 15
+        height: 25
+      spriteId: 25d9e942067a744db8aeef51b1da938a
+    - name: The Dark Warden_Frame_16
+      frameIndex: 16
+      cellRect:
+        x: 64
+        y: 80
+        width: 18
+        height: 27
+      spriteId: 5a076d4d6b6e44ce28f549660e5a7b54
+    - name: The Dark Warden_Frame_17
+      frameIndex: 17
+      cellRect:
+        x: 64
+        y: 80
+        width: 20
+        height: 28
+      spriteId: c4694e8cfc4c94209b9ccad159e0b377
+    - name: The Dark Warden_Frame_18
+      frameIndex: 18
+      cellRect:
+        x: 64
+        y: 80
+        width: 21
+        height: 27
+      spriteId: b4c2908f7f7374dc0b9de36f4d8765cb
+    - name: The Dark Warden_Frame_19
+      frameIndex: 19
+      cellRect:
+        x: 64
+        y: 80
+        width: 20
+        height: 23
+      spriteId: 8187de6d2041742708ce510407ee8c70
+    - name: The Dark Warden_Frame_20
+      frameIndex: 20
+      cellRect:
+        x: 65
+        y: 80
+        width: 18
+        height: 22
+      spriteId: 8aab5ae8f29d94a4591aa1e57a520113
+    - name: The Dark Warden_Frame_21
+      frameIndex: 21
+      cellRect:
+        x: 66
+        y: 80
+        width: 16
+        height: 25
+      spriteId: 3579528b1b6cd48da9d644bd80489a3a
+    - name: The Dark Warden_Frame_22
+      frameIndex: 22
+      cellRect:
+        x: 64
+        y: 80
+        width: 20
+        height: 27
+      spriteId: 3d1f61e14750a48af8f6bab846c6c630
+    - name: The Dark Warden_Frame_23
+      frameIndex: 23
+      cellRect:
+        x: 64
+        y: 80
+        width: 21
+        height: 29
+      spriteId: a3bc215e037d44153ae1fd939e680cff
+    - name: The Dark Warden_Frame_24
+      frameIndex: 24
+      cellRect:
+        x: 65
+        y: 80
+        width: 19
+        height: 26
+      spriteId: 28e70362067c14285a5271e8103c837c
+    - name: The Dark Warden_Frame_25
+      frameIndex: 25
+      cellRect:
+        x: 66
+        y: 80
+        width: 15
+        height: 28
+      spriteId: 57ba0519a123d4460bc01f5acfee80c7
+    - name: The Dark Warden_Frame_35
+      frameIndex: 35
+      cellRect:
+        x: 56
+        y: 80
+        width: 82
+        height: 27
+      spriteId: 5aa59b92f78614a0a9adf1e6b8950256
+    - name: The Dark Warden_Frame_36
+      frameIndex: 36
+      cellRect:
+        x: 57
+        y: 80
+        width: 83
+        height: 29
+      spriteId: ce0c2258f3da347d8a3a4c3a9e570cc3
+    - name: The Dark Warden_Frame_37
+      frameIndex: 37
+      cellRect:
+        x: 60
+        y: 80
+        width: 81
+        height: 29
+      spriteId: 1b1a605a2a20b41d1b7dbdec92078ea3
+    - name: The Dark Warden_Frame_38
+      frameIndex: 38
+      cellRect:
+        x: 65
+        y: 80
+        width: 79
+        height: 29
+      spriteId: 668bbda4216bc4ab088fa6c4dfa78859
+    - name: The Dark Warden_Frame_39
+      frameIndex: 39
+      cellRect:
+        x: 66
+        y: 80
+        width: 79
+        height: 29
+      spriteId: 2cac797d6ddec43f58543fc79f3255f2
+    - name: The Dark Warden_Frame_40
+      frameIndex: 40
+      cellRect:
+        x: 66
+        y: 80
+        width: 79
+        height: 28
+      spriteId: a3d70c777ff2548d59bcc1acc77505cf
+    - name: The Dark Warden_Frame_41
+      frameIndex: 41
+      cellRect:
+        x: 65
+        y: 80
+        width: 19
+        height: 26
+      spriteId: 0cf0e5ea016ef4bba90045727a260961
+    - name: The Dark Warden_Frame_42
+      frameIndex: 42
+      cellRect:
+        x: 65
+        y: 80
+        width: 19
+        height: 26
+      spriteId: e0233700e84cf4c6b8f86828c6e3d1a0
+    - name: The Dark Warden_Frame_43
+      frameIndex: 43
+      cellRect:
+        x: 58
+        y: 82
+        width: 36
+        height: 26
+      spriteId: 254a685c3cc9440a6b767bef618a0324
+    - name: The Dark Warden_Frame_44
+      frameIndex: 44
+      cellRect:
+        x: 56
+        y: 81
+        width: 43
+        height: 28
+      spriteId: b99002ec40d6d48fd87ea8ad3ecb1da3
+    - name: The Dark Warden_Frame_45
+      frameIndex: 45
+      cellRect:
+        x: 53
+        y: 81
+        width: 50
+        height: 30
+      spriteId: c4c40e1bef8434e228a9efe09c5badc4
+    - name: The Dark Warden_Frame_46
+      frameIndex: 46
+      cellRect:
+        x: 52
+        y: 81
+        width: 52
+        height: 31
+      spriteId: 33bd8814e249b480682a54f1ed89d439
+    - name: The Dark Warden_Frame_47
+      frameIndex: 47
+      cellRect:
+        x: 51
+        y: 81
+        width: 54
+        height: 31
+      spriteId: c1ca08b9bc5d449bca9e287f5e73b2dc
+    - name: The Dark Warden_Frame_48
+      frameIndex: 48
+      cellRect:
+        x: 50
+        y: 81
+        width: 56
+        height: 31
+      spriteId: 3dc2f2732ad2745a1a6d3b0653b9210c
+    - name: The Dark Warden_Frame_49
+      frameIndex: 49
+      cellRect:
+        x: 50
+        y: 84
+        width: 56
+        height: 28
+      spriteId: c25b3e635f49749a0bba2cd1445e6ca8
+    - name: The Dark Warden_Frame_50
+      frameIndex: 50
+      cellRect:
+        x: 49
+        y: 84
+        width: 58
+        height: 28
+      spriteId: fc4b5d600ab0d4bbbad6112d248559f4
+    - name: The Dark Warden_Frame_51
+      frameIndex: 51
+      cellRect:
+        x: 48
+        y: 84
+        width: 60
+        height: 11
+      spriteId: cd679f69aeb1f4671bff660bfb9941be
+    - name: The Dark Warden_Frame_26
+      frameIndex: 26
+      cellRect:
+        x: 66
+        y: 80
+        width: 15
+        height: 28
+      spriteId: c4dd59e003ae3492ab1922c3d3ffbbe5
+    - name: The Dark Warden_Frame_27
+      frameIndex: 27
+      cellRect:
+        x: 65
+        y: 80
+        width: 16
+        height: 28
+      spriteId: 71ea57b42b9694adaa1b800a83c61912
+    - name: The Dark Warden_Frame_28
+      frameIndex: 28
+      cellRect:
+        x: 66
+        y: 80
+        width: 15
+        height: 28
+      spriteId: 3f9aa62aefd314e1fa822289d29ce0bd
+    - name: The Dark Warden_Frame_29
+      frameIndex: 29
+      cellRect:
+        x: 64
+        y: 80
+        width: 19
+        height: 25
+      spriteId: 2bfde61ac570e48b9b641760a7952558
+    - name: The Dark Warden_Frame_30
+      frameIndex: 30
+      cellRect:
+        x: 64
+        y: 80
+        width: 20
+        height: 24
+      spriteId: 54041341b3aab4d67b8f3f79957de697
+    - name: The Dark Warden_Frame_31
+      frameIndex: 31
+      cellRect:
+        x: 55
+        y: 80
+        width: 60
+        height: 26
+      spriteId: 770d50d3b4e9a4e15923df9bd7830a5a
+    - name: The Dark Warden_Frame_32
+      frameIndex: 32
+      cellRect:
+        x: 56
+        y: 80
+        width: 80
+        height: 26
+      spriteId: ff59887bcd31147858c3dc946a4a302e
+    - name: The Dark Warden_Frame_33
+      frameIndex: 33
+      cellRect:
+        x: 56
+        y: 80
+        width: 78
+        height: 26
+      spriteId: fb34c079f193d424eb8e8f16534e7f25
+    - name: The Dark Warden_Frame_34
+      frameIndex: 34
+      cellRect:
+        x: 56
+        y: 80
+        width: 77
+        height: 26
+      spriteId: b581ac59506174650973e9e9340f746a
+    linkedCells: []
+    parentIndex: -1
+  platformSettings: []
+  generatePhysicsShape: 0
+  secondarySpriteTextures: []
+  spritePackingTag: 
+  canvasSize: {x: 192, y: 192}

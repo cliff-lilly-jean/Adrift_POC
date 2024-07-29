@@ -22,3 +22,4 @@ MonoBehaviour:
   _speed: {fileID: 11400000, guid: f592427e886b24530af201584e01a938, type: 2}
   _acceleration: {fileID: 11400000, guid: 4235caccca8e24cf7802e78d2e18b356, type: 2}
   _deceleration: {fileID: 11400000, guid: afa0e743229854bf8afed67b8de4f997, type: 2}
+  _force: {fileID: 11400000, guid: a001a22950fec40fdbe99f5f3bdb6f82, type: 2}
