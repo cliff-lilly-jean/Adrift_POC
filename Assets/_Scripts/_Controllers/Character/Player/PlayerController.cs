@@ -3,6 +3,10 @@ using System.Collections.Generic;
 using System.Reflection; // * NOTE: imported to use the PropertyInfo, FieldInfo, GetProperties() and GetFields()
 using UnityEngine;
 
+// TODO: Add a movementSystem namespace; add all things related to movement
+
+// TODO: Restructure folders by feature, using the namespaces as a base
+
 public class PlayerController : MonoBehaviour
 {
     [SerializeField] private MovementSystem _movementSystem;

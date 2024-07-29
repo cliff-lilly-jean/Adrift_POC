@@ -1,0 +1,2575 @@
+fileFormatVersion: 2
+guid: 5be4cae4f1a7a420883c9ec713d017e8
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: 62a9f0aa5b59740cfbadc7e5f9823bb0, type: 3}
+  textureImporterSettings:
+    alphaSource: 1
+    mipMapMode: 0
+    enableMipMap: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+    convertToNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+    swizzle: 50462976
+    isReadable: 0
+    streamingMipmaps: 0
+    streamingMipmapsPriority: 0
+    vTOnly: 0
+    ignoreMipmapLimit: 0
+    nPOTScale: 1
+    sRGBTexture: 1
+    spriteMode: 2
+    spriteExtrude: 1
+    spriteMeshType: 1
+    alignment: 0
+    spritePivot: {x: 0.5, y: 0.5}
+    spritePixelsToUnits: 100
+    spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+    spriteGenerateFallbackPhysicsShape: 0
+    generateCubemap: 6
+    cubemapConvolution: 0
+    seamlessCubemap: 0
+    alphaIsTransparency: 1
+    spriteTessellationDetail: -1
+    textureType: 8
+    textureShape: 1
+    singleChannelComponent: 0
+    flipbookRows: 0
+    flipbookColumns: 0
+    ignorePngGamma: 0
+    cookieMode: 0
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+    normalMap: 0
+    textureFormat: 0
+    maxTextureSize: 0
+    lightmap: 0
+    compressionQuality: 0
+    linearTexture: 0
+    grayScaleToAlpha: 0
+    rGBM: 0
+    cubemapConvolutionSteps: 0
+    cubemapConvolutionExponent: 0
+    maxTextureSizeSet: 0
+    compressionQualitySet: 0
+    textureFormatSet: 0
+    applyGammaDecoding: 0
+  previousAsepriteImporterSettings:
+    fileImportMode: 1
+    importHiddenLayers: 0
+    layerImportMode: 1
+    defaultPivotSpace: 0
+    defaultPivotAlignment: 7
+    customPivotPosition: {x: 0.5, y: 0.5}
+    mosaicPadding: 4
+    spritePadding: 0
+    generateModelPrefab: 1
+    generateAnimationClips: 1
+    addSortingGroup: 1
+    addShadowCasters: 0
+  asepriteImporterSettings:
+    fileImportMode: 1
+    importHiddenLayers: 0
+    layerImportMode: 1
+    defaultPivotSpace: 0
+    defaultPivotAlignment: 7
+    customPivotPosition: {x: 0.5, y: 0.5}
+    mosaicPadding: 4
+    spritePadding: 0
+    generateModelPrefab: 1
+    generateAnimationClips: 1
+    addSortingGroup: 1
+    addShadowCasters: 0
+  importFileNodeState: 1
+  platformSettingsDirtyTick: 0
+  textureAssetName: 
+  singleSpriteImportData:
+  - name: 
+    originalName: 
+    pivot: {x: 0, y: 0}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    spriteID: 
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 0, y: 0}
+  animatedSpriteImportData:
+  - name: Tribe Hunter_Frame_0
+    originalName: 
+    pivot: {x: 0.4615385, y: -0.6538462}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 216
+      width: 26
+      height: 26
+    spriteID: fdba04231e0c34e35a297a36ce988769
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 216}
+  - name: Tribe Hunter_Frame_1
+    originalName: 
+    pivot: {x: 0.4615385, y: -0.6538462}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 250
+      width: 26
+      height: 26
+    spriteID: f66ffdc038dc14193a37a5e5a21f25eb
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 250}
+  - name: Tribe Hunter_Frame_2
+    originalName: 
+    pivot: {x: 0.4615385, y: -0.6538462}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 284
+      width: 26
+      height: 26
+    spriteID: bb3a8eb705196486098804d0d7c74779
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 284}
+  - name: Tribe Hunter_Frame_3
+    originalName: 
+    pivot: {x: 0.4615385, y: -0.6538462}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 318
+      width: 26
+      height: 26
+    spriteID: ec970a1b33d4b4724909d6a49ba54ebe
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 318}
+  - name: Tribe Hunter_Frame_4
+    originalName: 
+    pivot: {x: 0.4615385, y: -0.6538462}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 352
+      width: 26
+      height: 26
+    spriteID: d5a36196f683f4fd696e4fe807916cec
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 352}
+  - name: Tribe Hunter_Frame_5
+    originalName: 
+    pivot: {x: 0.4615385, y: -0.6538462}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 386
+      width: 26
+      height: 26
+    spriteID: 2951d60b480d242aebedb0075f9d6aed
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 386}
+  - name: Tribe Hunter_Frame_6
+    originalName: 
+    pivot: {x: 0.3888889, y: -0.6538462}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 79
+      y: 208
+      width: 18
+      height: 26
+    spriteID: e020362d8fa1f49ecb6f8b31508a72f9
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 79, y: 208}
+  - name: Tribe Hunter_Frame_7
+    originalName: 
+    pivot: {x: 0.3888889, y: -0.6538462}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 79
+      y: 242
+      width: 18
+      height: 26
+    spriteID: 6b125c0fb99ea47b5b27d71637579a27
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 79, y: 242}
+  - name: Tribe Hunter_Frame_8
+    originalName: 
+    pivot: {x: 0.3888889, y: -0.6538462}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 79
+      y: 276
+      width: 18
+      height: 26
+    spriteID: f213aa4378b8b4634a7e3aba7b3833d5
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 79, y: 276}
+  - name: Tribe Hunter_Frame_9
+    originalName: 
+    pivot: {x: 0.3888889, y: -0.6538462}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 79
+      y: 310
+      width: 18
+      height: 26
+    spriteID: 69f9bf401a56d44f98464c1b13543320
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 79, y: 310}
+  - name: Tribe Hunter_Frame_10
+    originalName: 
+    pivot: {x: 0.3888889, y: -0.6538462}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 79
+      y: 344
+      width: 18
+      height: 26
+    spriteID: 7344ac9164b02457c89720597facace4
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 79, y: 344}
+  - name: Tribe Hunter_Frame_11
+    originalName: 
+    pivot: {x: 0.3888889, y: -0.6538462}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 79
+      y: 378
+      width: 18
+      height: 26
+    spriteID: 2ac858cbb9de14cfaa95a25ae92c4efe
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 79, y: 378}
+  - name: Tribe Hunter_Frame_12
+    originalName: 
+    pivot: {x: 0.3888889, y: -0.6538462}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 79
+      y: 412
+      width: 18
+      height: 26
+    spriteID: b3089348c59ed4f699f544a8297b55e1
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 79, y: 412}
+  - name: Tribe Hunter_Frame_13
+    originalName: 
+    pivot: {x: 0.3888889, y: -0.6538462}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 79
+      y: 446
+      width: 18
+      height: 26
+    spriteID: 1f94e595a19394ac3835e0be2211191b
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 79, y: 446}
+  - name: Tribe Hunter_Frame_14
+    originalName: 
+    pivot: {x: 0.3888889, y: -0.6538462}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 79
+      y: 480
+      width: 18
+      height: 26
+    spriteID: d8e4a7f6c87ac4d7bbdd070cd373432f
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 79, y: 480}
+  - name: Tribe Hunter_Frame_15
+    originalName: 
+    pivot: {x: 0.3888889, y: -0.6538462}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 114
+      y: 31
+      width: 18
+      height: 26
+    spriteID: d5f5b373ad956401cb49f15df5d2d2ba
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 114, y: 31}
+  - name: Tribe Hunter_Frame_16
+    originalName: 
+    pivot: {x: 0.3888889, y: -0.6538462}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 114
+      y: 65
+      width: 18
+      height: 26
+    spriteID: 2c7a3b1beddcd4a01a32f58577c43bbb
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 114, y: 65}
+  - name: Tribe Hunter_Frame_17
+    originalName: 
+    pivot: {x: 0.3888889, y: -0.6538462}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 114
+      y: 99
+      width: 18
+      height: 26
+    spriteID: c6c815591dc6a46feb6f67f11f4b2687
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 114, y: 99}
+  - name: Tribe Hunter_Frame_18
+    originalName: 
+    pivot: {x: 0.4615385, y: -0.6538462}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 420
+      width: 26
+      height: 26
+    spriteID: 4c6009c2e366b44e8895d5fd6fd80ec7
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 420}
+  - name: Tribe Hunter_Frame_28
+    originalName: 
+    pivot: {x: 0.3888889, y: -0.6538462}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 114
+      y: 133
+      width: 18
+      height: 26
+    spriteID: d3469d3f7e9ca4c249ce17cdfd03935d
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 114, y: 133}
+  - name: Tribe Hunter_Frame_38
+    originalName: 
+    pivot: {x: 0.3888889, y: -0.6538462}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 114
+      y: 167
+      width: 18
+      height: 26
+    spriteID: 5869264fc5de94d4382f552768c229c1
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 114, y: 167}
+  - name: Tribe Hunter_Frame_48
+    originalName: 
+    pivot: {x: 0.4615385, y: -0.6538462}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 454
+      width: 26
+      height: 26
+    spriteID: a60a72672aeae447fa464770d1f88ee3
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 454}
+  - name: Tribe Hunter_Frame_49
+    originalName: 
+    pivot: {x: 0.4615385, y: -0.68}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 45
+      y: 185
+      width: 26
+      height: 25
+    spriteID: fcf2db168870c4ea89b2ed778f1501d2
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 45, y: 185}
+  - name: Tribe Hunter_Frame_50
+    originalName: 
+    pivot: {x: 0.4615385, y: -0.68}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 45
+      y: 218
+      width: 26
+      height: 25
+    spriteID: b023a604f11bf43a690c272b0717c064
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 45, y: 218}
+  - name: Tribe Hunter_Frame_51
+    originalName: 
+    pivot: {x: 0.36363637, y: -0.6538462}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 4
+      width: 33
+      height: 26
+    spriteID: 3194977828c6f4d0d92f27700a95c59f
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 4}
+  - name: Tribe Hunter_Frame_52
+    originalName: 
+    pivot: {x: 0.4137931, y: -0.6296296}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 38
+      width: 29
+      height: 27
+    spriteID: 85f584ef94a5f43b3915152bcd683947
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 38}
+  - name: Tribe Hunter_Frame_53
+    originalName: 
+    pivot: {x: 0.4615385, y: -0.60714287}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 110
+      width: 26
+      height: 28
+    spriteID: fadd7d6c063864831895ed86b1b419e2
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 110}
+  - name: Tribe Hunter_Frame_54
+    originalName: 
+    pivot: {x: 0.4615385, y: -0.5862069}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 73
+      width: 26
+      height: 29
+    spriteID: aa5b45fbbce134dd39f3013260571ea2
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 73}
+  - name: Tribe Hunter_Frame_55
+    originalName: 
+    pivot: {x: 0.3888889, y: -0.6538462}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 114
+      y: 201
+      width: 18
+      height: 26
+    spriteID: 484c960a289624422a534e3d3f09fd70
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 114, y: 201}
+  - name: Tribe Hunter_Frame_56
+    originalName: 
+    pivot: {x: 0.3888889, y: -0.68}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 151
+      y: 166
+      width: 18
+      height: 25
+    spriteID: 7adc6a707d2ac45dca62ed8596269970
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 151, y: 166}
+  - name: Tribe Hunter_Frame_57
+    originalName: 
+    pivot: {x: 0.3888889, y: -0.68}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 151
+      y: 199
+      width: 18
+      height: 25
+    spriteID: d1ee47d1b3d2f43a5b0a7adc0ace34e8
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 151, y: 199}
+  - name: Tribe Hunter_Frame_58
+    originalName: 
+    pivot: {x: 0.3888889, y: -0.6296296}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 79
+      y: 33
+      width: 18
+      height: 27
+    spriteID: 14ad1662cdb5849508671d0b00e980ee
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 79, y: 33}
+  - name: Tribe Hunter_Frame_59
+    originalName: 
+    pivot: {x: 0.3888889, y: -0.6538462}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 114
+      y: 235
+      width: 18
+      height: 26
+    spriteID: 62ce1b01238ce4288a7d62e09f630919
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 114, y: 235}
+  - name: Tribe Hunter_Frame_60
+    originalName: 
+    pivot: {x: 0.3888889, y: -0.6538462}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 114
+      y: 269
+      width: 18
+      height: 26
+    spriteID: 13f4e6865e4c345dea2f8e8c365842ac
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 114, y: 269}
+  - name: Tribe Hunter_Frame_61
+    originalName: 
+    pivot: {x: 0.42105263, y: -0.6538462}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 45
+      y: 463
+      width: 19
+      height: 26
+    spriteID: 7de4ea725aaa14de2b8081ac82cf9363
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 45, y: 463}
+  - name: Tribe Hunter_Frame_62
+    originalName: 
+    pivot: {x: 0.3888889, y: -0.6538462}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 114
+      y: 303
+      width: 18
+      height: 26
+    spriteID: 366e9f202b42e4d36966950ca7377750
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 114, y: 303}
+  - name: Tribe Hunter_Frame_63
+    originalName: 
+    pivot: {x: 0.3888889, y: -0.6538462}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 114
+      y: 337
+      width: 18
+      height: 26
+    spriteID: 1074d8937523d4b0b840de5ac973a0ba
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 114, y: 337}
+  - name: Tribe Hunter_Frame_64
+    originalName: 
+    pivot: {x: 0.3888889, y: -0.7083334}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 151
+      y: 430
+      width: 18
+      height: 24
+    spriteID: 6391f400d788e486d99e2e6cb9890f51
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 151, y: 430}
+  - name: Tribe Hunter_Frame_65
+    originalName: 
+    pivot: {x: 0.3888889, y: -0.45945948}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 45
+      y: 140
+      width: 18
+      height: 37
+    spriteID: f6e850eec415d4399bdc695411f43052
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 45, y: 140}
+  - name: Tribe Hunter_Frame_66
+    originalName: 
+    pivot: {x: 0.36842105, y: -0.5151515}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 45
+      y: 350
+      width: 19
+      height: 33
+    spriteID: 803bed8aaaf3e4db6b317017dc17bfc2
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 45, y: 350}
+  - name: Tribe Hunter_Frame_67
+    originalName: 
+    pivot: {x: 0.35, y: -0.60714287}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 45
+      y: 427
+      width: 20
+      height: 28
+    spriteID: 8efcfd205f31d42788c6b1eeb7affc5f
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 45, y: 427}
+  - name: Tribe Hunter_Frame_68
+    originalName: 
+    pivot: {x: 0.33333334, y: -0.60714287}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 45
+      y: 391
+      width: 21
+      height: 28
+    spriteID: 19eef7d62a4444e1494d450705b9828e
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 45, y: 391}
+  - name: Tribe Hunter_Frame_69
+    originalName: 
+    pivot: {x: 0.3888889, y: -1.0555556}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 151
+      y: 489
+      width: 18
+      height: 18
+    spriteID: dac90b827478c4ea2999f15b4db85256
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 151, y: 489}
+  - name: Tribe Hunter_Frame_70
+    originalName: 
+    pivot: {x: 0.36363637, y: -1}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 151
+      y: 462
+      width: 22
+      height: 19
+    spriteID: 3cf73f07c656248be9508de8dafba46b
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 151, y: 462}
+  - name: Tribe Hunter_Frame_71
+    originalName: 
+    pivot: {x: 0.2962963, y: -0.85714287}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 79
+      y: 4
+      width: 27
+      height: 21
+    spriteID: 5856dc40192a74548a27def28cf17fcf
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 79, y: 4}
+  - name: Tribe Hunter_Frame_72
+    originalName: 
+    pivot: {x: 0.31034482, y: -0.94736844}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 114
+      y: 4
+      width: 29
+      height: 19
+    spriteID: 73e876156edc94be58c9d649c17a435f
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 114, y: 4}
+  - name: Tribe Hunter_Frame_73
+    originalName: 
+    pivot: {x: 0.3, y: -1}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 151
+      y: 4
+      width: 30
+      height: 18
+    spriteID: 8a7cfae4ef8de42849e69bd584467d8c
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 151, y: 4}
+  - name: Tribe Hunter_Frame_74
+    originalName: 
+    pivot: {x: 0.3125, y: -0.94736844}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 488
+      width: 32
+      height: 19
+    spriteID: 11c991dbce8fc4b969bed52d3241d388
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 488}
+  - name: Tribe Hunter_Frame_75
+    originalName: 
+    pivot: {x: 0.3125, y: -1.2857144}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 189
+      y: 4
+      width: 32
+      height: 14
+    spriteID: ee35af9e0d4024bc080317da268a3af2
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 189, y: 4}
+  - name: Tribe Hunter_Frame_76
+    originalName: 
+    pivot: {x: 0.04347826, y: -2.5714288}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 45
+      y: 497
+      width: 23
+      height: 7
+    spriteID: 8e2da223414bc4a42a4211c9f9e5c77d
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 45, y: 497}
+  - name: Tribe Hunter_Frame_86
+    originalName: 
+    pivot: {x: 0.04347826, y: -2.5714288}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 189
+      y: 26
+      width: 23
+      height: 7
+    spriteID: 9a311464e7a544465bea655c9a20b54a
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 189, y: 26}
+  - name: Tribe Hunter_Frame_19
+    originalName: 
+    pivot: {x: 0.4615385, y: -0.6538462}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 45
+      y: 4
+      width: 26
+      height: 26
+    spriteID: 51072c40cdcef4a28ac91bd46eeacaae
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 45, y: 4}
+  - name: Tribe Hunter_Frame_20
+    originalName: 
+    pivot: {x: 0.4615385, y: -0.6296296}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 146
+      width: 26
+      height: 27
+    spriteID: 84cd04194dbfb4878ada22168eb1e581
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 146}
+  - name: Tribe Hunter_Frame_21
+    originalName: 
+    pivot: {x: 0.4615385, y: -0.6296296}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 181
+      width: 26
+      height: 27
+    spriteID: 541511097756d4f629149caeafe00da6
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 181}
+  - name: Tribe Hunter_Frame_22
+    originalName: 
+    pivot: {x: 0.4615385, y: -0.6538462}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 45
+      y: 38
+      width: 26
+      height: 26
+    spriteID: d9ab5331db93f4708b47073270b297e2
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 45, y: 38}
+  - name: Tribe Hunter_Frame_23
+    originalName: 
+    pivot: {x: 0.4615385, y: -0.68}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 45
+      y: 251
+      width: 26
+      height: 25
+    spriteID: 7825bd83ffda6446dbd20dcd8ffb7cfe
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 45, y: 251}
+  - name: Tribe Hunter_Frame_24
+    originalName: 
+    pivot: {x: 0.4615385, y: -0.68}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 45
+      y: 284
+      width: 26
+      height: 25
+    spriteID: b4e47bf18650c46fc8fc4fa38fb71d52
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 45, y: 284}
+  - name: Tribe Hunter_Frame_25
+    originalName: 
+    pivot: {x: 0.4615385, y: -0.68}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 45
+      y: 317
+      width: 26
+      height: 25
+    spriteID: 3b816bdf3c0534e65ad34342709727ea
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 45, y: 317}
+  - name: Tribe Hunter_Frame_26
+    originalName: 
+    pivot: {x: 0.4615385, y: -0.6538462}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 45
+      y: 72
+      width: 26
+      height: 26
+    spriteID: 8b36e299b2abf449583bd5290e45c498
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 45, y: 72}
+  - name: Tribe Hunter_Frame_27
+    originalName: 
+    pivot: {x: 0.4615385, y: -0.6538462}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 45
+      y: 106
+      width: 26
+      height: 26
+    spriteID: f19230231ee2d43f182e7b0258349715
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 45, y: 106}
+  - name: Tribe Hunter_Frame_29
+    originalName: 
+    pivot: {x: 0.3888889, y: -0.6538462}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 114
+      y: 371
+      width: 18
+      height: 26
+    spriteID: f104482e443084fda9cff7baf715d01d
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 114, y: 371}
+  - name: Tribe Hunter_Frame_30
+    originalName: 
+    pivot: {x: 0.3888889, y: -0.6296296}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 79
+      y: 68
+      width: 18
+      height: 27
+    spriteID: 07ec3e33caf4d4409bcaa4cb9320868d
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 79, y: 68}
+  - name: Tribe Hunter_Frame_31
+    originalName: 
+    pivot: {x: 0.3888889, y: -0.6296296}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 79
+      y: 103
+      width: 18
+      height: 27
+    spriteID: 3d355fc652c7548f6b353721a14614cc
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 79, y: 103}
+  - name: Tribe Hunter_Frame_32
+    originalName: 
+    pivot: {x: 0.3888889, y: -0.6538462}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 114
+      y: 405
+      width: 18
+      height: 26
+    spriteID: 84eca42cd93124dc5bb5c5423da69c95
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 114, y: 405}
+  - name: Tribe Hunter_Frame_33
+    originalName: 
+    pivot: {x: 0.3888889, y: -0.68}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 151
+      y: 232
+      width: 18
+      height: 25
+    spriteID: 347ea440c80f3459ba7a0878b1293bb0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 151, y: 232}
+  - name: Tribe Hunter_Frame_34
+    originalName: 
+    pivot: {x: 0.3888889, y: -0.68}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 151
+      y: 265
+      width: 18
+      height: 25
+    spriteID: df63803066b4c4cdfaa317d055d24de9
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 151, y: 265}
+  - name: Tribe Hunter_Frame_35
+    originalName: 
+    pivot: {x: 0.3888889, y: -0.68}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 151
+      y: 298
+      width: 18
+      height: 25
+    spriteID: cc9e6ea035641459aa8ffd30279dfec2
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 151, y: 298}
+  - name: Tribe Hunter_Frame_36
+    originalName: 
+    pivot: {x: 0.3888889, y: -0.6538462}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 114
+      y: 439
+      width: 18
+      height: 26
+    spriteID: 5225ef36c50f547e6bbab6a3eedf1689
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 114, y: 439}
+  - name: Tribe Hunter_Frame_37
+    originalName: 
+    pivot: {x: 0.3888889, y: -0.6538462}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 114
+      y: 473
+      width: 18
+      height: 26
+    spriteID: cda1b82b289ca4f1bb193060a68c475a
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 114, y: 473}
+  - name: Tribe Hunter_Frame_39
+    originalName: 
+    pivot: {x: 0.3888889, y: -0.6538462}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 151
+      y: 30
+      width: 18
+      height: 26
+    spriteID: 875ed617d455048bf8ef3f9ad8824ac2
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 151, y: 30}
+  - name: Tribe Hunter_Frame_40
+    originalName: 
+    pivot: {x: 0.3888889, y: -0.6296296}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 79
+      y: 138
+      width: 18
+      height: 27
+    spriteID: fa8f8f113e4dc474a844191beb7755e6
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 79, y: 138}
+  - name: Tribe Hunter_Frame_41
+    originalName: 
+    pivot: {x: 0.3888889, y: -0.6296296}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 79
+      y: 173
+      width: 18
+      height: 27
+    spriteID: fcc78d60d2a2447809ed1fa6321944f0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 79, y: 173}
+  - name: Tribe Hunter_Frame_42
+    originalName: 
+    pivot: {x: 0.3888889, y: -0.6538462}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 151
+      y: 64
+      width: 18
+      height: 26
+    spriteID: df5ac3f4ef7004972b088b1560c0500a
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 151, y: 64}
+  - name: Tribe Hunter_Frame_43
+    originalName: 
+    pivot: {x: 0.3888889, y: -0.68}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 151
+      y: 331
+      width: 18
+      height: 25
+    spriteID: 92f5f5a4efa7f456e84e5f74389e8305
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 151, y: 331}
+  - name: Tribe Hunter_Frame_44
+    originalName: 
+    pivot: {x: 0.3888889, y: -0.68}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 151
+      y: 364
+      width: 18
+      height: 25
+    spriteID: fb4077c82c8714cc9ac9294a56e321a2
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 151, y: 364}
+  - name: Tribe Hunter_Frame_45
+    originalName: 
+    pivot: {x: 0.3888889, y: -0.68}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 151
+      y: 397
+      width: 18
+      height: 25
+    spriteID: 417cce07bbd0b4f9c9e2682afbd13a3c
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 151, y: 397}
+  - name: Tribe Hunter_Frame_46
+    originalName: 
+    pivot: {x: 0.3888889, y: -0.6538462}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 151
+      y: 98
+      width: 18
+      height: 26
+    spriteID: 3b96c2436a80b4c42ada4fa1b5b771b8
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 151, y: 98}
+  - name: Tribe Hunter_Frame_47
+    originalName: 
+    pivot: {x: 0.3888889, y: -0.6538462}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 151
+      y: 132
+      width: 18
+      height: 26
+    spriteID: ff0a21b48bd9f4e419d0aadf3a3daef9
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 151, y: 132}
+  - name: Tribe Hunter_Frame_77
+    originalName: 
+    pivot: {x: 0.04347826, y: -2.5714288}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 189
+      y: 41
+      width: 23
+      height: 7
+    spriteID: f68625647d0bc4741a769acdb407231a
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 189, y: 41}
+  - name: Tribe Hunter_Frame_78
+    originalName: 
+    pivot: {x: 0.04347826, y: -2.5714288}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 189
+      y: 56
+      width: 23
+      height: 7
+    spriteID: 2b06a3dcfb1cf48df8b582895671851d
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 189, y: 56}
+  - name: Tribe Hunter_Frame_79
+    originalName: 
+    pivot: {x: 0.04347826, y: -2.5714288}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 189
+      y: 71
+      width: 23
+      height: 7
+    spriteID: 4d65a9ec7323d4bb2a18c25751c7e1bf
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 189, y: 71}
+  - name: Tribe Hunter_Frame_80
+    originalName: 
+    pivot: {x: 0.04347826, y: -2.5714288}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 189
+      y: 86
+      width: 23
+      height: 7
+    spriteID: aa64c3cfc52fd4e2eb50859f49e36758
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 189, y: 86}
+  - name: Tribe Hunter_Frame_81
+    originalName: 
+    pivot: {x: 0.04347826, y: -2.5714288}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 189
+      y: 101
+      width: 23
+      height: 7
+    spriteID: 59c8237830c5e4c5fb01241de0f05547
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 189, y: 101}
+  - name: Tribe Hunter_Frame_82
+    originalName: 
+    pivot: {x: 0.04347826, y: -2.5714288}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 189
+      y: 116
+      width: 23
+      height: 7
+    spriteID: a74e667fdbb0140efbdd37e105736aaf
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 189, y: 116}
+  - name: Tribe Hunter_Frame_83
+    originalName: 
+    pivot: {x: 0.04347826, y: -2.5714288}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 189
+      y: 131
+      width: 23
+      height: 7
+    spriteID: e232ecbe8087d4d49be33c21e7851dbf
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 189, y: 131}
+  - name: Tribe Hunter_Frame_84
+    originalName: 
+    pivot: {x: 0.04347826, y: -2.5714288}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 189
+      y: 146
+      width: 23
+      height: 7
+    spriteID: 230b3de78171347c19b3ee7b62bb6817
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 189, y: 146}
+  - name: Tribe Hunter_Frame_85
+    originalName: 
+    pivot: {x: 0.04347826, y: -2.5714288}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 189
+      y: 161
+      width: 23
+      height: 7
+    spriteID: 370d8bcf9dfa8472791f40dee11a3f8f
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 189, y: 161}
+  spriteSheetImportData: []
+  asepriteLayers:
+  - layerIndex: 0
+    guid: 421923564
+    name: Tribe Hunter
+    layerFlags: 0
+    layerType: 0
+    blendMode: 0
+    cells:
+    - name: Tribe Hunter_Frame_0
+      frameIndex: 0
+      cellRect:
+        x: 20
+        y: 17
+        width: 26
+        height: 26
+      spriteId: fdba04231e0c34e35a297a36ce988769
+    - name: Tribe Hunter_Frame_1
+      frameIndex: 1
+      cellRect:
+        x: 20
+        y: 17
+        width: 26
+        height: 26
+      spriteId: f66ffdc038dc14193a37a5e5a21f25eb
+    - name: Tribe Hunter_Frame_2
+      frameIndex: 2
+      cellRect:
+        x: 20
+        y: 17
+        width: 26
+        height: 26
+      spriteId: bb3a8eb705196486098804d0d7c74779
+    - name: Tribe Hunter_Frame_3
+      frameIndex: 3
+      cellRect:
+        x: 20
+        y: 17
+        width: 26
+        height: 26
+      spriteId: ec970a1b33d4b4724909d6a49ba54ebe
+    - name: Tribe Hunter_Frame_4
+      frameIndex: 4
+      cellRect:
+        x: 20
+        y: 17
+        width: 26
+        height: 26
+      spriteId: d5a36196f683f4fd696e4fe807916cec
+    - name: Tribe Hunter_Frame_5
+      frameIndex: 5
+      cellRect:
+        x: 20
+        y: 17
+        width: 26
+        height: 26
+      spriteId: 2951d60b480d242aebedb0075f9d6aed
+    - name: Tribe Hunter_Frame_6
+      frameIndex: 6
+      cellRect:
+        x: 25
+        y: 17
+        width: 18
+        height: 26
+      spriteId: e020362d8fa1f49ecb6f8b31508a72f9
+    - name: Tribe Hunter_Frame_7
+      frameIndex: 7
+      cellRect:
+        x: 25
+        y: 17
+        width: 18
+        height: 26
+      spriteId: 6b125c0fb99ea47b5b27d71637579a27
+    - name: Tribe Hunter_Frame_8
+      frameIndex: 8
+      cellRect:
+        x: 25
+        y: 17
+        width: 18
+        height: 26
+      spriteId: f213aa4378b8b4634a7e3aba7b3833d5
+    - name: Tribe Hunter_Frame_9
+      frameIndex: 9
+      cellRect:
+        x: 25
+        y: 17
+        width: 18
+        height: 26
+      spriteId: 69f9bf401a56d44f98464c1b13543320
+    - name: Tribe Hunter_Frame_10
+      frameIndex: 10
+      cellRect:
+        x: 25
+        y: 17
+        width: 18
+        height: 26
+      spriteId: 7344ac9164b02457c89720597facace4
+    - name: Tribe Hunter_Frame_11
+      frameIndex: 11
+      cellRect:
+        x: 25
+        y: 17
+        width: 18
+        height: 26
+      spriteId: 2ac858cbb9de14cfaa95a25ae92c4efe
+    - name: Tribe Hunter_Frame_12
+      frameIndex: 12
+      cellRect:
+        x: 25
+        y: 17
+        width: 18
+        height: 26
+      spriteId: b3089348c59ed4f699f544a8297b55e1
+    - name: Tribe Hunter_Frame_13
+      frameIndex: 13
+      cellRect:
+        x: 25
+        y: 17
+        width: 18
+        height: 26
+      spriteId: 1f94e595a19394ac3835e0be2211191b
+    - name: Tribe Hunter_Frame_14
+      frameIndex: 14
+      cellRect:
+        x: 25
+        y: 17
+        width: 18
+        height: 26
+      spriteId: d8e4a7f6c87ac4d7bbdd070cd373432f
+    - name: Tribe Hunter_Frame_15
+      frameIndex: 15
+      cellRect:
+        x: 25
+        y: 17
+        width: 18
+        height: 26
+      spriteId: d5f5b373ad956401cb49f15df5d2d2ba
+    - name: Tribe Hunter_Frame_16
+      frameIndex: 16
+      cellRect:
+        x: 25
+        y: 17
+        width: 18
+        height: 26
+      spriteId: 2c7a3b1beddcd4a01a32f58577c43bbb
+    - name: Tribe Hunter_Frame_17
+      frameIndex: 17
+      cellRect:
+        x: 25
+        y: 17
+        width: 18
+        height: 26
+      spriteId: c6c815591dc6a46feb6f67f11f4b2687
+    - name: Tribe Hunter_Frame_18
+      frameIndex: 18
+      cellRect:
+        x: 20
+        y: 17
+        width: 26
+        height: 26
+      spriteId: 4c6009c2e366b44e8895d5fd6fd80ec7
+    - name: Tribe Hunter_Frame_28
+      frameIndex: 28
+      cellRect:
+        x: 25
+        y: 17
+        width: 18
+        height: 26
+      spriteId: d3469d3f7e9ca4c249ce17cdfd03935d
+    - name: Tribe Hunter_Frame_38
+      frameIndex: 38
+      cellRect:
+        x: 25
+        y: 17
+        width: 18
+        height: 26
+      spriteId: 5869264fc5de94d4382f552768c229c1
+    - name: Tribe Hunter_Frame_48
+      frameIndex: 48
+      cellRect:
+        x: 20
+        y: 17
+        width: 26
+        height: 26
+      spriteId: a60a72672aeae447fa464770d1f88ee3
+    - name: Tribe Hunter_Frame_49
+      frameIndex: 49
+      cellRect:
+        x: 20
+        y: 17
+        width: 26
+        height: 25
+      spriteId: fcf2db168870c4ea89b2ed778f1501d2
+    - name: Tribe Hunter_Frame_50
+      frameIndex: 50
+      cellRect:
+        x: 20
+        y: 17
+        width: 26
+        height: 25
+      spriteId: b023a604f11bf43a690c272b0717c064
+    - name: Tribe Hunter_Frame_51
+      frameIndex: 51
+      cellRect:
+        x: 20
+        y: 17
+        width: 33
+        height: 26
+      spriteId: 3194977828c6f4d0d92f27700a95c59f
+    - name: Tribe Hunter_Frame_52
+      frameIndex: 52
+      cellRect:
+        x: 20
+        y: 17
+        width: 29
+        height: 27
+      spriteId: 85f584ef94a5f43b3915152bcd683947
+    - name: Tribe Hunter_Frame_53
+      frameIndex: 53
+      cellRect:
+        x: 20
+        y: 17
+        width: 26
+        height: 28
+      spriteId: fadd7d6c063864831895ed86b1b419e2
+    - name: Tribe Hunter_Frame_54
+      frameIndex: 54
+      cellRect:
+        x: 20
+        y: 17
+        width: 26
+        height: 29
+      spriteId: aa5b45fbbce134dd39f3013260571ea2
+    - name: Tribe Hunter_Frame_55
+      frameIndex: 55
+      cellRect:
+        x: 25
+        y: 17
+        width: 18
+        height: 26
+      spriteId: 484c960a289624422a534e3d3f09fd70
+    - name: Tribe Hunter_Frame_56
+      frameIndex: 56
+      cellRect:
+        x: 25
+        y: 17
+        width: 18
+        height: 25
+      spriteId: 7adc6a707d2ac45dca62ed8596269970
+    - name: Tribe Hunter_Frame_57
+      frameIndex: 57
+      cellRect:
+        x: 25
+        y: 17
+        width: 18
+        height: 25
+      spriteId: d1ee47d1b3d2f43a5b0a7adc0ace34e8
+    - name: Tribe Hunter_Frame_58
+      frameIndex: 58
+      cellRect:
+        x: 25
+        y: 17
+        width: 18
+        height: 27
+      spriteId: 14ad1662cdb5849508671d0b00e980ee
+    - name: Tribe Hunter_Frame_59
+      frameIndex: 59
+      cellRect:
+        x: 25
+        y: 17
+        width: 18
+        height: 26
+      spriteId: 62ce1b01238ce4288a7d62e09f630919
+    - name: Tribe Hunter_Frame_60
+      frameIndex: 60
+      cellRect:
+        x: 25
+        y: 17
+        width: 18
+        height: 26
+      spriteId: 13f4e6865e4c345dea2f8e8c365842ac
+    - name: Tribe Hunter_Frame_61
+      frameIndex: 61
+      cellRect:
+        x: 24
+        y: 17
+        width: 19
+        height: 26
+      spriteId: 7de4ea725aaa14de2b8081ac82cf9363
+    - name: Tribe Hunter_Frame_62
+      frameIndex: 62
+      cellRect:
+        x: 25
+        y: 17
+        width: 18
+        height: 26
+      spriteId: 366e9f202b42e4d36966950ca7377750
+    - name: Tribe Hunter_Frame_63
+      frameIndex: 63
+      cellRect:
+        x: 25
+        y: 17
+        width: 18
+        height: 26
+      spriteId: 1074d8937523d4b0b840de5ac973a0ba
+    - name: Tribe Hunter_Frame_64
+      frameIndex: 64
+      cellRect:
+        x: 25
+        y: 17
+        width: 18
+        height: 24
+      spriteId: 6391f400d788e486d99e2e6cb9890f51
+    - name: Tribe Hunter_Frame_65
+      frameIndex: 65
+      cellRect:
+        x: 25
+        y: 17
+        width: 18
+        height: 37
+      spriteId: f6e850eec415d4399bdc695411f43052
+    - name: Tribe Hunter_Frame_66
+      frameIndex: 66
+      cellRect:
+        x: 25
+        y: 17
+        width: 19
+        height: 33
+      spriteId: 803bed8aaaf3e4db6b317017dc17bfc2
+    - name: Tribe Hunter_Frame_67
+      frameIndex: 67
+      cellRect:
+        x: 25
+        y: 17
+        width: 20
+        height: 28
+      spriteId: 8efcfd205f31d42788c6b1eeb7affc5f
+    - name: Tribe Hunter_Frame_68
+      frameIndex: 68
+      cellRect:
+        x: 25
+        y: 17
+        width: 21
+        height: 28
+      spriteId: 19eef7d62a4444e1494d450705b9828e
+    - name: Tribe Hunter_Frame_69
+      frameIndex: 69
+      cellRect:
+        x: 25
+        y: 19
+        width: 18
+        height: 18
+      spriteId: dac90b827478c4ea2999f15b4db85256
+    - name: Tribe Hunter_Frame_70
+      frameIndex: 70
+      cellRect:
+        x: 24
+        y: 19
+        width: 22
+        height: 19
+      spriteId: 3cf73f07c656248be9508de8dafba46b
+    - name: Tribe Hunter_Frame_71
+      frameIndex: 71
+      cellRect:
+        x: 24
+        y: 18
+        width: 27
+        height: 21
+      spriteId: 5856dc40192a74548a27def28cf17fcf
+    - name: Tribe Hunter_Frame_72
+      frameIndex: 72
+      cellRect:
+        x: 23
+        y: 18
+        width: 29
+        height: 19
+      spriteId: 73e876156edc94be58c9d649c17a435f
+    - name: Tribe Hunter_Frame_73
+      frameIndex: 73
+      cellRect:
+        x: 23
+        y: 18
+        width: 30
+        height: 18
+      spriteId: 8a7cfae4ef8de42849e69bd584467d8c
+    - name: Tribe Hunter_Frame_74
+      frameIndex: 74
+      cellRect:
+        x: 22
+        y: 18
+        width: 32
+        height: 19
+      spriteId: 11c991dbce8fc4b969bed52d3241d388
+    - name: Tribe Hunter_Frame_75
+      frameIndex: 75
+      cellRect:
+        x: 22
+        y: 18
+        width: 32
+        height: 14
+      spriteId: ee35af9e0d4024bc080317da268a3af2
+    - name: Tribe Hunter_Frame_76
+      frameIndex: 76
+      cellRect:
+        x: 31
+        y: 18
+        width: 23
+        height: 7
+      spriteId: 8e2da223414bc4a42a4211c9f9e5c77d
+    - name: Tribe Hunter_Frame_86
+      frameIndex: 86
+      cellRect:
+        x: 31
+        y: 18
+        width: 23
+        height: 7
+      spriteId: 9a311464e7a544465bea655c9a20b54a
+    - name: Tribe Hunter_Frame_19
+      frameIndex: 19
+      cellRect:
+        x: 20
+        y: 17
+        width: 26
+        height: 26
+      spriteId: 51072c40cdcef4a28ac91bd46eeacaae
+    - name: Tribe Hunter_Frame_20
+      frameIndex: 20
+      cellRect:
+        x: 20
+        y: 17
+        width: 26
+        height: 27
+      spriteId: 84cd04194dbfb4878ada22168eb1e581
+    - name: Tribe Hunter_Frame_21
+      frameIndex: 21
+      cellRect:
+        x: 20
+        y: 17
+        width: 26
+        height: 27
+      spriteId: 541511097756d4f629149caeafe00da6
+    - name: Tribe Hunter_Frame_22
+      frameIndex: 22
+      cellRect:
+        x: 20
+        y: 17
+        width: 26
+        height: 26
+      spriteId: d9ab5331db93f4708b47073270b297e2
+    - name: Tribe Hunter_Frame_23
+      frameIndex: 23
+      cellRect:
+        x: 20
+        y: 17
+        width: 26
+        height: 25
+      spriteId: 7825bd83ffda6446dbd20dcd8ffb7cfe
+    - name: Tribe Hunter_Frame_24
+      frameIndex: 24
+      cellRect:
+        x: 20
+        y: 17
+        width: 26
+        height: 25
+      spriteId: b4e47bf18650c46fc8fc4fa38fb71d52
+    - name: Tribe Hunter_Frame_25
+      frameIndex: 25
+      cellRect:
+        x: 20
+        y: 17
+        width: 26
+        height: 25
+      spriteId: 3b816bdf3c0534e65ad34342709727ea
+    - name: Tribe Hunter_Frame_26
+      frameIndex: 26
+      cellRect:
+        x: 20
+        y: 17
+        width: 26
+        height: 26
+      spriteId: 8b36e299b2abf449583bd5290e45c498
+    - name: Tribe Hunter_Frame_27
+      frameIndex: 27
+      cellRect:
+        x: 20
+        y: 17
+        width: 26
+        height: 26
+      spriteId: f19230231ee2d43f182e7b0258349715
+    - name: Tribe Hunter_Frame_29
+      frameIndex: 29
+      cellRect:
+        x: 25
+        y: 17
+        width: 18
+        height: 26
+      spriteId: f104482e443084fda9cff7baf715d01d
+    - name: Tribe Hunter_Frame_30
+      frameIndex: 30
+      cellRect:
+        x: 25
+        y: 17
+        width: 18
+        height: 27
+      spriteId: 07ec3e33caf4d4409bcaa4cb9320868d
+    - name: Tribe Hunter_Frame_31
+      frameIndex: 31
+      cellRect:
+        x: 25
+        y: 17
+        width: 18
+        height: 27
+      spriteId: 3d355fc652c7548f6b353721a14614cc
+    - name: Tribe Hunter_Frame_32
+      frameIndex: 32
+      cellRect:
+        x: 25
+        y: 17
+        width: 18
+        height: 26
+      spriteId: 84eca42cd93124dc5bb5c5423da69c95
+    - name: Tribe Hunter_Frame_33
+      frameIndex: 33
+      cellRect:
+        x: 25
+        y: 17
+        width: 18
+        height: 25
+      spriteId: 347ea440c80f3459ba7a0878b1293bb0
+    - name: Tribe Hunter_Frame_34
+      frameIndex: 34
+      cellRect:
+        x: 25
+        y: 17
+        width: 18
+        height: 25
+      spriteId: df63803066b4c4cdfaa317d055d24de9
+    - name: Tribe Hunter_Frame_35
+      frameIndex: 35
+      cellRect:
+        x: 25
+        y: 17
+        width: 18
+        height: 25
+      spriteId: cc9e6ea035641459aa8ffd30279dfec2
+    - name: Tribe Hunter_Frame_36
+      frameIndex: 36
+      cellRect:
+        x: 25
+        y: 17
+        width: 18
+        height: 26
+      spriteId: 5225ef36c50f547e6bbab6a3eedf1689
+    - name: Tribe Hunter_Frame_37
+      frameIndex: 37
+      cellRect:
+        x: 25
+        y: 17
+        width: 18
+        height: 26
+      spriteId: cda1b82b289ca4f1bb193060a68c475a
+    - name: Tribe Hunter_Frame_39
+      frameIndex: 39
+      cellRect:
+        x: 25
+        y: 17
+        width: 18
+        height: 26
+      spriteId: 875ed617d455048bf8ef3f9ad8824ac2
+    - name: Tribe Hunter_Frame_40
+      frameIndex: 40
+      cellRect:
+        x: 25
+        y: 17
+        width: 18
+        height: 27
+      spriteId: fa8f8f113e4dc474a844191beb7755e6
+    - name: Tribe Hunter_Frame_41
+      frameIndex: 41
+      cellRect:
+        x: 25
+        y: 17
+        width: 18
+        height: 27
+      spriteId: fcc78d60d2a2447809ed1fa6321944f0
+    - name: Tribe Hunter_Frame_42
+      frameIndex: 42
+      cellRect:
+        x: 25
+        y: 17
+        width: 18
+        height: 26
+      spriteId: df5ac3f4ef7004972b088b1560c0500a
+    - name: Tribe Hunter_Frame_43
+      frameIndex: 43
+      cellRect:
+        x: 25
+        y: 17
+        width: 18
+        height: 25
+      spriteId: 92f5f5a4efa7f456e84e5f74389e8305
+    - name: Tribe Hunter_Frame_44
+      frameIndex: 44
+      cellRect:
+        x: 25
+        y: 17
+        width: 18
+        height: 25
+      spriteId: fb4077c82c8714cc9ac9294a56e321a2
+    - name: Tribe Hunter_Frame_45
+      frameIndex: 45
+      cellRect:
+        x: 25
+        y: 17
+        width: 18
+        height: 25
+      spriteId: 417cce07bbd0b4f9c9e2682afbd13a3c
+    - name: Tribe Hunter_Frame_46
+      frameIndex: 46
+      cellRect:
+        x: 25
+        y: 17
+        width: 18
+        height: 26
+      spriteId: 3b96c2436a80b4c42ada4fa1b5b771b8
+    - name: Tribe Hunter_Frame_47
+      frameIndex: 47
+      cellRect:
+        x: 25
+        y: 17
+        width: 18
+        height: 26
+      spriteId: ff0a21b48bd9f4e419d0aadf3a3daef9
+    - name: Tribe Hunter_Frame_77
+      frameIndex: 77
+      cellRect:
+        x: 31
+        y: 18
+        width: 23
+        height: 7
+      spriteId: f68625647d0bc4741a769acdb407231a
+    - name: Tribe Hunter_Frame_78
+      frameIndex: 78
+      cellRect:
+        x: 31
+        y: 18
+        width: 23
+        height: 7
+      spriteId: 2b06a3dcfb1cf48df8b582895671851d
+    - name: Tribe Hunter_Frame_79
+      frameIndex: 79
+      cellRect:
+        x: 31
+        y: 18
+        width: 23
+        height: 7
+      spriteId: 4d65a9ec7323d4bb2a18c25751c7e1bf
+    - name: Tribe Hunter_Frame_80
+      frameIndex: 80
+      cellRect:
+        x: 31
+        y: 18
+        width: 23
+        height: 7
+      spriteId: aa64c3cfc52fd4e2eb50859f49e36758
+    - name: Tribe Hunter_Frame_81
+      frameIndex: 81
+      cellRect:
+        x: 31
+        y: 18
+        width: 23
+        height: 7
+      spriteId: 59c8237830c5e4c5fb01241de0f05547
+    - name: Tribe Hunter_Frame_82
+      frameIndex: 82
+      cellRect:
+        x: 31
+        y: 18
+        width: 23
+        height: 7
+      spriteId: a74e667fdbb0140efbdd37e105736aaf
+    - name: Tribe Hunter_Frame_83
+      frameIndex: 83
+      cellRect:
+        x: 31
+        y: 18
+        width: 23
+        height: 7
+      spriteId: e232ecbe8087d4d49be33c21e7851dbf
+    - name: Tribe Hunter_Frame_84
+      frameIndex: 84
+      cellRect:
+        x: 31
+        y: 18
+        width: 23
+        height: 7
+      spriteId: 230b3de78171347c19b3ee7b62bb6817
+    - name: Tribe Hunter_Frame_85
+      frameIndex: 85
+      cellRect:
+        x: 31
+        y: 18
+        width: 23
+        height: 7
+      spriteId: 370d8bcf9dfa8472791f40dee11a3f8f
+    linkedCells: []
+    parentIndex: -1
+  platformSettings: []
+  generatePhysicsShape: 0
+  secondarySpriteTextures: []
+  spritePackingTag: 
+  canvasSize: {x: 64, y: 64}
