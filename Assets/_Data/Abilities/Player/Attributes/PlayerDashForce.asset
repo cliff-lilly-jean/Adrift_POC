@@ -9,9 +9,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e86393f34bca94a5eb035bd1cf906337, type: 3}
-  m_Name: PlayerMovementSystem
+  m_Script: {fileID: 11500000, guid: 895cbf554dc14459f9b678f7b4bc9530, type: 3}
+  m_Name: PlayerDashForce
   m_EditorClassIdentifier: 
-  movementAbilities:
-  - {fileID: 11400000, guid: df5d61dfd464e487aa280248500c3ef9, type: 2}
-  - {fileID: 11400000, guid: 8cda272b0aed441239908f079d3e7aaa, type: 2}
+  value: 20

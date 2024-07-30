@@ -23,6 +23,4 @@ public abstract class Ability : ScriptableObject {
     [Header("Type")]
     [SerializeField] public Type type;
 
-    // * Abstract Use method to be overridden by the implementing class
-    public abstract void Use();
 }

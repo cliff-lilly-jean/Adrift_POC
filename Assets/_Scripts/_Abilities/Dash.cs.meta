@@ -3,7 +3,17 @@ guid: 58b2576c15e904a99ad175d4f2f07934
 MonoImporter:
   externalObjects: {}
   serializedVersion: 2
-  defaultReferences: []
+  defaultReferences:
+  - Name: {fileID: 11400000, guid: 4bb28014b6aca4fc0a88eda5637b3c4b, type: 2}
+  - description: {fileID: 11400000, guid: 4226fe12497e0420ba7fb670f3db07d3, type: 2}
+  - cost: {fileID: 11400000, guid: ab4fdeb8b48364e8b8698ccd7796124b, type: 2}
+  - cooldown: {instanceID: 0}
+  - _isActive: {instanceID: 0}
+  - _dashSpeedBoost: {fileID: 11400000, guid: 5d43c519eebdd4eb0bf8f50582c84cc4, type: 2}
+  - _duration: {instanceID: 0}
+  - _direction: {instanceID: 0}
+  - _acceleration: {instanceID: 0}
+  - _forceMultiplier: {instanceID: 0}
   executionOrder: 0
   icon: {instanceID: 0}
   userData: 

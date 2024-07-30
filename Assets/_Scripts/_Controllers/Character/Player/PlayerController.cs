@@ -1,6 +1,5 @@
 using System;
 using System.Collections.Generic;
-using System.Reflection; // * NOTE: imported to use the PropertyInfo, FieldInfo, GetProperties() and GetFields()
 using UnityEngine;
 
 // TODO: Add a movementSystem namespace; add all things related to movement
@@ -26,17 +25,23 @@ public class PlayerController : MonoBehaviour
     void Start()
     {
 
-        InitializeAbilities();
+        // Find all the current abilities attached, then add them to a dictionary
+        InitializeAbilities(_movementSystem.movementAbilities, _abilitiesInfo);
 
-        // *! Possible implementation??? GetAllAbilities();
+        // *! Possible implementation GetAllAbilities()???, meaning ex. Movement, Melee etc.
     }
 
      private void OnEnable()
     {
         _controls.Enable();
 
+        // Move
         _controls.Player.Move.performed += _ => GetMoveAbility().GetMoveDirection();
         _controls.Player.Move.canceled += _ => GetMoveAbility().ResetMoveDirection();
+
+
+        // Dash
+        _controls.Player.Dash.performed += _ => GetDashAbility().IsActive();
 
     }
 
@@ -44,51 +49,81 @@ public class PlayerController : MonoBehaviour
     {
         _controls.Disable();
 
+        // Move
         _controls.Player.Move.performed -= _ => GetMoveAbility().GetMoveDirection();
         _controls.Player.Move.canceled -= _ => GetMoveAbility().ResetMoveDirection();
+
+
+        // Dash
+        _controls.Player.Dash.performed -= _ => GetDashAbility().IsActive();
 
     }
 
     private void FixedUpdate()
     {
-        //
+        // Move
         if (GetMoveAbility()._direction.value == null) return;
 
-        // connect the controls to the direction of the Vector2
+        // connect direction to the read value of the controls
         GetMoveAbility()._direction.value = _controls.Player.Move.ReadValue<Vector2>();
 
-        // checking the direction value is not 0
+        // checking the direction value is not 0, and if not move
         if(GetMoveAbility()._direction.value != Vector2.zero) {
             GetMoveAbility().Accelerate(_rb);
         }else {
             GetMoveAbility().Decelerate(_rb);
         }
+
+
+
+        // Dash
+        if (GetDashAbility()._isActive.value) {
+            GetDashAbility().ExecuteDash(_rb);
+
+            // start timer to return isDashing value to false
+            StartCoroutine(GetDashAbility().DashDuration());
+        }
+
     }
 
     // Ability Setup
-    private void InitializeAbilities()
+    private void InitializeAbilities(List<Ability> abilities, Dictionary<Type, Ability> abilityInformation)
     {
-        foreach (Ability ability in _movementSystem.movementAbilities)
+        foreach (Ability ability in abilities)
         {
-            _abilitiesInfo[ability.GetType()] = ability;
+            abilityInformation[ability.GetType()] = ability;
         }
     }
 
 
     // Get the ability from the abilities list
-    private T GetAbility<T>() where T : Ability
+    private T GetAbility<T>(Dictionary<Type, Ability> info) where T : Ability
     {
-        _abilitiesInfo.TryGetValue(typeof(T), out Ability ability);
+        info.TryGetValue(typeof(T), out Ability ability);
         return ability as T;
     }
 
     // Get Move Ability if there is one in the movement system
     private Move GetMoveAbility()
     {
-        var moveAbility = GetAbility<Move>();
+        var moveAbility = GetAbility<Move>(_abilitiesInfo);
         if (moveAbility != null)
         {
             return moveAbility;
+            // Use moveAbility properties and methods
+        }
+
+        return null;
+    }
+
+    // Get Move Ability if there is one in the movement system
+    private Dash GetDashAbility()
+    {
+        var dashAbility = GetAbility<Dash>(_abilitiesInfo);
+        if (dashAbility != null)
+        {
+            return dashAbility;
+
             // Use moveAbility properties and methods
         }
 

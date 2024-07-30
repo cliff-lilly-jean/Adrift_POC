@@ -17,18 +17,12 @@ public class Move : Ability {
     [Header("Force")]
      public FloatVariable _force;
 
-    public override void Use()
-    {
-        // Null
-        GetMoveDirection();
-    }
 
-    // * test method implementation
+    // METHODS
 
     public Vector2 GetMoveDirection() {
 
         // gets the direction to the vector2 coming from the Input Reader/Controller
-        Debug.Log("Moving from the move class");
        return  _direction.value;
     }
 
@@ -48,14 +42,14 @@ public class Move : Ability {
             _rb.velocity = _rb.velocity.normalized * _maxSpeed.value;
         }
 
-        // TODO: Cut the bottom code out into its own class, ex. "Vision"
-        RaycastHit2D hit = Physics2D.Raycast(_rb.position, _direction.value, 10f);
+        // TODO: Put in own class, ex. "Vision"
+        RaycastHit2D hit = Physics2D.Raycast(_rb.position, _direction.value, 30f);
         Debug.DrawRay(_rb.position, _direction.value , Color.green);
     }
 
      public void Decelerate(Rigidbody2D _rb) {
 
-        // Add force  to the rigidbody in the movement direction multiplied by the deceleration to slow it down
+        // Add force  to the rigidbody in the movement direction multiplied by the negative deceleration to slow it down
         _rb.AddForce(_rb.velocity * -_deceleration.value * _force.value, ForceMode2D.Force);
     }
 }
