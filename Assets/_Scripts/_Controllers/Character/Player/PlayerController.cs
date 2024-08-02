@@ -1,5 +1,6 @@
 using System;
 using System.Collections.Generic;
+using Unity.VisualScripting;
 using UnityEngine;
 
 // TODO: Add a movementSystem namespace; add all things related to movement
@@ -16,9 +17,17 @@ public class PlayerController : MonoBehaviour
     private Dictionary<Type, Ability> _abilitiesInfo = new Dictionary<Type, Ability>();
 
 
+    // Animations
+    private Animator _animator;
+    private string _currentAnimation = "";
+    private SpriteRenderer _spriteRenderer;
+
+
     private void Awake() {
         _controls = new GameControls();
         _rb = GetComponentInChildren<Rigidbody2D>();
+        _animator = GetComponentInChildren<Animator>();
+        _spriteRenderer = GetComponentInChildren<SpriteRenderer>();
     }
 
     // Start is called before the first frame update
@@ -57,6 +66,12 @@ public class PlayerController : MonoBehaviour
         // Dash
         _controls.Player.Dash.performed -= _ => GetDashAbility().IsActive();
 
+    }
+
+    private void Update() {
+        CheckAnimation();
+
+        Debug.Log(GetMoveAbility()._direction.value);
     }
 
     private void FixedUpdate()
@@ -128,6 +143,41 @@ public class PlayerController : MonoBehaviour
         }
 
         return null;
+    }
+
+
+    // Animations
+    private void ChangeAnimation(string animation, float crossFade = 0.2f) {
+
+        if (_currentAnimation != animation) {
+            _currentAnimation = animation;
+            _animator.CrossFade(animation, crossFade);
+        }
+    }
+
+    private void CheckAnimation() {
+
+        if(GetMoveAbility()._direction.value.y == 1) {
+            ChangeAnimation("Walk_B");
+        } else if (GetMoveAbility()._direction.value.y == -1) {
+            ChangeAnimation("Walk_F");
+        } else if (GetMoveAbility()._direction.value.x == 1) {
+            _spriteRenderer.flipX = false;
+            ChangeAnimation("Walk_R");
+        } else if (GetMoveAbility()._direction.value.x == -1) {
+            _spriteRenderer.flipX = true;
+            ChangeAnimation("Walk_R");
+        } else {
+            // Check the last pressed direction
+            // --- store the 4 cardinal directions, N, S, E, W
+            // --- store a cardinal direction in a variable, currentFacingDirection returned by each of the direction values of the CheckAnimation method
+            // ---- determine the correct idle animation based off of the stored cardinal direction
+            // * Note: May need to be run in an update loop, since the cardinal direction variable will have to be updated on every keypress
+
+
+            // Change the Idle animation to that direction
+            ChangeAnimation("Idle_F");
+        }
     }
 
 
