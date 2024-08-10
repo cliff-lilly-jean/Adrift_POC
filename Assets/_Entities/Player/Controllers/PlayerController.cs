@@ -104,7 +104,6 @@ public class PlayerController : MonoBehaviour
 
         // Animation Check
         Animations.ChangeAnimation(_currentAnimation, newAnimation, _animator);
-        Debug.Log(animationCardinalDirection);
 
 
         // Dash
