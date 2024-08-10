@@ -37,7 +37,7 @@ public class Dash : Ability {
     }
 
     // turn isDashing to false after a certain period of time
-    public IEnumerator DashDuration() {
+    public IEnumerator DashCooldownDuration() {
         yield return new WaitForSeconds(_duration.value);
         _isActive.value = false;
     }
