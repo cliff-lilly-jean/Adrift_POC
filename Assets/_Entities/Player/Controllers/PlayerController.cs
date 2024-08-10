@@ -72,10 +72,9 @@ public class PlayerController : MonoBehaviour
     }
 
     private void Update() {
-        // Debug.Log(Abilities.GetAbility<Move>(_abilitiesInfo)._direction.value);
-        // Debug.Log(CheckAnimation());
 
-        Debug.Log(_animationCardinalDirection);
+
+
     }
 
     private void FixedUpdate()
@@ -105,6 +104,7 @@ public class PlayerController : MonoBehaviour
 
         // Animation Check
         Animations.ChangeAnimation(_currentAnimation, newAnimation, _animator);
+        Debug.Log(animationCardinalDirection);
 
 
         // Dash
