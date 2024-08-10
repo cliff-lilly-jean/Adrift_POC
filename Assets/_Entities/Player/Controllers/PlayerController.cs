@@ -22,8 +22,6 @@ public class PlayerController : MonoBehaviour
     // Animations
     private Animator _animator;
     private string _currentAnimation = "";
-    private string _newAnimation = "";
-    private Animations.Directions _animationCardinalDirection;
     private SpriteRenderer _spriteRenderer;
 
 
@@ -32,8 +30,6 @@ public class PlayerController : MonoBehaviour
         _rb = GetComponentInChildren<Rigidbody2D>();
         _animator = GetComponentInChildren<Animator>();
         _spriteRenderer = GetComponentInChildren<SpriteRenderer>();
-
-
     }
 
     // Start is called before the first frame update
@@ -71,42 +67,38 @@ public class PlayerController : MonoBehaviour
 
     }
 
-    private void Update() {
 
+    private void FixedUpdate()
+    {
+
+        // Connect direction to the read value of the controls
+        GetDirection();
+
+        // Check if any Abilities are being used
+        CheckMove();
+        CheckDash();
+
+        // Determine which animation needs to be played
+        CheckAnimation();
 
 
     }
 
-    private void FixedUpdate()
-    {
-        // Ability variables
+    private void CheckMove() {
         var move = Abilities.GetAbility<Move>(_abilitiesInfo);
-        var dash = Abilities.GetAbility<Dash>(_abilitiesInfo);
 
-        // Animation variables
-        var animationCardinalDirection = Animations.CheckAnimationDirection(Abilities.GetAbility<Move>(_abilitiesInfo)._direction.value);
-
-        var newAnimation = Animations.ChangeAnimationDirection(animationCardinalDirection, _spriteRenderer);
-
-
-        // Move
         if (move._direction.value == null) return;
 
-        // connect direction to the read value of the controls
-        move._direction.value = _controls.Player.Move.ReadValue<Vector2>();
-
-        // checking the direction value is not 0, and if not move
         if(move._direction.value != Vector2.zero) {
             move.Accelerate(_rb);
         }else {
             move.Decelerate(_rb);
         }
+    }
 
-        // Animation Check
-        Animations.ChangeAnimation(_currentAnimation, newAnimation, _animator);
+    private void CheckDash() {
+        var dash = Abilities.GetAbility<Dash>(_abilitiesInfo);
 
-
-        // Dash
         if (dash._isActive.value) {
 
             dash.ExecuteDash(_rb);
@@ -114,5 +106,18 @@ public class PlayerController : MonoBehaviour
             // start timer to return isDashing value to false
             StartCoroutine(dash.DashCooldownDuration());
         }
+    }
+
+    private void CheckAnimation() {
+
+        var animationCardinalDirection = Animations.CheckAnimationDirection(Abilities.GetAbility<Move>(_abilitiesInfo)._direction.value);
+
+        var newAnimation = Animations.ChangeAnimationDirection(animationCardinalDirection, _spriteRenderer);
+
+        Animations.ChangeAnimation(_currentAnimation, newAnimation, _animator);
+    }
+
+    private void GetDirection() {
+        Abilities.GetAbility<Move>(_abilitiesInfo)._direction.value = _controls.Player.Move.ReadValue<Vector2>();
     }
 }
