@@ -44,12 +44,16 @@ public class PlayerController : MonoBehaviour
         _controls.Enable();
 
         // Move
-        _controls.Player.Move.performed += _ => Abilities.GetAbility<Move>(_abilitiesInfo).GetMoveDirection();
-        _controls.Player.Move.canceled += _ => Abilities.GetAbility<Move>(_abilitiesInfo).ResetMoveDirection();
+        _controls.Player.Move.performed += _ => Abilities.GetAbility<Move>(_abilitiesInfo).getMoveDirection();
+        _controls.Player.Move.canceled += _ => Abilities.GetAbility<Move>(_abilitiesInfo).resetMoveDirection();
 
 
         // Dash
-        _controls.Player.Dash.performed += _ => Abilities.GetAbility<Dash>(_abilitiesInfo).IsActive();
+        _controls.Player.Dash.performed += _ => Abilities.GetAbility<Dash>(_abilitiesInfo).isActive();
+
+
+        // Attack
+        _controls.Player.Attack.performed += _ => Abilities.GetAbility<Attack>(_abilitiesInfo).attack();
 
     }
 
@@ -58,12 +62,12 @@ public class PlayerController : MonoBehaviour
         _controls.Disable();
 
         // Move
-        _controls.Player.Move.performed -= _ => Abilities.GetAbility<Move>(_abilitiesInfo).GetMoveDirection();
-        _controls.Player.Move.canceled -= _ => Abilities.GetAbility<Move>(_abilitiesInfo).ResetMoveDirection();
+        _controls.Player.Move.performed -= _ => Abilities.GetAbility<Move>(_abilitiesInfo).getMoveDirection();
+        _controls.Player.Move.canceled -= _ => Abilities.GetAbility<Move>(_abilitiesInfo).resetMoveDirection();
 
 
         // Dash
-        _controls.Player.Dash.performed -= _ => Abilities.GetAbility<Dash>(_abilitiesInfo).IsActive();
+        _controls.Player.Dash.performed -= _ => Abilities.GetAbility<Dash>(_abilitiesInfo).isActive();
 
     }
 
@@ -75,8 +79,8 @@ public class PlayerController : MonoBehaviour
         GetDirection();
 
         // Check if any Abilities are being used
-        CheckMove();
-        CheckDash();
+        checkMove();
+        checkDash();
 
         // Determine which animation needs to be played
         CheckAnimation();
@@ -84,28 +88,33 @@ public class PlayerController : MonoBehaviour
 
     }
 
-    private void CheckMove() {
+    private void checkMove() {
         var move = Abilities.GetAbility<Move>(_abilitiesInfo);
 
         if (move._direction.value == null) return;
 
         if(move._direction.value != Vector2.zero) {
-            move.Accelerate(_rb);
+            move.accelerate(_rb);
         }else {
-            move.Decelerate(_rb);
+            move.decelerate(_rb);
         }
     }
 
-    private void CheckDash() {
+    private void checkDash() {
         var dash = Abilities.GetAbility<Dash>(_abilitiesInfo);
 
         if (dash._isActive.value) {
 
-            dash.ExecuteDash(_rb);
+            dash.executeDash(_rb);
 
             // start timer to return isDashing value to false
-            StartCoroutine(dash.DashCooldownDuration());
+            StartCoroutine(dash.dashCooldownDuration());
         }
+    }
+
+    private void checkAttack() {
+        var attack = Abilities.GetAbility<Attack>(_abilitiesInfo);
+
     }
 
     private void CheckAnimation() {

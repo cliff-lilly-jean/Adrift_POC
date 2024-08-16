@@ -7,8 +7,8 @@ public abstract class Ability : ScriptableObject {
     public StringVariable Name;
     public StringVariable description;
 
-    [Header("Cost")]
-    public FloatVariable cost;
+    [Header("Energy Cost")]
+    public FloatVariable energyCost;
 
     [Header("Cooldown")]
     public FloatVariable cooldown;

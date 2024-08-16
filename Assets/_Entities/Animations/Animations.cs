@@ -2,17 +2,12 @@ using UnityEngine;
 
 public static class Animations {
 
-    // * Definition and reference to all methods and variables pertaining to animations
     private static Directions _lastDirection;
-
-    // TODO: Create variables to be used throughout this class in the methods
 
     // Change the animation
     public static void ChangeAnimation(string currentAnimation, string newAnimation, Animator animator, float crossFade = 0.05f) {
 
         if (currentAnimation != newAnimation) {
-
-            currentAnimation = newAnimation;
 
             animator.CrossFade(newAnimation, crossFade);
         }
@@ -39,10 +34,9 @@ public static class Animations {
 
 
     // if a direction is any variant of x direction, change animation facing direction to y animation
-
     public static string ChangeAnimationDirection(Directions cardinalDirection, SpriteRenderer spriteRenderer) {
 
-        // CHeck if there's no direction being moved in
+        // Check if there's no direction being moved in
         if (cardinalDirection == Directions.None)
         {
             // Return the idle animation based on the last movement direction
@@ -82,10 +76,10 @@ public static class Animations {
         South,
         East,
         West,
-        NorthWest,
-        SouthWest,
         NorthEast,
+        NorthWest,
         SouthEast,
+        SouthWest,
         None
     }
 }

@@ -23,7 +23,7 @@ public class Dash : Ability {
 
     // Methods
 
-     public void ExecuteDash(Rigidbody2D rb) {
+     public void executeDash(Rigidbody2D rb) {
 
          // move the position of the rigidbody multiplied by the movement speed and the dash speed;
         rb.AddForce(_direction.value * _acceleration.value * _dashSpeedBoost.value * _forceMultiplier.value, ForceMode2D.Force);
@@ -32,12 +32,12 @@ public class Dash : Ability {
     }
 
 
-    public void IsActive() {
+    public void isActive() {
         _isActive.value = true;
     }
 
     // turn isDashing to false after a certain period of time
-    public IEnumerator DashCooldownDuration() {
+    public IEnumerator dashCooldownDuration() {
         yield return new WaitForSeconds(_duration.value);
         _isActive.value = false;
     }

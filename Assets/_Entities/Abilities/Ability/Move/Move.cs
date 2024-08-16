@@ -20,19 +20,19 @@ public class Move : Ability {
 
     // METHODS
 
-    public Vector2 GetMoveDirection() {
+    public Vector2 getMoveDirection() {
 
         // gets the direction to the vector2 coming from the Input Reader/Controller
        return  _direction.value;
     }
 
-    public void ResetMoveDirection() {
+    public void resetMoveDirection() {
 
         // zero out the direction so that the deceleration method can run to stop the movement
         _direction.value = Vector2.zero;
     }
 
-    public void Accelerate(Rigidbody2D _rb) {
+    public void accelerate(Rigidbody2D _rb) {
 
         // Add force  to the rigidbody in the movement direction multiplied by the acceleration to speed it up
         _rb.AddForce(_direction.value * _acceleration.value * _force.value, ForceMode2D.Force);
@@ -47,7 +47,7 @@ public class Move : Ability {
         Debug.DrawRay(_rb.position, _direction.value , Color.green);
     }
 
-     public void Decelerate(Rigidbody2D _rb) {
+     public void decelerate(Rigidbody2D _rb) {
 
         // Add force  to the rigidbody in the movement direction multiplied by the negative deceleration to slow it down
         _rb.AddForce(_rb.velocity * -_deceleration.value * _force.value, ForceMode2D.Force);
