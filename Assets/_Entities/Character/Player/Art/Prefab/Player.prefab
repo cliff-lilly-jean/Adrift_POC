@@ -47,7 +47,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _entityName: Player
   _entityType: 0
-  _characterStats: {fileID: 0}
+  _characterStats: {fileID: 11400000, guid: aea9b5fb5163b4d17b12c4484c298ab7, type: 2}
   _characterType: 0
 --- !u!1 &4845189893195316313
 GameObject:

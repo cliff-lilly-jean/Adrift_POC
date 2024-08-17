@@ -11,12 +11,12 @@ public class CharacterStats : ScriptableObject {
     public int attack;
 
     [Header("Defense")]
-    private int defense;
+    public int defense;
 
     [Header("Stamina")]
-    private float stamina;
-    private float maxStamina;
+    public float stamina;
+    public float maxStamina;
 
     [Header("Aura")]
-    private float aura; // mana/force/spirit
+    public float aura; // mana/force/spirit
 }
