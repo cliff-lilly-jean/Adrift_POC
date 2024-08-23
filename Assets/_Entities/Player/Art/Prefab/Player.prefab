@@ -10,6 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6016912212556158386}
   - component: {fileID: 8063616926259032487}
+  - component: {fileID: 3008061513614723497}
   m_Layer: 0
   m_Name: Player
   m_TagString: Untagged
@@ -45,10 +46,24 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8627ee0bd491d4d8e81d3d2d095fdb2a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _entityName: Player
-  _entityType: 0
-  _characterStats: {fileID: 11400000, guid: aea9b5fb5163b4d17b12c4484c298ab7, type: 2}
-  _characterType: 0
+  _name: Lucian
+  _type: 0
+  _health: {fileID: 11400000, guid: e8b1f7822933643188d8793b11df2ec1, type: 2}
+  _stats: {fileID: 11400000, guid: aea9b5fb5163b4d17b12c4484c298ab7, type: 2}
+--- !u!114 &3008061513614723497
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1968282873606870791}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9f1a794bf9a054edb88db879d81d447b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _move: {fileID: 8822501098066513284, guid: e46e81d5e04fe4a479e054c7258a0b69, type: 3}
+  _character: {fileID: 8063616926259032487}
 --- !u!1 &4845189893195316313
 GameObject:
   m_ObjectHideFlags: 0

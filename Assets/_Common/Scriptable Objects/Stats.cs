@@ -1,11 +1,14 @@
 using UnityEngine;
 
-[CreateAssetMenu(fileName = "CharacterStats", menuName = "Data/CharacterStats")]
-public class CharacterStats : ScriptableObject {
+[CreateAssetMenu(fileName = "Stats", menuName = "Data/Stats")]
+public class Stats : ScriptableObject {
 
     [Header("Speed")]
     public float speed;
     public float maxSpeed;
+    public float acceleration;
+    public float deceleration;
+    public float force;
 
     [Header("Attack")]
     public int attack;
@@ -19,4 +22,7 @@ public class CharacterStats : ScriptableObject {
 
     [Header("Aura")]
     public float aura; // mana/force/spirit
+
+    [Header("Direction")]
+    public Vector2 direction;
 }

@@ -1,17 +1,20 @@
 using UnityEngine;
 
-public class Entity : MonoBehaviour {
+public abstract class Entity : MonoBehaviour {
 
-    [SerializeField] private string _entityName;
-    [SerializeField] private EntityType _entityType;
+    [SerializeField] private string _name;
+    [SerializeField] private Type _type;
+    [SerializeField] private Health _health;
 
 
     [System.Serializable]
-    public enum EntityType
+    public enum Type
     {
-        Character,
-        Animal,
-        Object,
-        Item
+        Human, // Humans
+        Demon, //
+        Animal, // Cats, Dogs, etc.
+        Insect, // Bugs, Spiders, etc.
+        Object, // Things that can't be used: Doors, Chairs
+        Item // Things that can be used: Potions, Swords
     }
 }

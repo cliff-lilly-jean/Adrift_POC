@@ -9,13 +9,8 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8d62e0dcec85f410dadf57dfa092687f, type: 3}
-  m_Name: PlayerStats
+  m_Script: {fileID: 11500000, guid: 776b9d37e7b614578912a3678593b08c, type: 3}
+  m_Name: PlayerHealth
   m_EditorClassIdentifier: 
-  speed: 2
-  maxSpeed: 5
-  attack: 1
-  defense: 1
-  stamina: 5
-  maxStamina: 5
-  aura: 3
+  currentHealth: 3
+  maxHealth: 3
