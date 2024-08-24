@@ -3,11 +3,14 @@ using UnityEngine;
 public abstract class Entity : MonoBehaviour {
 
     [Header("Class")]
-    public EntityType _type;
+    public EntityType type;
 
     [Header("Name")]
-    public string _name;
+    public string title;
 
     [Header("Health")]
-    public Health _health;
+    public Health health;
+
+    [Header("Direction")]
+    public Vector2 direction;
 }

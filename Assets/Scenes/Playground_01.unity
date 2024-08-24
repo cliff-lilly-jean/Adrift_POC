@@ -135,6 +135,7 @@ GameObject:
   - component: {fileID: 53040067}
   - component: {fileID: 53040069}
   - component: {fileID: 53040070}
+  - component: {fileID: 53040071}
   m_Layer: 0
   m_Name: Player
   m_TagString: Untagged
@@ -183,7 +184,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 7482667652216324306, guid: 311925a002f4447b3a28927169b83ea6, type: 3}
+  m_Sprite: {fileID: 1573020385, guid: 0b0f6e670de404d028cd0e219cacfbc6, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -248,12 +249,27 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7e6e4b10e3eb544be8264b369bcc03c9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _type: {fileID: 11400000, guid: e876278c955df4241b17856aeb6a8638, type: 2}
-  _name: Lucian
-  _health: {fileID: 11400000, guid: 4934bdd332bc64b1dbd93e57f07bba2b, type: 2}
+  type: {fileID: 11400000, guid: e876278c955df4241b17856aeb6a8638, type: 2}
+  title: Lucian
+  health: {fileID: 11400000, guid: 4934bdd332bc64b1dbd93e57f07bba2b, type: 2}
+  direction: {x: 0, y: 0}
   _stats: {fileID: 11400000, guid: 9311311a88e954c858a69ca1d1331270, type: 2}
   _abilities:
-  - {fileID: 0}
+  - {fileID: 11400000, guid: 96103d7397b9c4b78b01f74290ef300f, type: 2}
+  _rb: {fileID: 0}
+--- !u!114 &53040071
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 53040066}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e86ad09cc33a74096b1e94310fe9f6d6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _player: {fileID: 53040070}
 --- !u!1 &519420028
 GameObject:
   m_ObjectHideFlags: 0
