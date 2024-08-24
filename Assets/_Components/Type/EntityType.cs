@@ -6,7 +6,7 @@ public class EntityType : MonoBehaviour {
     public enum Type
     {
         Human, // Humans
-        Demon, //
+        Demon, // Demons
         Animal, // Cats, Dogs, etc.
         Insect, // Bugs, Spiders, etc.
         Object, // Things that can't be used: Doors, Chairs
