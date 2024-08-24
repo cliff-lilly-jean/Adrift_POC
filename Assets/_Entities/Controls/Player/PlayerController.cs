@@ -8,10 +8,17 @@ public class PlayerController : MonoBehaviour {
     private void Awake() {
         _controls = new GameControls();
         _player = GetComponent<Player>();
+
+        // if (_player._abilities)
     }
 
     private void Update() {
-       Debug.Log("Abilities " + _player._stats.speed);
+
+        // Get all the abilities
+        foreach (var ability in _player._abilities) {
+            Debug.Log("Ability " + ability);
+        }
+
     }
 
 
