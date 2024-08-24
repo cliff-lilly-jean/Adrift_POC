@@ -1,6 +1,7 @@
 using UnityEngine;
 
-public class Health : MonoBehaviour {
+[CreateAssetMenu(menuName = "Status/Health")]
+public class Health : ScriptableObject {
 
     public delegate void healthChanged(float currentHealth);
     public event healthChanged OnHealthChanged;
@@ -11,7 +12,7 @@ public class Health : MonoBehaviour {
     [SerializeField] float _maxHealth;
     [SerializeField] float _currentHealth;
 
-    private void Start() {
+    public void Start() {
         _currentHealth = _maxHealth;
     }
 

@@ -1,6 +1,9 @@
 using UnityEngine;
 
-public class AbilityType : MonoBehaviour {
+[CreateAssetMenu(menuName = "Ability/Type")]
+public class AbilityType : ScriptableObject {
+
+    public Type abilityType;
 
     [System.Serializable]
     public enum Type

@@ -1,9 +1,10 @@
 using UnityEngine;
 
+[CreateAssetMenu(menuName = "Ability/Move")]
 public class Move : Ability {
 
-    private float force = 10;
-    private float  acceleration = 2;
+    [SerializeField] public float force = 10;
+    [SerializeField] public float  acceleration = 2;
 
     public Vector2 getMoveDirection(Vector2 direction) {
 

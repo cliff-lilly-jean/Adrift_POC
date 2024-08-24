@@ -3,12 +3,17 @@ using UnityEngine;
 public class PlayerController : MonoBehaviour {
 
     private GameControls _controls;
-    private Player _player;
+    [SerializeField] private Player _player;
 
     private void Awake() {
         _controls = new GameControls();
-        // _rb = GetComponentInChildren<Rigidbody2D>();
+        _player = GetComponent<Player>();
     }
+
+    private void Update() {
+       Debug.Log("Abilities " + _player._stats.speed);
+    }
+
 
      private void OnEnable()
     {

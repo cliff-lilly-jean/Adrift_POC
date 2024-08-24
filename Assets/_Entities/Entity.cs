@@ -3,11 +3,11 @@ using UnityEngine;
 public abstract class Entity : MonoBehaviour {
 
     [Header("Class")]
-    [SerializeField] EntityType _type;
+    public EntityType _type;
 
     [Header("Name")]
-    [SerializeField] string _name;
+    public string _name;
 
     [Header("Health")]
-    [SerializeField] Health _health;
+    public Health _health;
 }
