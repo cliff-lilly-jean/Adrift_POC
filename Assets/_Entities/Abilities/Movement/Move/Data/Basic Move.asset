@@ -12,8 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8ae3d1e62433947c8a289bf8ab38b67b, type: 3}
   m_Name: Basic Move
   m_EditorClassIdentifier: 
-  abilityName: 
-  abilityType: {fileID: 0}
+  abilityName: Basic Move
+  abilityType: {fileID: 11400000, guid: aa3a3e1f0fa9f4f12bdf5c57a082f710, type: 2}
   cooldown: 0
   force: 10
   acceleration: 2

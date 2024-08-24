@@ -9,6 +9,7 @@ public abstract class Human : Entity {
     [Header("Abilities")]
     public List<Ability> _abilities;
 
+
     // Feeling [State], how you Feel affects your stats
     // ---- Fear, decreases strength
     // ---- Anxious, decreases speed
