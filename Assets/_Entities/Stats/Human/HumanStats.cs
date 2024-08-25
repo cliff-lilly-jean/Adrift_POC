@@ -1,7 +1,5 @@
 using UnityEngine;
 
-
-[CreateAssetMenu(menuName = "Stats/HumanStats")]
 public class HumanStats : Stats {
 
     [Header("Stats")]

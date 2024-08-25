@@ -1,16 +1,14 @@
+using System.Collections.Generic;
 using UnityEngine;
 
 [RequireComponent(typeof(Rigidbody2D))]
 public class Player : Human {
 
-    public Rigidbody2D _rb;
+    [Header("Abilities")]
+    public List<Ability> _abilities;
 
     // Get all the current abilities from the abilities list
     //
-
-    private void Awake() {
-         _rb = GetComponent<Rigidbody2D>();
-    }
 
 
 }

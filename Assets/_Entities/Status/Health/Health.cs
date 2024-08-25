@@ -1,7 +1,7 @@
 using UnityEngine;
 
 [CreateAssetMenu(menuName = "Status/Health")]
-public class Health : ScriptableObject {
+public class Health : MonoBehaviour {
 
     public delegate void healthChanged(float currentHealth);
     public event healthChanged OnHealthChanged;

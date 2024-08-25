@@ -1,7 +1,7 @@
 using UnityEngine;
 
 [CreateAssetMenu(menuName = "Entity/Type")]
-public class EntityType : ScriptableObject {
+public class EntityType : MonoBehaviour {
 
     public Type entityType;
 

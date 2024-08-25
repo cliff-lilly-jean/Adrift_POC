@@ -135,7 +135,10 @@ GameObject:
   - component: {fileID: 53040067}
   - component: {fileID: 53040069}
   - component: {fileID: 53040070}
+  - component: {fileID: 53040074}
+  - component: {fileID: 53040073}
   - component: {fileID: 53040071}
+  - component: {fileID: 53040072}
   m_Layer: 0
   m_Name: Player
   m_TagString: Untagged
@@ -249,14 +252,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7e6e4b10e3eb544be8264b369bcc03c9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  type: {fileID: 11400000, guid: e876278c955df4241b17856aeb6a8638, type: 2}
   title: Lucian
-  health: {fileID: 11400000, guid: 4934bdd332bc64b1dbd93e57f07bba2b, type: 2}
   direction: {x: 0, y: 0}
-  _stats: {fileID: 11400000, guid: 9311311a88e954c858a69ca1d1331270, type: 2}
-  _abilities:
-  - {fileID: 11400000, guid: 96103d7397b9c4b78b01f74290ef300f, type: 2}
-  _rb: {fileID: 0}
+  _abilities: []
 --- !u!114 &53040071
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -270,6 +268,51 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _player: {fileID: 53040070}
+--- !u!114 &53040072
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 53040066}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bdb307395e96341bc9118e51476713d2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  entityType: 0
+--- !u!114 &53040073
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 53040066}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c0876556ec4794364821c01bb60cc144, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _maxHealth: 3
+  _currentHealth: 3
+--- !u!114 &53040074
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 53040066}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 57d32aa5bbe3d41988b84fcb358c1080, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  defense: 1
+  age: 0
+  stamina: 3
+  speed: 2
+  strength: 1
+  energy: 2
 --- !u!1 &519420028
 GameObject:
   m_ObjectHideFlags: 0

@@ -1,26 +1,22 @@
 using UnityEngine;
-using Adrift.Utilities.Abilities.Movement;
+
 
 public class PlayerController : MonoBehaviour {
 
     private GameControls _controls;
     [SerializeField] private Player _player;
+    private Rigidbody2D _rb;
 
     private void Awake() {
         _controls = new GameControls();
         _player = GetComponent<Player>();
+        _rb = GetComponent<Rigidbody2D>();
     }
 
 
     private void Update() {
 
-
-        // Get all the abilities
-        foreach (var ability in _player._abilities) {
-            Debug.Log("Ability " + ability);
-        }
-
-        Debug.Log(Movement.getMoveDirection(Vector2.down));
+        Debug.Log(_player);
     }
 
      private void FixedUpdate() {
@@ -37,8 +33,8 @@ public class PlayerController : MonoBehaviour {
         _controls.Enable();
 
         // Move
-        _controls.Player.Move.performed += _ => Movement.getMoveDirection(_player.direction);
-        _controls.Player.Move.canceled += _ => Movement.resetMoveDirection(_player.direction);
+        // _controls.Player.Move.performed += _ => _player.move.getMoveDirection(_player.direction);
+        // _controls.Player.Move.canceled += _ => _player.move.resetMoveDirection(_player.direction);
     }
 
     private void OnDisable()
@@ -46,8 +42,8 @@ public class PlayerController : MonoBehaviour {
         _controls.Disable();
 
         // Move
-        _controls.Player.Move.performed -= _ => Movement.getMoveDirection(_player.direction);
-        _controls.Player.Move.canceled -= _ => Movement.resetMoveDirection(_player.direction);
+        // _controls.Player.Move.performed -= _ => _player.move.getMoveDirection(_player.direction);
+        // _controls.Player.Move.canceled -= _ => _player.move.resetMoveDirection(_player.direction);
     }
 
     private void getInputDirection(Entity entity) {
@@ -56,16 +52,13 @@ public class PlayerController : MonoBehaviour {
 
     public void handleMove() {
 
-        var deceleration = 2f;
-        var force = 10f;
-
 
         if (_player.direction == null) return;
 
-        if(_player.direction != Vector2.zero) {
-            Movement.accelerate(_player._rb, _player.direction, _player._stats.speed, force);
-        }else {
-            Movement.decelerate(_player._rb, deceleration, force);
-        }
+        // if(_player.direction != Vector2.zero) {
+        //     _player.move.accelerate(_rb, _player.direction, _player._stats.speed);
+        // }else {
+        //     _player.move.decelerate(_rb);
+        // }
     }
 }

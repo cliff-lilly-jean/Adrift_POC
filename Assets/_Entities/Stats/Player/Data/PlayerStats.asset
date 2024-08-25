@@ -12,9 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 57d32aa5bbe3d41988b84fcb358c1080, type: 3}
   m_Name: PlayerStats
   m_EditorClassIdentifier: 
+  defense: 1
   age: 22
   stamina: 5
-  speed: 2
-  defense: 1
+  speed: 3
   strength: 1
   energy: 1
