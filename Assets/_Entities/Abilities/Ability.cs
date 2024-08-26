@@ -1,9 +1,7 @@
 using UnityEngine;
 
-public abstract class Ability : ScriptableObject {
+public abstract class Ability : MonoBehaviour {
 
-    [Header("Ability")]
-    [SerializeField] public string abilityName;
-    [SerializeField] public AbilityType abilityType;
-    [SerializeField] public float cooldown;
+    public AbilityData abilityData;
+
 }

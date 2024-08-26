@@ -135,10 +135,6 @@ GameObject:
   - component: {fileID: 53040067}
   - component: {fileID: 53040069}
   - component: {fileID: 53040070}
-  - component: {fileID: 53040074}
-  - component: {fileID: 53040073}
-  - component: {fileID: 53040071}
-  - component: {fileID: 53040072}
   m_Layer: 0
   m_Name: Player
   m_TagString: Untagged
@@ -252,67 +248,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7e6e4b10e3eb544be8264b369bcc03c9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  title: Lucian
-  direction: {x: 0, y: 0}
-  _abilities: []
---- !u!114 &53040071
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 53040066}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e86ad09cc33a74096b1e94310fe9f6d6, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _player: {fileID: 53040070}
---- !u!114 &53040072
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 53040066}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: bdb307395e96341bc9118e51476713d2, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  entityType: 0
---- !u!114 &53040073
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 53040066}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c0876556ec4794364821c01bb60cc144, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _maxHealth: 3
-  _currentHealth: 3
---- !u!114 &53040074
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 53040066}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 57d32aa5bbe3d41988b84fcb358c1080, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  defense: 1
-  age: 0
-  stamina: 3
-  speed: 2
-  strength: 1
-  energy: 2
+  info: {fileID: 11400000, guid: e1b43e2a5dd1f46e5b71bd5980988220, type: 2}
+  attributes: {fileID: 11400000, guid: 55ae3bd9877a344e882cec8a781bb3d4, type: 2}
+  moveData: {fileID: 11400000, guid: d8797e5829d664b73a38a0fb7cc539a8, type: 2}
+  abilities: []
 --- !u!1 &519420028
 GameObject:
   m_ObjectHideFlags: 0
