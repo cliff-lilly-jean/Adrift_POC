@@ -1,6 +1,5 @@
 using UnityEngine;
 
-[RequireComponent(typeof(Stamina))]
 [CreateAssetMenu(menuName = "Data/Stamina/Stamina Data")]
 public class StaminaData : ScriptableObject {
 

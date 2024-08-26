@@ -1,6 +1,5 @@
 using UnityEngine;
 
-[CreateAssetMenu(menuName = "Components/Stamina")]
 public class Stamina : MonoBehaviour {
 
     public StaminaData data;

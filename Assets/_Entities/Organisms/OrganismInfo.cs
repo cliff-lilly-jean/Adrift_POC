@@ -9,10 +9,11 @@ public class OrganismInfo : ScriptableObject {
    [System.Serializable]
     public enum Type
     {
-        Human, // Humans
-        Demon, // Demons
-        Animal, // Cats, Dogs, etc.
-        Insect, // Bugs, Spiders, etc.
+        Human,
+        Demon,
+        Animal,
+        Insect,
+        Celestial
     }
 
 }

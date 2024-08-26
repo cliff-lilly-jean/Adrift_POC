@@ -1,7 +1,7 @@
 using UnityEngine;
 
-[CreateAssetMenu(menuName = "Data/Ability/Ability Data")]
-public class AbilityData : ScriptableObject {
+[CreateAssetMenu(menuName = "Data/Ability/Ability Description")]
+public class AbilityDescriptionData : ScriptableObject {
 
     public string abilityName;
     public Type abilityType;

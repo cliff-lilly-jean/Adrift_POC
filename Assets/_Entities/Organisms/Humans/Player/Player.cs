@@ -4,9 +4,6 @@ using UnityEngine;
 [RequireComponent(typeof(Rigidbody2D))]
 public class Player : Human {
 
-    [Header("Abilities")]
-    public List<Ability> abilities;
-
     // void Awake()
     // {
     //     abilities = new List<Ability>(GetComponents<Ability>());

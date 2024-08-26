@@ -10,8 +10,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 389b0914638c6440fb85a8f6bda76a6d, type: 3}
-  m_Name: BasicMoveAbility
+  m_Name: Basic Move Description
   m_EditorClassIdentifier: 
-  abilityName: Move
+  abilityName: Basic Move
   abilityType: 0
   cooldown: 0

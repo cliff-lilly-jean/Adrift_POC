@@ -9,9 +9,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 389b0914638c6440fb85a8f6bda76a6d, type: 3}
-  m_Name: BasicMoveAbility
+  m_Script: {fileID: 11500000, guid: 92e1a31eae1c94acbb8a2b5907babeeb, type: 3}
+  m_Name: Player Move Data
   m_EditorClassIdentifier: 
-  abilityName: Move
-  abilityType: 0
-  cooldown: 0
+  direction: {x: 0, y: 0}
+  speed: 2
+  maxSpeed: 3
+  acceleration: 2
+  deceleration: 2
+  force: 5

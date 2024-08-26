@@ -10,16 +10,13 @@ public class HumanAttributes : ScriptableObject {
    [System.Serializable]
     public enum Birthplace
     {
-        ElderwoodGrove,
-        SilverwindHaven,
-        ThornbrookHollow,
-        StormwatchKeep,
+        Wrathmoor,
+        GreedsLanding,
+        PridesReach,
         MoonveilGlade,
+        ThornbrookHollow,
         Frostfall,
-        CrimsonHollow,
-        Brightspire,
-        AmberlightOasis,
-        VerdantHollow
+
     }
 
     [System.Serializable]
