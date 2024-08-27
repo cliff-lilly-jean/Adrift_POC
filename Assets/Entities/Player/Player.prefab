@@ -128,7 +128,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7e6e4b10e3eb544be8264b369bcc03c9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _name: Lucian
+  moveData: {fileID: 11400000, guid: 1da3ca3fccd584d9997a23e26ecec08b, type: 2}
+  playerName: Player
 --- !u!114 &2102241069734143313
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -167,4 +168,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c489c7e2282b94a15bd8158cc14092ca, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  moveData: {fileID: 11400000, guid: 1da3ca3fccd584d9997a23e26ecec08b, type: 2}
+  entity: {fileID: 8289639212710967962}
