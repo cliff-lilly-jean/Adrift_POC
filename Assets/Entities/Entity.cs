@@ -2,5 +2,7 @@ using UnityEngine;
 
 public class Entity : MonoBehaviour {
 
-    public MoveData moveData;
+    public MoveData move;
+    public HealthData health;
+    public StaminaData stamina;
 }

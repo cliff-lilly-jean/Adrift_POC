@@ -2,8 +2,6 @@ using UnityEngine;
 
 public class Stamina : MonoBehaviour {
 
-    public StaminaData data;
-
     public delegate void staminaChanged(float currentStamina);
     public event staminaChanged OnStaminaChanged;
 
@@ -11,17 +9,22 @@ public class Stamina : MonoBehaviour {
     public event recover OnRecoverStamina;
 
     public void Start() {
-        data._currentStamina = data._maxStamina;
+
+        var entity = GetComponent<Entity>();
+
+        entity.stamina._currentStamina = entity.stamina._maxStamina;
     }
 
     public void decreaseStamina(float staminaDecreaseAmount) {
 
-        data._currentStamina -= staminaDecreaseAmount;
-        OnStaminaChanged?.Invoke(data._currentStamina);
+        var entity = GetComponent<Entity>();
 
-        if (data._currentStamina <= 0) {
+        entity.stamina._currentStamina -= staminaDecreaseAmount;
+        OnStaminaChanged?.Invoke(entity.stamina._currentStamina);
 
-            OnRecoverStamina?.Invoke(data._recoveryRate);
+        if (entity.stamina._currentStamina <= 0) {
+
+            OnRecoverStamina?.Invoke(entity.stamina._recoveryRate);
         }
     }
 

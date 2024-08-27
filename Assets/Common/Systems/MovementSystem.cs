@@ -17,7 +17,7 @@ public class MovementSystem : MonoBehaviour {
     public static event removeForce onForceRemoved;
 
     // MOVE DATA
-    public delegate void getMoveData(MoveData moveData);
+    public delegate void getMoveData(MoveData move);
     public static event getMoveData onMoveDataUpdated;
 
     // DASH
@@ -46,8 +46,8 @@ public class MovementSystem : MonoBehaviour {
     }
 
     // MOVE DATA METHODS
-    public static void TriggerMoveDataUpdated(MoveData moveData)
+    public static void TriggerMoveDataUpdated(MoveData move)
     {
-        onMoveDataUpdated?.Invoke(moveData);
+        onMoveDataUpdated?.Invoke(move);
     }
 }

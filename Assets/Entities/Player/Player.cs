@@ -57,17 +57,17 @@ public class Player : Entity {
 
 
     private void handleMove() {
-        if (moveData.direction == null) return;
+        if (move.direction == null) return;
 
-        if(moveData.direction != Vector2.zero) {
+        if(move.direction != Vector2.zero) {
             MovementSystem.TriggerForceApplied();
         }else {
             MovementSystem.TriggerForceRemoved();
         }
      }
 
-     private void handleMoveData(MoveData moveData) {
-        MovementSystem.TriggerMoveDataUpdated(moveData);
+     private void handleMoveData(MoveData move) {
+        MovementSystem.TriggerMoveDataUpdated(move);
      }
 
 
