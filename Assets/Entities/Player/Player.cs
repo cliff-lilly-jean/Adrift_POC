@@ -2,8 +2,6 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.InputSystem;
 
-[RequireComponent(typeof(Rigidbody2D))]
-[RequireComponent(typeof(Move))]
 public class Player : Entity {
 
     [Header("Player Settings")]
@@ -25,7 +23,7 @@ public class Player : Entity {
         _controls.Player.Move.performed +=  handleMovePerformed;
         _controls.Player.Move.canceled +=  handleMoveCanceled;
 
-        MovementSystem.onMoveDataUpdated += handleMoveData;
+        MovementSystem.onMovePropertiesUpdated += handleMoveProperties;
     }
 
     private void OnDisable()
@@ -36,7 +34,7 @@ public class Player : Entity {
         _controls.Player.Move.performed -= handleMovePerformed;
         _controls.Player.Move.canceled -= handleMoveCanceled;
 
-        MovementSystem.onMoveDataUpdated -= handleMoveData;
+        MovementSystem.onMovePropertiesUpdated -= handleMoveProperties;
     }
 
     private void FixedUpdate() {
@@ -66,8 +64,8 @@ public class Player : Entity {
         }
      }
 
-     private void handleMoveData(MoveData move) {
-        MovementSystem.TriggerMoveDataUpdated(move);
+     private void handleMoveProperties(MoveProperties move) {
+        MovementSystem.TriggerMovePropertiesUpdated(move);
      }
 
 

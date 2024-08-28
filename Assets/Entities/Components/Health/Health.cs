@@ -10,19 +10,17 @@ public class Health : MonoBehaviour {
 
     public void Start() {
 
-        var entity = GetComponent<Entity>();
-
-        entity.health._currentHealth = entity.health._maxHealth;
+        Component.entity.health._currentHealth = Component.entity.health._maxHealth;
     }
 
     public void takeDamage(int damageAmount) {
 
-        var entity = GetComponent<Entity>();
+        // var Component.entity = GetComponent<Entity>();
 
-        entity.health._currentHealth -= damageAmount;
-        OnHealthChanged?.Invoke(entity.health._currentHealth);
+        Component.entity.health._currentHealth -= damageAmount;
+        OnHealthChanged?.Invoke(Component.entity.health._currentHealth);
 
-        if (entity.health._currentHealth <= 0) {
+        if (Component.entity.health._currentHealth <= 0) {
 
             OnDeath?.Invoke();
         }

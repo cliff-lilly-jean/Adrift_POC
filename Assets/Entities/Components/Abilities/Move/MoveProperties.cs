@@ -1,7 +1,7 @@
 using UnityEngine;
 
-[CreateAssetMenu(menuName = "Data/Abilities/Move/Move Data")]
-public class MoveData : ScriptableObject {
+[CreateAssetMenu(menuName = "Data/Abilities/Move/Move Properties")]
+public class MoveProperties : AbilityProperties {
 
     [Header("Direction")]
     public Vector2 direction;

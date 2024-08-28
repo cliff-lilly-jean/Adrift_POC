@@ -10,21 +10,17 @@ public class Stamina : MonoBehaviour {
 
     public void Start() {
 
-        var entity = GetComponent<Entity>();
-
-        entity.stamina._currentStamina = entity.stamina._maxStamina;
+        Component.entity.stamina._currentStamina = Component.entity.stamina._maxStamina;
     }
 
     public void decreaseStamina(float staminaDecreaseAmount) {
 
-        var entity = GetComponent<Entity>();
+        Component.entity.stamina._currentStamina -= staminaDecreaseAmount;
+        OnStaminaChanged?.Invoke(Component.entity.stamina._currentStamina);
 
-        entity.stamina._currentStamina -= staminaDecreaseAmount;
-        OnStaminaChanged?.Invoke(entity.stamina._currentStamina);
+        if (Component.entity.stamina._currentStamina <= 0) {
 
-        if (entity.stamina._currentStamina <= 0) {
-
-            OnRecoverStamina?.Invoke(entity.stamina._recoveryRate);
+            OnRecoverStamina?.Invoke(Component.entity.stamina._recoveryRate);
         }
     }
 
