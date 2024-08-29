@@ -2,7 +2,7 @@ using UnityEngine;
 
 public abstract class Human : MonoBehaviour {
 
-    public HumanAttributes attributes;
+    public HumanProperties properties;
 
 
     // Feeling [State], how you Feel affects your stats

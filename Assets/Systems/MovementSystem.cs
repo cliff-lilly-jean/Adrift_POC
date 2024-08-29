@@ -18,9 +18,19 @@ public class MovementSystem : MonoBehaviour {
 
     // MOVE DATA
     public delegate void getMoveProperties(MoveProperties move);
-    public static event getMoveProperties onMovePropertiesUpdated;
+    public static event getMoveProperties onMovePropertiesUpdate;
 
     // DASH
+    public delegate void dashPerformed(Vector2 direction);
+    public delegate void dashCanceled();
+
+    public static event dashPerformed onDashPerformed;
+    public static event dashCanceled onDashCanceled;
+
+    // DASH DATA
+    public delegate void getDashProperties(MoveProperties move);
+    public static event getDashProperties onDashPropertiesUpdate;
+
 
 
     // MOVE METHODS
@@ -34,6 +44,13 @@ public class MovementSystem : MonoBehaviour {
         onMoveCanceled?.Invoke();
     }
 
+    public static void TriggerMovePropertiesUpdated(MoveProperties move)
+    {
+        onMovePropertiesUpdate?.Invoke(move);
+    }
+
+
+
     // FORCE METHODS
     public static void TriggerForceApplied()
     {
@@ -45,9 +62,4 @@ public class MovementSystem : MonoBehaviour {
         onForceRemoved?.Invoke();
     }
 
-    // MOVE DATA METHODS
-    public static void TriggerMovePropertiesUpdated(MoveProperties move)
-    {
-        onMovePropertiesUpdated?.Invoke(move);
-    }
 }

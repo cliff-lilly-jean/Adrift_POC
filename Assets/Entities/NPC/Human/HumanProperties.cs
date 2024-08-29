@@ -1,7 +1,7 @@
 using UnityEngine;
 
-[CreateAssetMenu(menuName = "Data/Human/Human Attributes")]
-public class HumanAttributes : ScriptableObject {
+[CreateAssetMenu(menuName = "Data/Human/Human Properties")]
+public class HumanProperties : ScriptableObject {
 
     public int age;
     public Birthplace birthplace;

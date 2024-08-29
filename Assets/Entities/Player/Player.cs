@@ -5,7 +5,7 @@ using UnityEngine.InputSystem;
 public class Player : Entity {
 
     [Header("Player Settings")]
-    [SerializeField] private string playerName = "Player";
+    [SerializeField] private string playerName;
 
      private GameControls _controls;
      private Rigidbody2D _rb;
@@ -13,6 +13,8 @@ public class Player : Entity {
      private void Awake() {
         _controls = new GameControls();
         _rb = GetComponent<Rigidbody2D>();
+
+        if ()
     }
 
     private void OnEnable()
@@ -23,7 +25,7 @@ public class Player : Entity {
         _controls.Player.Move.performed +=  handleMovePerformed;
         _controls.Player.Move.canceled +=  handleMoveCanceled;
 
-        MovementSystem.onMovePropertiesUpdated += handleMoveProperties;
+        MovementSystem.onMovePropertiesUpdate += handleMoveProperties;
     }
 
     private void OnDisable()
@@ -34,7 +36,7 @@ public class Player : Entity {
         _controls.Player.Move.performed -= handleMovePerformed;
         _controls.Player.Move.canceled -= handleMoveCanceled;
 
-        MovementSystem.onMovePropertiesUpdated -= handleMoveProperties;
+        MovementSystem.onMovePropertiesUpdate -= handleMoveProperties;
     }
 
     private void FixedUpdate() {

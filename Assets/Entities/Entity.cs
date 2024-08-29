@@ -3,9 +3,19 @@ using UnityEngine;
 
 public class Entity : MonoBehaviour {
 
-    public MoveProperties move;
     public HealthProperties health;
     public StaminaProperties stamina;
+    public EntityType type;
+
+    [System.Serializable]
+    public enum EntityType
+    {
+        Animal,
+        Celestial,
+        Demon,
+        Human,
+        Insect
+    }
 
     public List<AbilityProperties> abilities;
 }
