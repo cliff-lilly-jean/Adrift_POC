@@ -1,6 +1,10 @@
 using UnityEngine;
 
-public static class Component {
+public abstract class Component : MonoBehaviour{
 
     public static Entity entity;
+
+    private void Awake() {
+        entity = GetComponent<Entity>();
+    }
 }

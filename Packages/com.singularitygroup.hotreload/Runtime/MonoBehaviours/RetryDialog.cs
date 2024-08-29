@@ -13,10 +13,10 @@ namespace SingularityGroup.HotReload {
         public Text textSummary;
         public Text textSuggestion;
         public InputField ipInput;
-        
+
         [Tooltip("Hidden by default")]
         public Text textForDebugging;
-        
+
         [Header("For HotReload Devs")]
         // In Unity Editor, click checkbox to see info helpful for debugging bugs
         public bool enableDebugging;
@@ -26,7 +26,7 @@ namespace SingularityGroup.HotReload {
         // public GameObject fallbackEventSystem;
 
         private static RetryDialog _I;
-        
+
         public string DebugInfo {
             set {
                 textForDebugging.text = value;
@@ -37,14 +37,14 @@ namespace SingularityGroup.HotReload {
 
         void Start() {
             buttonHide.onClick.AddListener(() => {
-                Hide();   
+                Hide();
             });
-            
+
             buttonRetryAutoPair.onClick.AddListener(() => {
                 Hide();
-                PlayerEntrypoint.TryConnectToIp(ipInput.textComponent.text);
+                PlayerEntrypoint.TryConnectToIp(ipInput.text);
             });
-            
+
             buttonTroubleshoot.onClick.AddListener(() => {
                 Application.OpenURL("https://hotreload.net/documentation#connection-issues");
             });
@@ -62,7 +62,7 @@ namespace SingularityGroup.HotReload {
         void Update() {
             UpdateUI();
         }
-            
+
         void UpdateUI() {
             // assumes that auto-pair already tried for several seconds
             // suggestions to help the user when auto-pair is failing

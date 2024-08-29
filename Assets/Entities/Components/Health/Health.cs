@@ -1,6 +1,6 @@
 using UnityEngine;
 
-public class Health : MonoBehaviour {
+public class Health : Component {
 
     public delegate void healthChanged(float currentHealth);
     public event healthChanged OnHealthChanged;
@@ -10,17 +10,19 @@ public class Health : MonoBehaviour {
 
     public void Start() {
 
-        Component.entity.health._currentHealth = Component.entity.health._maxHealth;
+
+
+        entity.health._currentHealth = entity.health._maxHealth;
     }
 
     public void takeDamage(int damageAmount) {
 
-        // var Component.entity = GetComponent<Entity>();
+        // var entity = GetComponent<Entity>();
 
-        Component.entity.health._currentHealth -= damageAmount;
-        OnHealthChanged?.Invoke(Component.entity.health._currentHealth);
+        entity.health._currentHealth -= damageAmount;
+        OnHealthChanged?.Invoke(entity.health._currentHealth);
 
-        if (Component.entity.health._currentHealth <= 0) {
+        if (entity.health._currentHealth <= 0) {
 
             OnDeath?.Invoke();
         }
