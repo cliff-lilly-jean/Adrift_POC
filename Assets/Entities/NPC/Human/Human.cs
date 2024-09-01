@@ -1,8 +1,10 @@
 using UnityEngine;
+using System.Collections.Generic;
 
-public abstract class Human : MonoBehaviour {
+public abstract class Human : Character {
 
     public HumanProperties properties;
+    public MoveProperties move;
 
 
     // Feeling [State], how you Feel affects your stats

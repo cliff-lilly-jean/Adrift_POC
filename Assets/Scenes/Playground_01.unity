@@ -123,17 +123,6 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
---- !u!114 &53040070 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 8289639212710967962, guid: ae73067a605fb42dda17f45777d3be37, type: 3}
-  m_PrefabInstance: {fileID: 1213950717504213046}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7e6e4b10e3eb544be8264b369bcc03c9, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &519420028
 GameObject:
   m_ObjectHideFlags: 0
@@ -401,21 +390,27 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 6533180747571014600, guid: ae73067a605fb42dda17f45777d3be37, type: 3}
-      propertyPath: entity
-      value: 
-      objectReference: {fileID: 53040070}
     - target: {fileID: 8289639212710967962, guid: ae73067a605fb42dda17f45777d3be37, type: 3}
-      propertyPath: moveData
+      propertyPath: type
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 8289639212710967962, guid: ae73067a605fb42dda17f45777d3be37, type: 3}
+      propertyPath: health
       value: 
-      objectReference: {fileID: 11400000, guid: 1da3ca3fccd584d9997a23e26ecec08b, type: 2}
+      objectReference: {fileID: 11400000, guid: 47fd18a2337834ce8ab8f6a23e56123e, type: 2}
+    - target: {fileID: 8289639212710967962, guid: ae73067a605fb42dda17f45777d3be37, type: 3}
+      propertyPath: stamina
+      value: 
+      objectReference: {fileID: 11400000, guid: 4f06a59831da446e3b87a5dc9d9b3210, type: 2}
+    - target: {fileID: 8289639212710967962, guid: ae73067a605fb42dda17f45777d3be37, type: 3}
+      propertyPath: playerName
+      value: Lucian
+      objectReference: {fileID: 0}
     - target: {fileID: 8790578802977045148, guid: ae73067a605fb42dda17f45777d3be37, type: 3}
       propertyPath: m_Name
       value: Player
       objectReference: {fileID: 0}
-    m_RemovedComponents:
-    - {fileID: 0}
-    - {fileID: 0}
+    m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []

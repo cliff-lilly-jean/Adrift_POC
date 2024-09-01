@@ -10,8 +10,6 @@ public class Health : Component {
 
     public void Start() {
 
-
-
         entity.health._currentHealth = entity.health._maxHealth;
     }
 

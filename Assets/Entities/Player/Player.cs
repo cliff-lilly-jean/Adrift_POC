@@ -2,7 +2,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.InputSystem;
 
-public class Player : Entity {
+public class Player : Character {
 
     [Header("Player Settings")]
     [SerializeField] private string playerName;
@@ -12,9 +12,8 @@ public class Player : Entity {
 
      private void Awake() {
         _controls = new GameControls();
-        _rb = GetComponent<Rigidbody2D>();
+        // _rb = GetComponent<Rigidbody2D>();
 
-        if ()
     }
 
     private void OnEnable()
@@ -56,10 +55,10 @@ public class Player : Entity {
     }
 
 
-    private void handleMove() {
-        if (move.direction == null) return;
+    public void handleMove() {
+        if (moveProperties.direction == null) return;
 
-        if(move.direction != Vector2.zero) {
+        if(moveProperties.direction != Vector2.zero) {
             MovementSystem.TriggerForceApplied();
         }else {
             MovementSystem.TriggerForceRemoved();
@@ -67,7 +66,7 @@ public class Player : Entity {
      }
 
      private void handleMoveProperties(MoveProperties move) {
-        MovementSystem.TriggerMovePropertiesUpdated(move);
+        MovementSystem.TriggerMovePropertiesUpdate(move);
      }
 
 

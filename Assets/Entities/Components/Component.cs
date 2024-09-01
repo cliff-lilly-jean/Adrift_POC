@@ -2,9 +2,6 @@ using UnityEngine;
 
 public abstract class Component : MonoBehaviour{
 
-    public static Entity entity;
+    public GameObject entity;
 
-    private void Awake() {
-        entity = GetComponent<Entity>();
-    }
 }

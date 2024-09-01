@@ -1,9 +1,7 @@
 
 using UnityEngine;
 
-public class Move : Component {
-
-
+public class Move : Ability {
 
     private void OnEnable()
     {
@@ -15,7 +13,7 @@ public class Move : Component {
         MovementSystem.onForceRemoved += decelerate;
 
         // Broadcast initial move
-        MovementSystem.TriggerMovePropertiesUpdated(entity.move);
+        MovementSystem.TriggerMovePropertiesUpdate(Character.moveProperties);
     }
 
     private void OnDisable()
@@ -27,18 +25,20 @@ public class Move : Component {
         MovementSystem.onForceRemoved -= decelerate;
 
     }
+
+
     // METHODS
 
     public void getMoveDirection(Vector2 direction) {
 
         // gets the direction to the vector2 coming from the Input Reader/Controller
-        entity.move.direction = direction;
+        Character.moveProperties.direction = direction;
     }
 
     public void resetMoveDirection() {
 
         // zero out the direction so that the deceleration method can run to stop the movement
-        entity.move.direction = Vector2.zero;
+        Character.moveProperties.direction = Vector2.zero;
     }
 
     public void accelerate() {
@@ -46,16 +46,16 @@ public class Move : Component {
         Rigidbody2D rb = GetComponent<Rigidbody2D>();
 
         // Add force  to the rigidbody in the movement direction multiplied by the acceleration to speed it up
-        rb.AddForce(entity.move.direction * entity.move.acceleration * entity.move.force, ForceMode2D.Force);
+        rb.AddForce(Character.moveProperties.direction * Character.moveProperties.acceleration * Character.moveProperties.force, ForceMode2D.Force);
 
         // If the velocity is higher than the max speed, zero it out and multiply by the max speed
-        if (rb.velocity.magnitude > entity.move.speed) {
-            rb.velocity = rb.velocity.normalized * entity.move.speed;
+        if (rb.velocity.magnitude > Character.moveProperties.speed) {
+            rb.velocity = rb.velocity.normalized * Character.moveProperties.speed;
         }
 
         // TODO: Put in own class, ex. "Vision"
-        RaycastHit2D hit = Physics2D.Raycast(rb.position, entity.move.direction, 30f);
-        Debug.DrawRay(rb.position, entity.move.direction , Color.green);
+        RaycastHit2D hit = Physics2D.Raycast(rb.position, Character.moveProperties.direction, 30f);
+        Debug.DrawRay(rb.position, Character.moveProperties.direction , Color.green);
     }
 
      public void decelerate() {
@@ -63,6 +63,6 @@ public class Move : Component {
         Rigidbody2D rb = GetComponent<Rigidbody2D>();
 
         // Add force  to the rigidbody in the movement direction multiplied by the negative deceleration to slow it down
-        rb.AddForce(rb.velocity * -entity.move.deceleration * entity.move.force, ForceMode2D.Force);
+        rb.AddForce(rb.velocity * -Character.moveProperties.deceleration * Character.moveProperties.force, ForceMode2D.Force);
     }
 }

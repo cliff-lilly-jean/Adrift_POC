@@ -44,7 +44,7 @@ public class MovementSystem : MonoBehaviour {
         onMoveCanceled?.Invoke();
     }
 
-    public static void TriggerMovePropertiesUpdated(MoveProperties move)
+    public static void TriggerMovePropertiesUpdate(MoveProperties move)
     {
         onMovePropertiesUpdate?.Invoke(move);
     }

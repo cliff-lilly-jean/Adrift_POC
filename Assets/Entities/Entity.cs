@@ -1,7 +1,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Entity : MonoBehaviour {
+public abstract class Entity : MonoBehaviour {
 
     public HealthProperties health;
     public StaminaProperties stamina;
@@ -16,6 +16,4 @@ public class Entity : MonoBehaviour {
         Human,
         Insect
     }
-
-    public List<AbilityProperties> abilities;
 }

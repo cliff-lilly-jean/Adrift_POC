@@ -128,10 +128,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7e6e4b10e3eb544be8264b369bcc03c9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  move: {fileID: 11400000, guid: 1da3ca3fccd584d9997a23e26ecec08b, type: 2}
-  health: {fileID: 11400000, guid: 47fd18a2337834ce8ab8f6a23e56123e, type: 2}
-  stamina: {fileID: 11400000, guid: 4f06a59831da446e3b87a5dc9d9b3210, type: 2}
-  playerName: Player
+  playerName: Lucian
 --- !u!114 &6533180747571014600
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -144,6 +141,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c489c7e2282b94a15bd8158cc14092ca, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  abilityProperties: {fileID: 11400000, guid: 1da3ca3fccd584d9997a23e26ecec08b, type: 2}
 --- !u!114 &-6344019299753119865
 MonoBehaviour:
   m_ObjectHideFlags: 0
