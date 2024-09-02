@@ -3,9 +3,7 @@ using UnityEngine;
 
 public abstract class Entity : MonoBehaviour {
 
-    public HealthProperties health;
-    public StaminaProperties stamina;
-    public EntityType type;
+    [SerializeField] private EntityType type;
 
     [System.Serializable]
     public enum EntityType

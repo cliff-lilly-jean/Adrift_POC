@@ -350,6 +350,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: -6344019299753119865, guid: ae73067a605fb42dda17f45777d3be37, type: 3}
+      propertyPath: stamina
+      value: 
+      objectReference: {fileID: 11400000, guid: 4f06a59831da446e3b87a5dc9d9b3210, type: 2}
+    - target: {fileID: -820808335258612979, guid: ae73067a605fb42dda17f45777d3be37, type: 3}
+      propertyPath: health
+      value: 
+      objectReference: {fileID: 11400000, guid: 47fd18a2337834ce8ab8f6a23e56123e, type: 2}
     - target: {fileID: 2235218300799737349, guid: ae73067a605fb42dda17f45777d3be37, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0.7976511
@@ -390,6 +398,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6533180747571014600, guid: ae73067a605fb42dda17f45777d3be37, type: 3}
+      propertyPath: abilityName
+      value: Move
+      objectReference: {fileID: 0}
+    - target: {fileID: 6533180747571014600, guid: ae73067a605fb42dda17f45777d3be37, type: 3}
+      propertyPath: moveProperties
+      value: 
+      objectReference: {fileID: 11400000, guid: 1da3ca3fccd584d9997a23e26ecec08b, type: 2}
     - target: {fileID: 8289639212710967962, guid: ae73067a605fb42dda17f45777d3be37, type: 3}
       propertyPath: type
       value: 3

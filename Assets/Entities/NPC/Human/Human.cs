@@ -1,7 +1,7 @@
 using UnityEngine;
 using System.Collections.Generic;
 
-public abstract class Human : Character {
+public abstract class Human : Entity {
 
     public HumanProperties properties;
     public MoveProperties move;

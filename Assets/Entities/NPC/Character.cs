@@ -1,8 +1,6 @@
 using UnityEngine;
-using System.Collections.Generic;
 
-public abstract class Character: Entity {
+public abstract class Character : MonoBehaviour {
 
-    public static MoveProperties moveProperties;
-    public static List<AbilityProperties> abilities = new List<AbilityProperties>();
+    protected MoveProperties moveProperties;
 }
