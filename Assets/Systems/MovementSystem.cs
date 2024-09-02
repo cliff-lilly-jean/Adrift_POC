@@ -2,6 +2,7 @@ using UnityEngine;
 
 public class MovementSystem : MonoBehaviour {
 
+
     // MOVE
     public delegate void movePerformed(Vector2 direction);
     public delegate void moveCanceled();

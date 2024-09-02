@@ -5,6 +5,7 @@ public class Player : Character {
 
     [Header("Player Settings")]
     [SerializeField] private string playerName;
+    private Move move;
 
      private GameControls _controls;
      private Rigidbody2D _rb;
@@ -12,6 +13,8 @@ public class Player : Character {
      private void Awake() {
         _controls = new GameControls();
         // _rb = GetComponent<Rigidbody2D>();
+
+        move = GetComponent<Move>();
 
     }
 
@@ -39,7 +42,7 @@ public class Player : Character {
 
     private void FixedUpdate() {
 
-        handleMove();
+        move.handleMove();
     }
 
     private void handleMovePerformed(InputAction.CallbackContext context)
@@ -52,17 +55,6 @@ public class Player : Character {
     {
         MovementSystem.TriggerMoveCanceled();
     }
-
-
-    public void handleMove() {
-        if (moveProperties.direction == null) return;
-
-        if(moveProperties.direction != Vector2.zero) {
-            MovementSystem.TriggerForceApplied();
-        }else {
-            MovementSystem.TriggerForceRemoved();
-        }
-     }
 
      private void handleMoveProperties(MoveProperties move) {
         MovementSystem.TriggerMovePropertiesUpdate(move);

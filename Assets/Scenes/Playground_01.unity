@@ -403,6 +403,10 @@ PrefabInstance:
       value: Move
       objectReference: {fileID: 0}
     - target: {fileID: 6533180747571014600, guid: ae73067a605fb42dda17f45777d3be37, type: 3}
+      propertyPath: strongAgainst
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 6533180747571014600, guid: ae73067a605fb42dda17f45777d3be37, type: 3}
       propertyPath: moveProperties
       value: 
       objectReference: {fileID: 11400000, guid: 1da3ca3fccd584d9997a23e26ecec08b, type: 2}

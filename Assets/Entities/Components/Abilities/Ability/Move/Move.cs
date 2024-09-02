@@ -67,4 +67,21 @@ public class Move : Ability {
         // Add force  to the rigidbody in the movement direction multiplied by the negative deceleration to slow it down
         rb.AddForce(rb.velocity * -moveProperties.deceleration * moveProperties.force, ForceMode2D.Force);
     }
+
+
+
+
+
+    public void handleMove() {
+        if (moveProperties.direction == null) return;
+
+        if(moveProperties.direction != Vector2.zero) {
+            MovementSystem.TriggerForceApplied();
+        }else {
+            MovementSystem.TriggerForceRemoved();
+        }
+     }
+
+
+
 }
