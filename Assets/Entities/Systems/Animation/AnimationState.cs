@@ -1,6 +1,6 @@
 using UnityEngine;
 
-public class Animation : MonoBehaviour {
+public class AnimationState : MonoBehaviour {
 
     private Animator animator;
 
@@ -9,7 +9,7 @@ public class Animation : MonoBehaviour {
         animator = GetComponent<Animator>();
     }
 
-    public void ChangeAnimation(string animationState)
+    public void ChangeAnimationState(string animationState)
     {
         animator.Play(animationState);
     }

@@ -6,20 +6,19 @@ public class Player : MonoBehaviour
 {
     public string playerName;
 
-    [Header("Attributes")]
+    // Attributes
     private Mood mood;
     private Health health;
 
 
     // Animations
-    private AnimationStateManager animationStateManager;
+    private AnimationState animationState;
 
     void Start()
     {
         // Initialize components
-        animationStateManager = GetComponent<AnimationStateManager>();
-        animationState = "idle"; // TODO: Convert to an enum or other data structure
-
+        animationState = GetComponent<AnimationState>();
         mood = GetComponent<Mood>();
+        health = GetComponent<Health>();
     }
 }

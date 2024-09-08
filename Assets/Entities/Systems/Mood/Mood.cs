@@ -17,7 +17,7 @@ public class Mood : MonoBehaviour {
         currentMood = Moods.Normal;
     }
 
-    public void ChangeMood(Moods newMood)
+    private void ChangeMood(Moods newMood)
     {
         if (currentMood != newMood)
         {
