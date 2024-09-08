@@ -2,12 +2,15 @@ using UnityEngine;
 
 public class MentalStateManager : MonoBehaviour {
 
-    private MentalState mentalState;
-
-    void Start()
-    {
-        mentalState = GetComponent<MentalState>();
+    private enum MentalState {
+        Normal,
+        Happy,
+        Sad,
+        Angry,
+        Anxious,
+        Scared
     }
+
 
     // public void SetAnimation(string animationName)
     // {

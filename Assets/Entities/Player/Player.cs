@@ -7,7 +7,6 @@ public class Player : MonoBehaviour
     public string playerName;
 
 
-    private string mentalState;
     private MentalStateManager mentalStateManager;
 
     private string animationState;
@@ -20,6 +19,5 @@ public class Player : MonoBehaviour
         animationState = "idle"; // TODO: Convert to an enum or other data structure
 
         mentalStateManager = GetComponent<MentalStateManager>();
-        mentalState = "normal";
     }
 }
