@@ -6,10 +6,12 @@ public class Player : MonoBehaviour
 {
     public string playerName;
 
+    [Header("Attributes")]
+    private Mood mood;
+    private Health health;
 
-    private MentalStateManager mentalStateManager;
 
-    private string animationState;
+    // Animations
     private AnimationStateManager animationStateManager;
 
     void Start()
@@ -18,6 +20,6 @@ public class Player : MonoBehaviour
         animationStateManager = GetComponent<AnimationStateManager>();
         animationState = "idle"; // TODO: Convert to an enum or other data structure
 
-        mentalStateManager = GetComponent<MentalStateManager>();
+        mood = GetComponent<Mood>();
     }
 }
