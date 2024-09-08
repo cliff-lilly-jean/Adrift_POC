@@ -4,21 +4,25 @@ using UnityEngine;
 
 public class Player : MonoBehaviour
 {
-    public string playerName;
+    [SerializeField] string _playerName;
 
     // Attributes
-    private Mood mood;
-    private Health health;
+    Mood _mood;
+    Health _health;
+
+    // Abilities
+    Abilities _abilities;
 
 
     // Animations
-    private AnimationState animationState;
+    AnimationState _animationState;
 
     void Start()
     {
         // Initialize components
-        animationState = GetComponent<AnimationState>();
-        mood = GetComponent<Mood>();
-        health = GetComponent<Health>();
+        _animationState = GetComponent<AnimationState>();
+        _mood = GetComponent<Mood>();
+        _health = GetComponent<Health>();
+        _abilities = GetComponent<Abilities>();
     }
 }
