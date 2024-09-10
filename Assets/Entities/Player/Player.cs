@@ -6,6 +6,9 @@ public class Player : MonoBehaviour
 {
     [SerializeField] string _playerName;
 
+
+
+
     // Attributes
     Mood _mood;
     Health _health;
