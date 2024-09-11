@@ -3,6 +3,8 @@ using System;
 
 public class Entity : MonoBehaviour {
 
+    private Health _health;
+
 
     [SerializeField] EntityType entityType;
 
