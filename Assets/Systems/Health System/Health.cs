@@ -1,10 +1,18 @@
 using UnityEngine;
 
-public class Health : MonoBehaviour {
+public class Health : MonoBehaviour
+{
+
+    public float health;
+    public float maxHealth;
 
     public delegate void OnHealthDecrease(float health);
 
 
+    private void Start()
+    {
+        health = maxHealth;
+    }
 
     public void DecreaseHealth(float currentHealth, float amountToDecrease)
     {
@@ -26,7 +34,8 @@ public class Health : MonoBehaviour {
         }
     }
 
-    public void FullHeal(float currentHealth, float maxHealth) {
+    public void FullHeal(float currentHealth, float maxHealth)
+    {
         currentHealth = maxHealth;
         Restored();
     }

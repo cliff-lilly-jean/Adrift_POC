@@ -1,10 +1,12 @@
 using UnityEngine;
 
-public abstract class Character : Entity {
+public abstract class Character : Entity
+{
 
-    public CharacterStats stats;
+    // public CharacterStats stats;
 
-    private void Start() {
+    private void Start()
+    {
 
     }
 
