@@ -9,7 +9,8 @@ public class Player : Character
         // Initialize components
     }
 
-    private void Update() {
+    private void Update()
+    {
 
         Debug.Log("NAME " + stats.name);
         Debug.Log("AGE " + stats.age);

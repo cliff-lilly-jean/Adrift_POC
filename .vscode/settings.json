@@ -61,5 +61,8 @@
         "Moonveil",
         "Thornbrook",
         "Wrathmoor"
-    ]
+    ],
+    "editor.fontSize": 16,
+    "editor.formatOnSave": true,
+    "editor.formatOnPaste": true
 }

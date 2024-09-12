@@ -1,5 +1,6 @@
 using UnityEngine;
 
-public abstract class Object : MonoBehaviour {
+public abstract class Object : Entity
+{
 
 }
