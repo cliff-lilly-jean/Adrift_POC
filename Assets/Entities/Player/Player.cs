@@ -1,31 +1,24 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
-public class Player : MonoBehaviour
+public class Player : Character
 {
-    [SerializeField] string _playerName;
 
-
-
-
-    // Attributes
-    Mood _mood;
-    Health _health;
-
-    // Abilities
-    Abilities _abilities;
-
-
-    // Animations
-    AnimationState _animationState;
 
     void Start()
     {
         // Initialize components
-        _animationState = GetComponent<AnimationState>();
-        _mood = GetComponent<Mood>();
-        _health = GetComponent<Health>();
-        _abilities = GetComponent<Abilities>();
+    }
+
+    private void Update() {
+
+        Debug.Log("NAME " + stats.name);
+        Debug.Log("AGE " + stats.age);
+        Debug.Log("HEIGHT " + stats.height);
+        Debug.Log("WEIGHT " + stats.weight);
+        Debug.Log("HEALTH " + stats.health);
+        Debug.Log("STAMINA " + stats.stamina);
+        Debug.Log("ATK " + stats.attack);
+        Debug.Log("DEF " + stats.defense);
+        Debug.Log("AURA " + stats.aura);
     }
 }

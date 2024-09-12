@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 480464ce9d1804a88a80728300dd28ec, type: 3}
+  m_Name: PlayerStats
+  m_EditorClassIdentifier: 
+  Name: Lucius
+  age: 19
+  weight: 148
+  height: 5.11
+  health: 3
+  maxHealth: 3
+  stamina: 5
+  maxStamina: 5
+  speed: 2
+  maxSpeed: 2
+  attack: 1
+  defense: 1
+  aura: 1

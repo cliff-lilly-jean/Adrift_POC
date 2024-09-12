@@ -1,10 +1,10 @@
-using UnityEngine;
 using System;
+using UnityEngine;
+using UnityEngine.TextCore.Text;
 
-public class Entity : MonoBehaviour {
+public abstract class Entity : MonoBehaviour {
 
-
-    [SerializeField] EntityType entityType;
+    public Classification classification;
 
     /*
     * Possible attributes for Entities
@@ -74,9 +74,15 @@ public class Entity : MonoBehaviour {
     */
 
     [System.Serializable]
-    public enum EntityType {
+    public enum Classification {
         Character,
         Item,
         Object,
     }
+
+    private void Update() {
+
+    }
+
+
 }
