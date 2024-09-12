@@ -2,6 +2,9 @@ using UnityEngine;
 
 public class Health : MonoBehaviour {
 
+    public delegate void OnHealthDecrease(float health);
+
+
 
     public void DecreaseHealth(float currentHealth, float amountToDecrease)
     {

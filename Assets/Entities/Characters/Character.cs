@@ -1,10 +1,12 @@
 using UnityEngine;
 
-[RequireComponent(typeof(Health))]
-public abstract class Character : MonoBehaviour {
+public abstract class Character : Entity {
 
-    [SerializeField] private CharacterStats _stats;
+    public CharacterStats stats;
 
+    private void Start() {
+
+    }
 
 
     // Animations

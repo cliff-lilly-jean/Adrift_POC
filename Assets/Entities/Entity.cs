@@ -1,17 +1,21 @@
-using UnityEngine;
 using System;
+using UnityEngine;
+using UnityEngine.TextCore.Text;
 
-public class Entity : MonoBehaviour {
+public abstract class Entity : MonoBehaviour {
 
-    private Health _health;
-
-
-    [SerializeField] EntityType entityType;
+    public Classification classification;
 
     [System.Serializable]
-    public enum EntityType {
+    public enum Classification {
         Character,
         Item,
         Object,
     }
+
+    private void Update() {
+
+    }
+
+
 }
