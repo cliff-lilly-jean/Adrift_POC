@@ -4,11 +4,13 @@ using UnityEngine;
 public class Player : Character
 {
     private Health _health;
+    private Stamina _stamina;
 
     void Start()
     {
         // Initialize components
         _health = GetComponent<Health>();
+        _stamina = GetComponent<Stamina>();
     }
 
     private void Update()
