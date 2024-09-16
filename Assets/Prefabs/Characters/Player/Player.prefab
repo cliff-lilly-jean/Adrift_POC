@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 1535681021045167201}
   - component: {fileID: 7836215597082306648}
   - component: {fileID: 3205811571387239057}
+  - component: {fileID: 1343608717148709549}
   m_Layer: 0
   m_Name: Player
   m_TagString: Untagged
@@ -75,6 +76,19 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 1
   m_Constraints: 0
+--- !u!114 &1343608717148709549
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7224731339800912540}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 59c132151d4704800add2704664c7321, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _movementData: {fileID: 11400000, guid: 64bfcc523f63f49d2b4931f6493e807d, type: 2}
 --- !u!1001 &3725531182781548951
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -85,6 +99,10 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 218390621608941178, guid: b57c0ed106ad74f508cb8ebecb150e02, type: 3}
       propertyPath: _data
+      value: 
+      objectReference: {fileID: 11400000, guid: b039d35f6e1434eaaa4ce534ccff524f, type: 2}
+    - target: {fileID: 218390621608941178, guid: b57c0ed106ad74f508cb8ebecb150e02, type: 3}
+      propertyPath: _healthData
       value: 
       objectReference: {fileID: 11400000, guid: b039d35f6e1434eaaa4ce534ccff524f, type: 2}
     - target: {fileID: 3466952227245869031, guid: b57c0ed106ad74f508cb8ebecb150e02, type: 3}
@@ -224,7 +242,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dfe442aca8e924d759bef293272232d4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _data: {fileID: 11400000, guid: 9d0439cf03cd346939cbcb2e23d20478, type: 2}
+  _staminaData: {fileID: 11400000, guid: 9d0439cf03cd346939cbcb2e23d20478, type: 2}
 --- !u!1001 &6373664416897552239
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -236,6 +254,22 @@ PrefabInstance:
     - target: {fileID: 1341827447970382739, guid: fa3c766f9c74d433486e615e704e6816, type: 3}
       propertyPath: m_Name
       value: Sprite
+      objectReference: {fileID: 0}
+    - target: {fileID: 1458469345059926156, guid: fa3c766f9c74d433486e615e704e6816, type: 3}
+      propertyPath: m_Size.x
+      value: 0.8125
+      objectReference: {fileID: 0}
+    - target: {fileID: 1458469345059926156, guid: fa3c766f9c74d433486e615e704e6816, type: 3}
+      propertyPath: m_Size.y
+      value: 1.1875
+      objectReference: {fileID: 0}
+    - target: {fileID: 1458469345059926156, guid: fa3c766f9c74d433486e615e704e6816, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 1573020385, guid: 0b0f6e670de404d028cd0e219cacfbc6, type: 3}
+    - target: {fileID: 1458469345059926156, guid: fa3c766f9c74d433486e615e704e6816, type: 3}
+      propertyPath: m_WasSpriteAssigned
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2214830430113657698, guid: fa3c766f9c74d433486e615e704e6816, type: 3}
       propertyPath: m_Size.x

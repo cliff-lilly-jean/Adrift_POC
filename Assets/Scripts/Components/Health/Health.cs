@@ -4,17 +4,17 @@ using UnityEngine;
 
 public class Health : MonoBehaviour
 {
-    [SerializeField] private HealthData _data;
+    [SerializeField] private HealthData _healthData;
 
     // Start is called before the first frame update
     void Start()
     {
-        _data._health = _data._healthMax;
+        _healthData._health = _healthData._healthMax;
     }
 
     // Update is called once per frame
     void Update()
     {
-        Debug.Log("This is the starting value of the health " + _data._health);
+
     }
 }
