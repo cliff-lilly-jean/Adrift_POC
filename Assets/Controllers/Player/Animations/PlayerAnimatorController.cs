@@ -1,9 +1,10 @@
 using UnityEngine;
 
-public class AnimatorController : MonoBehaviour
+public class PlayerAnimatorController : MonoBehaviour
 {
     [Header("Animations")]
     private Animator animator;
+    private Movement movement;
 
     private string currentAnimation = "";
 
@@ -32,4 +33,30 @@ public class AnimatorController : MonoBehaviour
             animator.CrossFade(animation, crossFadeAmount);
         }
     }
+
+    // private void CheckAnimation()
+    // {
+    //     if (movement.y == 1)
+    //     {
+    //         ChangeAnimation("Player_Walk_S");
+    //     }
+    //     else if (movement.y == -1)
+    //     {
+    //         ChangeAnimation("Player_Walk_N");
+    //     }
+    //     else if (movement.x == 1)
+    //     {
+    //         ChangeAnimation("Player_Walk_E");
+    //     }
+    //     else
+    //     {
+    //         // Flip sprite
+    //         ChangeAnimation("Player_Walk_E");
+    //     }
+    // }
+
+
+    // private Vector2 GetMovementValue() {
+    //     return
+    // }
 }

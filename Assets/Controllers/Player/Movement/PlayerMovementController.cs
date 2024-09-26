@@ -1,22 +1,39 @@
+using TMPro;
 using UnityEngine;
 
 [RequireComponent(typeof(Rigidbody2D))]
 public class PlayerMovementController : MonoBehaviour
 {
     private Rigidbody2D rb;
-    private Movement movement;
+    private Controls controls;
 
     // Start is called before the first frame update
     void Start()
     {
 
         rb = GetComponent<Rigidbody2D>();
-        movement = FindAnyObjectByType<Movement>();
+
+
+
+        controls = new Controls();
+
     }
 
     private void OnEnable()
     {
-        Movement.OnMovementChanged += Walk;
+        var movement = FindObjectOfType<Movement>();
+
+        controls.Enable();
+
+
+        controls.Player.Walk.performed += _ => movement.GetDirection();
+
+        movement.OnMovementChanged += Walk; // TODO Find out how to dynamically add components/prefabs at runtime
+    }
+
+    private void OnDisable()
+    {
+        controls.Disable();
     }
 
     // Update is called once per frame
@@ -27,10 +44,10 @@ public class PlayerMovementController : MonoBehaviour
 
     private void Walk()
     {
+        var movement = FindObjectOfType<Movement>();
 
-        var horizontal = Input.GetAxis("Horizontal");
-        var vertical = Input.GetAxis("Vertical");
-
-        rb.velocity = new Vector2(horizontal, vertical) * movement.movementData.speed;
+        rb.velocity = new Vector2(movement.movementData.direction.x, movement.movementData.direction.y) * movement.movementData.speed;
     }
+
+
 }
