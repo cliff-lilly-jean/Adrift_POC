@@ -59,6 +59,26 @@ public class PlayerAnimatorController : MonoBehaviour
             sprite.spriteRenderer.flipX = true;
             ChangeAnimation("Player_Walk_E");
         }
+        else if (movement.movementData.direction.y >= 0.5 && movement.movementData.direction.x >= 0.5)
+        {
+            sprite.spriteRenderer.flipX = false;
+            ChangeAnimation("Player_Walk_E");
+        }
+        else if (movement.movementData.direction.y <= -0.5 && movement.movementData.direction.x >= 0.5)
+        {
+            sprite.spriteRenderer.flipX = false;
+            ChangeAnimation("Player_Walk_E");
+        }
+        else if (movement.movementData.direction.y <= -0.5 && movement.movementData.direction.x <= -0.5)
+        {
+            sprite.spriteRenderer.flipX = true;
+            ChangeAnimation("Player_Walk_E");
+        }
+        else if (movement.movementData.direction.y >= 0.5 && movement.movementData.direction.x <= -0.5)
+        {
+            sprite.spriteRenderer.flipX = true;
+            ChangeAnimation("Player_Walk_E");
+        }
         else
         {
             ChangeAnimation("Player_Idle");
