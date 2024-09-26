@@ -2,6 +2,7 @@ using UnityEngine;
 
 public class Sprite : MonoBehaviour
 {
+    [Header("Render")]
     private SpriteRenderer spriteRenderer;
 
     // Start is called before the first frame update
