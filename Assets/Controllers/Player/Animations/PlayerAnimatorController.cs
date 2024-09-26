@@ -13,16 +13,16 @@ public class PlayerAnimatorController : MonoBehaviour
     {
         animator = GetComponent<Animator>();
 
-        ChangeAnimation("Player_Death");
     }
 
     // Update is called once per frame
-    void Update()
+    void FixedUpdate()
     {
         Debug.Log(currentAnimation);
+        CheckAnimation();
     }
 
-    private void ChangeAnimation(string animation, float crossFadeAmount = 0.2f)
+    private void ChangeAnimation(string animation, float crossFadeAmount = 0.0005f)
     {
         if (currentAnimation != animation)
         {
@@ -34,29 +34,34 @@ public class PlayerAnimatorController : MonoBehaviour
         }
     }
 
-    // private void CheckAnimation()
-    // {
-    //     if (movement.y == 1)
-    //     {
-    //         ChangeAnimation("Player_Walk_S");
-    //     }
-    //     else if (movement.y == -1)
-    //     {
-    //         ChangeAnimation("Player_Walk_N");
-    //     }
-    //     else if (movement.x == 1)
-    //     {
-    //         ChangeAnimation("Player_Walk_E");
-    //     }
-    //     else
-    //     {
-    //         // Flip sprite
-    //         ChangeAnimation("Player_Walk_E");
-    //     }
-    // }
+    private void CheckAnimation()
+    {
+
+        var movement = FindObjectOfType<Movement>();
+        var sprite = FindObjectOfType<Sprite>();
 
 
-    // private Vector2 GetMovementValue() {
-    //     return
-    // }
+        if (movement.movementData.direction.y == 1)
+        {
+            ChangeAnimation("Player_Walk_N");
+        }
+        else if (movement.movementData.direction.y == -1)
+        {
+            ChangeAnimation("Player_Walk_S");
+        }
+        else if (movement.movementData.direction.x == 1)
+        {
+            sprite.spriteRenderer.flipX = false;
+            ChangeAnimation("Player_Walk_E");
+        }
+        else if (movement.movementData.direction.x == -1)
+        {
+            sprite.spriteRenderer.flipX = true;
+            ChangeAnimation("Player_Walk_E");
+        }
+        else
+        {
+            ChangeAnimation("Player_Idle");
+        }
+    }
 }

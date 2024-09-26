@@ -7,16 +7,19 @@ public class Movement : MonoBehaviour
     public delegate void MovementDelegate();
     public event MovementDelegate OnMovementChanged;
 
-    public Vector2 GetDirection(Controls controls = null)
+
+    public void GetDirection(Controls controls = null)
     {
 
         if (controls != null)
         {
-            return movementData.direction = controls.Player.Walk.ReadValue<Vector2>();
+            movementData.direction = controls.Player.Walk.ReadValue<Vector2>();
         }
+    }
 
-        Debug.Log("Need to add some functionality here!!!!!!!!!!!!!!!");
-        return Vector2.zero;
+    public void ResetMovement()
+    {
+        movementData.direction = Vector2.zero;
     }
 
 }
