@@ -34,7 +34,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -43,12 +43,12 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 16
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -71,7 +71,7 @@ TextureImporter:
     buildTarget: DefaultTexturePlatform
     maxTextureSize: 2048
     resizeAlgorithm: 0
-    textureFormat: -1
+    textureFormat: 4
     textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
@@ -95,7 +95,2317 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: HP Bar 51x9_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 90
+        width: 5.1
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e9909ac37db1684e95bd18dcae18c83
+      internalID: 1530147149
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HP Bar 51x9_1
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 90
+        width: 5.1
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c9c6f19ae3b5d542ad6a3a11484d9a6
+      internalID: 564864078
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HP Bar 51x9_2
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 90
+        width: 5.1
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eeb00ab84d5a8d34c92e0ddb466d917d
+      internalID: 1611749866
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HP Bar 51x9_3
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 90
+        width: 5.1
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4c4ea009a5742a4eb6407532fead3ea
+      internalID: 1197594991
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HP Bar 51x9_4
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 90
+        width: 5.1
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb716835b0958fe419b0facfec66a832
+      internalID: 1342590715
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HP Bar 51x9_5
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 90
+        width: 5.1
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ef56c4b15a290a47bc494e8e24a835a
+      internalID: -1810321940
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HP Bar 51x9_6
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 90
+        width: 5.1
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2b79cab5dba89645afeb597c0b127b5
+      internalID: 783540540
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HP Bar 51x9_7
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 90
+        width: 5.1
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b626fef6f6f54e4197fe9ffe5adf8ab
+      internalID: -114301200
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HP Bar 51x9_8
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 90
+        width: 5.1
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 536684cb045f07648b485d76c0e35052
+      internalID: -2102846387
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HP Bar 51x9_9
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 90
+        width: 5.1
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d960fe2c16e49b54897f7770d7d733ec
+      internalID: -784271779
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HP Bar 51x9_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 81
+        width: 5.1
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64ee20066fb2a3e439461485be7457dc
+      internalID: 2073117028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HP Bar 51x9_11
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 81
+        width: 5.1
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fdb2267514fbe7246bf512f779b4ded5
+      internalID: 1690096827
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HP Bar 51x9_12
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 81
+        width: 5.1
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7468f79633eec9948a37d9975dd6f8a3
+      internalID: 675101429
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HP Bar 51x9_13
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 81
+        width: 5.1
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4e903bd2ca20e44ab4f5bc28574ff1a
+      internalID: 1060446506
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HP Bar 51x9_14
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 81
+        width: 5.1
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5cce3529587f69c41a2a9652f8b2d0d0
+      internalID: -472026466
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HP Bar 51x9_15
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 81
+        width: 5.1
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8393901b4de0846489af14deabc47784
+      internalID: 275195790
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HP Bar 51x9_16
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 81
+        width: 5.1
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30e7dc3d407db5545847d9452ed5d45d
+      internalID: -1977643336
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HP Bar 51x9_17
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 81
+        width: 5.1
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3c9d11038365214395ea4231c224f3a
+      internalID: -474094446
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HP Bar 51x9_18
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 81
+        width: 5.1
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b0455e08c87f4b4c86a8ed2b6607215
+      internalID: 1674104260
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HP Bar 51x9_19
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 81
+        width: 5.1
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4560509d3fa5634c835321076eec9f8
+      internalID: 1539307648
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HP Bar 51x9_20
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 72
+        width: 5.1
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07053ebecfdfa7644840d9b381bdcfe7
+      internalID: 56155744
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HP Bar 51x9_21
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 72
+        width: 5.1
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7523bc1b7909a964fa8df290cf13dc8a
+      internalID: 987441659
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HP Bar 51x9_22
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 72
+        width: 5.1
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ebb8dec4b8cd9234daf78a920ca0ed9d
+      internalID: -344312108
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HP Bar 51x9_23
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 72
+        width: 5.1
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec2a9c7f409e26b45b836f6558fde106
+      internalID: 1801077622
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HP Bar 51x9_24
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 72
+        width: 5.1
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2a891261f5b0024f84a72e149fa31ee
+      internalID: 1218903201
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HP Bar 51x9_25
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 72
+        width: 5.1
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7fbf9694317eba54e839a5156a3c8117
+      internalID: 677854360
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HP Bar 51x9_26
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 72
+        width: 5.1
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea1048e15bee29b48910fcc2eefc8ab5
+      internalID: -797723651
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HP Bar 51x9_27
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 72
+        width: 5.1
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf180aed7444b2c46b6b34504c025680
+      internalID: -41139438
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HP Bar 51x9_28
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 72
+        width: 5.1
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eeee6932ad36be449a354e8a62096d5a
+      internalID: 454767319
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HP Bar 51x9_29
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 72
+        width: 5.1
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 754761aafc81ac54b9aac83d762fee74
+      internalID: -851158044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HP Bar 51x9_30
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 63
+        width: 5.1
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19a76218cc1fb2c47bd7c983a0dbe1b3
+      internalID: 1477815272
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HP Bar 51x9_31
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 63
+        width: 5.1
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96d438936864a314e8834bf60fb4d0fe
+      internalID: 1984773781
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HP Bar 51x9_32
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 63
+        width: 5.1
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f6a5342176b3c24981d73233f8196d2
+      internalID: -675455311
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HP Bar 51x9_33
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 63
+        width: 5.1
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed155ac09498a9f4ca23a514f28f13f2
+      internalID: 493877132
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HP Bar 51x9_34
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 63
+        width: 5.1
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52cda0cb507198e4699639aef2ae1268
+      internalID: -1182363723
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HP Bar 51x9_35
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 63
+        width: 5.1
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85904fa9f82752346abaff607fc660d3
+      internalID: -563507778
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HP Bar 51x9_36
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 63
+        width: 5.1
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 58a446f60e68eea428317b21c9aac234
+      internalID: 1034278527
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HP Bar 51x9_37
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 63
+        width: 5.1
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3430b08ec2da8fb4d9ceade443a78eb0
+      internalID: -621252066
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HP Bar 51x9_38
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 63
+        width: 5.1
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97054518d2a86ce42a599c036e324a03
+      internalID: -605694172
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HP Bar 51x9_39
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 63
+        width: 5.1
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d872e1eef305554ba0840acf4c1f495
+      internalID: -1077433911
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HP Bar 51x9_40
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 54
+        width: 5.1
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78f0639954cb1b4449447386130ee001
+      internalID: 944866779
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HP Bar 51x9_41
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 54
+        width: 5.1
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be710562d09ab2b4db8b5eba8bbc5ccc
+      internalID: -1212980061
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HP Bar 51x9_42
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 54
+        width: 5.1
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ccb821f212dc43a4f9b91ba635f486b2
+      internalID: -433930275
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HP Bar 51x9_43
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 54
+        width: 5.1
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf70e07ace95ed84ea823ce053cfc5f3
+      internalID: 1987034755
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HP Bar 51x9_44
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 54
+        width: 5.1
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a441f2a73fa7f241aaf89dac908c1f7
+      internalID: 589203397
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HP Bar 51x9_45
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 54
+        width: 5.1
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 244a191f385bc6a4ca86bb531a8dbd20
+      internalID: 1764140596
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HP Bar 51x9_46
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 54
+        width: 5.1
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2398c1649446fa94ea77efa3c6cb1662
+      internalID: 418192089
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HP Bar 51x9_47
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 54
+        width: 5.1
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b332378fb9b06f43b02d1308fcc43e9
+      internalID: 1570238946
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HP Bar 51x9_48
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 54
+        width: 5.1
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47521d9f662955f4781926e63dde8017
+      internalID: 351901482
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HP Bar 51x9_49
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 54
+        width: 5.1
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: efe03adcb8ca5ca47a656151a8ef9b18
+      internalID: -2106165924
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HP Bar 51x9_50
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 45
+        width: 5.1
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8bac498b4f0ffe4aa6044b8ec0a3971
+      internalID: -486259618
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HP Bar 51x9_51
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 45
+        width: 5.1
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73b58af9cafbedd4081a102ad439c7fb
+      internalID: 1276393138
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HP Bar 51x9_52
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 45
+        width: 5.1
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c5a1691b36b1da498517f3162867505
+      internalID: 292633005
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HP Bar 51x9_53
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 45
+        width: 5.1
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2817e8296848e34498da031e6b9a152e
+      internalID: -1139932521
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HP Bar 51x9_54
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 45
+        width: 5.1
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7dd22e362579eb647ab23affafbd1eb4
+      internalID: 928250144
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HP Bar 51x9_55
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 45
+        width: 5.1
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cde769b43a9b2e441b2031d3c68671cd
+      internalID: 534497702
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HP Bar 51x9_56
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 45
+        width: 5.1
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 615de1de196b24141854a53d89aa9d14
+      internalID: -1813909566
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HP Bar 51x9_57
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 45
+        width: 5.1
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb0e24e154b9a7d4183fb99686cf74bf
+      internalID: -1693943361
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HP Bar 51x9_58
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 45
+        width: 5.1
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8b0d1dd33db1fd429cbb9c0461203e8
+      internalID: 1653875923
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HP Bar 51x9_59
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 45
+        width: 5.1
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 18a88220d29890744812e1469de63354
+      internalID: 930279949
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HP Bar 51x9_60
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 36
+        width: 5.1
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3fcabcdecc086db469045e2c1303be21
+      internalID: 1126083076
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HP Bar 51x9_61
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 36
+        width: 5.1
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b07a977a73ed225479386293b5c50919
+      internalID: 1928461784
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HP Bar 51x9_62
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 36
+        width: 5.1
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 230945354c874dd438ed7abe88195ba9
+      internalID: 43401721
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HP Bar 51x9_63
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 36
+        width: 5.1
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9dae52656535d2b459ad3b372620ca0b
+      internalID: -407661736
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HP Bar 51x9_64
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 36
+        width: 5.1
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9886d9de85cc2de4b99bf76c8269c3c5
+      internalID: 347303170
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HP Bar 51x9_65
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 36
+        width: 5.1
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2633a001a3c0a7245880f3645c31600c
+      internalID: 1621903812
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HP Bar 51x9_66
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 36
+        width: 5.1
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d4694705861f7840a0d10a306cf38e0
+      internalID: -1999714444
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HP Bar 51x9_67
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 36
+        width: 5.1
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc8a0b45bc1504a4aa003ecefaa0a9a6
+      internalID: -354480734
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HP Bar 51x9_68
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 36
+        width: 5.1
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce0121260880f8b499937178fbf8b49d
+      internalID: 1895759342
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HP Bar 51x9_69
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 36
+        width: 5.1
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb3cabef98a9c5c4b8ccbb08ac1e5365
+      internalID: 1237890434
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HP Bar 51x9_70
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 27
+        width: 5.1
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e797dc0317da384b843743c58b71d89
+      internalID: 2036566412
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HP Bar 51x9_71
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 27
+        width: 5.1
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25495d0aa950f294f85343363db312ab
+      internalID: -108689376
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HP Bar 51x9_72
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 27
+        width: 5.1
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48d02f057edf20f458b72aeacdf6acb8
+      internalID: -352572586
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HP Bar 51x9_73
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 27
+        width: 5.1
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b26b033c815bb714fba0e6b251b2dec7
+      internalID: -1925289231
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HP Bar 51x9_74
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 27
+        width: 5.1
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 438fca8f39cacdf4998a37e84a7ab6ca
+      internalID: 962729230
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HP Bar 51x9_75
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 27
+        width: 5.1
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad0968f655db94b429b9ecfdf2bb2cb6
+      internalID: 113810778
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HP Bar 51x9_76
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 27
+        width: 5.1
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1cf28678051818e4ead478501d9c71af
+      internalID: -349894342
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HP Bar 51x9_77
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 27
+        width: 5.1
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac2727cf9d6ba334ba07ed9704d56bcf
+      internalID: 1650248228
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HP Bar 51x9_78
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 27
+        width: 5.1
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab246e0343e5a6b409bde1e7c000d521
+      internalID: 377261450
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HP Bar 51x9_79
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 27
+        width: 5.1
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c75722a73333fb54a9de82441358aae2
+      internalID: 1410284772
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HP Bar 51x9_80
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 18
+        width: 5.1
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11fb671f343ff0e449dea691ec77eb8c
+      internalID: 2060187428
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HP Bar 51x9_81
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 18
+        width: 5.1
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a50176e23d4a0d74f9b6eededc11d04e
+      internalID: -1362355481
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HP Bar 51x9_82
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 18
+        width: 5.1
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f0edd5f79705e114a8adb594afa5f835
+      internalID: -685086494
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HP Bar 51x9_83
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 18
+        width: 5.1
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28474eaaf4f9edf489e9fde77788cf22
+      internalID: -1502187070
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HP Bar 51x9_84
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 18
+        width: 5.1
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bdbacd8a41e2ecb40867218a9acdb6c3
+      internalID: 965469418
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HP Bar 51x9_85
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 18
+        width: 5.1
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e3e89bfff3b60cb48b96f438a9bc06a6
+      internalID: -254536637
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HP Bar 51x9_86
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 18
+        width: 5.1
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 861a2b55036d1af4487540604ad366de
+      internalID: 1133080392
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HP Bar 51x9_87
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 18
+        width: 5.1
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c93d48c270304bb409e27664c944394a
+      internalID: 1047656687
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HP Bar 51x9_88
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 18
+        width: 5.1
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cdbbc64868816ad4b897709ccdcf37eb
+      internalID: 476638537
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HP Bar 51x9_89
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 18
+        width: 5.1
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9199e3d6367f4e844abab389d616dc60
+      internalID: -424237521
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HP Bar 51x9_90
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 9
+        width: 5.1
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93fcc8b3cfe44584d9ea72e3b8450233
+      internalID: 761301619
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HP Bar 51x9_91
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 9
+        width: 5.1
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ab567e2cab76a642a5a6ebc6e61e24d
+      internalID: 2068907781
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HP Bar 51x9_92
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 9
+        width: 5.1
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea60bb56b4b067a4681d5579a99487e2
+      internalID: -1378845463
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HP Bar 51x9_93
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 9
+        width: 5.1
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c68b46ad747121c448a1c6ff258f55ed
+      internalID: -90893715
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HP Bar 51x9_94
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 9
+        width: 5.1
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0610f2d31cd217f438769a3cbac51b20
+      internalID: 2013907325
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HP Bar 51x9_95
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 9
+        width: 5.1
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fde500a45a2129c4dbcb142f0e39c6f7
+      internalID: -1550484217
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HP Bar 51x9_96
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 9
+        width: 5.1
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8fbd378f008f1d54eac1a603b88422ef
+      internalID: -2007081835
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HP Bar 51x9_97
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 9
+        width: 5.1
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3db3325d05ed58c4e8bed105ff4f963c
+      internalID: 1803201230
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HP Bar 51x9_98
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 9
+        width: 5.1
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f60f3e32b0d8ad4fbf85ed6610172c9
+      internalID: 1209098094
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HP Bar 51x9_99
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 9
+        width: 5.1
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e816b3a60bfbec428c6434bf24d71cc
+      internalID: 2056612894
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HP Bar 51x9_100
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 5.1
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02ac462002b28024e90d171c1e79c936
+      internalID: 1596773223
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HP Bar 51x9_101
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 0
+        width: 5.1
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed5855a0ee1a3b24e8484779d0619611
+      internalID: 2140378947
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HP Bar 51x9_102
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 0
+        width: 5.1
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e8be645fbbcf2940b35832fc54e3baa
+      internalID: 633370728
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HP Bar 51x9_103
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 0
+        width: 5.1
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a56db2baad6bb14d8e01ad185990c3a
+      internalID: 1806034451
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HP Bar 51x9_104
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 0
+        width: 5.1
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 653c1e85a9b7a5943b0b11f35ee96a19
+      internalID: 858181374
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HP Bar 51x9_105
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 0
+        width: 5.1
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0fff53e026a048d408f22e71d5516ac4
+      internalID: 724473855
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HP Bar 51x9_106
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 0
+        width: 5.1
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83987da761288a84ea21aa133ab0784b
+      internalID: 678262619
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HP Bar 51x9_107
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 0
+        width: 5.1
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a12db96ebe6dbc4ab9dbc1578be9bfe
+      internalID: -120935018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HP Bar 51x9_108
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 0
+        width: 5.1
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98476b5d1eb508746875f00fb86435f7
+      internalID: -1076869999
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HP Bar 51x9_109
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 0
+        width: 5.1
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8de34ee991328d4aa585ff8b48451c2
+      internalID: 15624890
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -106,7 +2416,117 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      HP Bar 51x9_0: 1530147149
+      HP Bar 51x9_1: 564864078
+      HP Bar 51x9_10: 2073117028
+      HP Bar 51x9_100: 1596773223
+      HP Bar 51x9_101: 2140378947
+      HP Bar 51x9_102: 633370728
+      HP Bar 51x9_103: 1806034451
+      HP Bar 51x9_104: 858181374
+      HP Bar 51x9_105: 724473855
+      HP Bar 51x9_106: 678262619
+      HP Bar 51x9_107: -120935018
+      HP Bar 51x9_108: -1076869999
+      HP Bar 51x9_109: 15624890
+      HP Bar 51x9_11: 1690096827
+      HP Bar 51x9_12: 675101429
+      HP Bar 51x9_13: 1060446506
+      HP Bar 51x9_14: -472026466
+      HP Bar 51x9_15: 275195790
+      HP Bar 51x9_16: -1977643336
+      HP Bar 51x9_17: -474094446
+      HP Bar 51x9_18: 1674104260
+      HP Bar 51x9_19: 1539307648
+      HP Bar 51x9_2: 1611749866
+      HP Bar 51x9_20: 56155744
+      HP Bar 51x9_21: 987441659
+      HP Bar 51x9_22: -344312108
+      HP Bar 51x9_23: 1801077622
+      HP Bar 51x9_24: 1218903201
+      HP Bar 51x9_25: 677854360
+      HP Bar 51x9_26: -797723651
+      HP Bar 51x9_27: -41139438
+      HP Bar 51x9_28: 454767319
+      HP Bar 51x9_29: -851158044
+      HP Bar 51x9_3: 1197594991
+      HP Bar 51x9_30: 1477815272
+      HP Bar 51x9_31: 1984773781
+      HP Bar 51x9_32: -675455311
+      HP Bar 51x9_33: 493877132
+      HP Bar 51x9_34: -1182363723
+      HP Bar 51x9_35: -563507778
+      HP Bar 51x9_36: 1034278527
+      HP Bar 51x9_37: -621252066
+      HP Bar 51x9_38: -605694172
+      HP Bar 51x9_39: -1077433911
+      HP Bar 51x9_4: 1342590715
+      HP Bar 51x9_40: 944866779
+      HP Bar 51x9_41: -1212980061
+      HP Bar 51x9_42: -433930275
+      HP Bar 51x9_43: 1987034755
+      HP Bar 51x9_44: 589203397
+      HP Bar 51x9_45: 1764140596
+      HP Bar 51x9_46: 418192089
+      HP Bar 51x9_47: 1570238946
+      HP Bar 51x9_48: 351901482
+      HP Bar 51x9_49: -2106165924
+      HP Bar 51x9_5: -1810321940
+      HP Bar 51x9_50: -486259618
+      HP Bar 51x9_51: 1276393138
+      HP Bar 51x9_52: 292633005
+      HP Bar 51x9_53: -1139932521
+      HP Bar 51x9_54: 928250144
+      HP Bar 51x9_55: 534497702
+      HP Bar 51x9_56: -1813909566
+      HP Bar 51x9_57: -1693943361
+      HP Bar 51x9_58: 1653875923
+      HP Bar 51x9_59: 930279949
+      HP Bar 51x9_6: 783540540
+      HP Bar 51x9_60: 1126083076
+      HP Bar 51x9_61: 1928461784
+      HP Bar 51x9_62: 43401721
+      HP Bar 51x9_63: -407661736
+      HP Bar 51x9_64: 347303170
+      HP Bar 51x9_65: 1621903812
+      HP Bar 51x9_66: -1999714444
+      HP Bar 51x9_67: -354480734
+      HP Bar 51x9_68: 1895759342
+      HP Bar 51x9_69: 1237890434
+      HP Bar 51x9_7: -114301200
+      HP Bar 51x9_70: 2036566412
+      HP Bar 51x9_71: -108689376
+      HP Bar 51x9_72: -352572586
+      HP Bar 51x9_73: -1925289231
+      HP Bar 51x9_74: 962729230
+      HP Bar 51x9_75: 113810778
+      HP Bar 51x9_76: -349894342
+      HP Bar 51x9_77: 1650248228
+      HP Bar 51x9_78: 377261450
+      HP Bar 51x9_79: 1410284772
+      HP Bar 51x9_8: -2102846387
+      HP Bar 51x9_80: 2060187428
+      HP Bar 51x9_81: -1362355481
+      HP Bar 51x9_82: -685086494
+      HP Bar 51x9_83: -1502187070
+      HP Bar 51x9_84: 965469418
+      HP Bar 51x9_85: -254536637
+      HP Bar 51x9_86: 1133080392
+      HP Bar 51x9_87: 1047656687
+      HP Bar 51x9_88: 476638537
+      HP Bar 51x9_89: -424237521
+      HP Bar 51x9_9: -784271779
+      HP Bar 51x9_90: 761301619
+      HP Bar 51x9_91: 2068907781
+      HP Bar 51x9_92: -1378845463
+      HP Bar 51x9_93: -90893715
+      HP Bar 51x9_94: 2013907325
+      HP Bar 51x9_95: -1550484217
+      HP Bar 51x9_96: -2007081835
+      HP Bar 51x9_97: 1803201230
+      HP Bar 51x9_98: 1209098094
+      HP Bar 51x9_99: 2056612894
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
