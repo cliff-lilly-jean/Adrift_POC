@@ -6,21 +6,19 @@ public class PlayerMovementController : MonoBehaviour
 {
     private Rigidbody2D rb;
     private Controls controls;
+    private Movement movement;
 
 
     private void Awake()
     {
         controls = new Controls();
+        movement = FindObjectOfType<Movement>();
+        rb = GetComponent<Rigidbody2D>();
     }
 
     // Start is called before the first frame update
     void Start()
     {
-
-        var movement = FindObjectOfType<Movement>();
-
-        rb = GetComponent<Rigidbody2D>();
-
         controls.Player.Walk.performed += _ => movement.GetDirection(controls);
         controls.Player.Walk.canceled += _ => movement.ResetMovement();
 
@@ -28,14 +26,13 @@ public class PlayerMovementController : MonoBehaviour
 
     private void OnEnable()
     {
-        var movement = FindObjectOfType<Movement>();
 
         controls.Enable();
 
         controls.Player.Walk.performed -= _ => movement.GetDirection(controls);
         controls.Player.Walk.canceled -= _ => movement.ResetMovement();
 
-        movement.OnMovementChanged += Walk; // TODO Find out how to dynamically add components/prefabs at runtime
+        movement.OnMovementChanged += Walk;
     }
 
     private void OnDisable()
@@ -51,7 +48,6 @@ public class PlayerMovementController : MonoBehaviour
 
     private void Walk()
     {
-        var movement = FindObjectOfType<Movement>();
 
         rb.velocity = new Vector2(movement.movementData.direction.x, movement.movementData.direction.y) * movement.movementData.speed;
     }
