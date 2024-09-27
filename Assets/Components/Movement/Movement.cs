@@ -7,6 +7,11 @@ public class Movement : MonoBehaviour
     public delegate void MovementDelegate();
     public event MovementDelegate OnMovementChanged;
 
+    private void Start()
+    {
+        movementData.speed = movementData.speedMax;
+    }
+
 
     public void GetDirection(Controls controls = null)
     {
