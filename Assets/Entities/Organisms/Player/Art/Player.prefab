@@ -11,8 +11,8 @@ GameObject:
   - component: {fileID: 1535681021045167201}
   - component: {fileID: 7836215597082306648}
   - component: {fileID: 3205811571387239057}
-  - component: {fileID: 1343608717148709549}
   - component: {fileID: 6030532365292084951}
+  - component: {fileID: 8576926060040826591}
   m_Layer: 0
   m_Name: Player
   m_TagString: Player
@@ -37,6 +37,7 @@ Transform:
   - {fileID: 8515081276506997250}
   - {fileID: 2554736092139725911}
   - {fileID: 2141005115441399238}
+  - {fileID: 6070809571585483748}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &7836215597082306648
@@ -79,18 +80,6 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 1
   m_Constraints: 4
---- !u!114 &1343608717148709549
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7224731339800912540}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 59c132151d4704800add2704664c7321, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!61 &6030532365292084951
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -136,6 +125,92 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.39007545, y: 0.9374408}
   m_EdgeRadius: 0
+--- !u!114 &8576926060040826591
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7224731339800912540}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 316b41e27d068f3429a6a7a3acdb3602, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!1001 &1612613008430176112
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 1535681021045167201}
+    m_Modifications:
+    - target: {fileID: 1365683378081026018, guid: 58199b76fdb98cf40a7625f1037fb416, type: 3}
+      propertyPath: m_Name
+      value: Shadow
+      objectReference: {fileID: 0}
+    - target: {fileID: 4782541160625435796, guid: 58199b76fdb98cf40a7625f1037fb416, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4782541160625435796, guid: 58199b76fdb98cf40a7625f1037fb416, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.38
+      objectReference: {fileID: 0}
+    - target: {fileID: 4782541160625435796, guid: 58199b76fdb98cf40a7625f1037fb416, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.38
+      objectReference: {fileID: 0}
+    - target: {fileID: 4782541160625435796, guid: 58199b76fdb98cf40a7625f1037fb416, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.025
+      objectReference: {fileID: 0}
+    - target: {fileID: 4782541160625435796, guid: 58199b76fdb98cf40a7625f1037fb416, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.6
+      objectReference: {fileID: 0}
+    - target: {fileID: 4782541160625435796, guid: 58199b76fdb98cf40a7625f1037fb416, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4782541160625435796, guid: 58199b76fdb98cf40a7625f1037fb416, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4782541160625435796, guid: 58199b76fdb98cf40a7625f1037fb416, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4782541160625435796, guid: 58199b76fdb98cf40a7625f1037fb416, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4782541160625435796, guid: 58199b76fdb98cf40a7625f1037fb416, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4782541160625435796, guid: 58199b76fdb98cf40a7625f1037fb416, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4782541160625435796, guid: 58199b76fdb98cf40a7625f1037fb416, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4782541160625435796, guid: 58199b76fdb98cf40a7625f1037fb416, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 58199b76fdb98cf40a7625f1037fb416, type: 3}
+--- !u!4 &6070809571585483748 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 4782541160625435796, guid: 58199b76fdb98cf40a7625f1037fb416, type: 3}
+  m_PrefabInstance: {fileID: 1612613008430176112}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &3559123331977061458
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -467,7 +542,7 @@ PrefabInstance:
       addedObject: {fileID: 7705520419230128620}
     - targetCorrespondingSourceObject: {fileID: 1341827447970382739, guid: fa3c766f9c74d433486e615e704e6816, type: 3}
       insertIndex: -1
-      addedObject: {fileID: 9049353557564850211}
+      addedObject: {fileID: 3889482193002084448}
   m_SourcePrefab: {fileID: 100100000, guid: fa3c766f9c74d433486e615e704e6816, type: 3}
 --- !u!4 &4387450995306716654 stripped
 Transform:
@@ -500,7 +575,7 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
---- !u!114 &9049353557564850211
+--- !u!114 &3889482193002084448
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -509,7 +584,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 5398952772108094716}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b6de2e296e1f3469fa6f0babe17a63a2, type: 3}
+  m_Script: {fileID: 11500000, guid: 2cc9011233011474582ed2395b3d7cc5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!212 &5498411500608307171 stripped
