@@ -4,12 +4,13 @@ using UnityEngine;
 
 public class Stamina : MonoBehaviour
 {
-    [SerializeField] private StaminaData _staminaData;
+    public float currentStamina;
+    public float maxStamina;
 
     // Start is called before the first frame update
     void Start()
     {
-        _staminaData.stamina = _staminaData.staminaMax;
+        currentStamina += maxStamina;
     }
 
     // Update is called once per frame

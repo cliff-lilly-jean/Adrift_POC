@@ -3,7 +3,10 @@ using UnityEngine;
 [RequireComponent(typeof(Rigidbody2D))]
 public class Movement : MonoBehaviour
 {
-    public MovementData movementData;
+    public float speed;
+    public float maxSpeed;
+    public Vector2 direction;
+
     private Rigidbody2D rb;
     private Controls controls;
 
@@ -20,7 +23,7 @@ public class Movement : MonoBehaviour
     void Start()
     {
         // Initialize speed to max speed
-        movementData.speed = movementData.maxSpeed;
+        speed = maxSpeed;
 
         controls.Player.Walk.performed += _ => GetDirection(controls);
         controls.Player.Walk.canceled += _ => ResetMovement();
@@ -51,7 +54,7 @@ public class Movement : MonoBehaviour
 
         if (ctrls != null)
         {
-            movementData.direction = ctrls.Player.Walk.ReadValue<Vector2>();
+            direction = ctrls.Player.Walk.ReadValue<Vector2>();
         }
         else
         {
@@ -61,13 +64,13 @@ public class Movement : MonoBehaviour
 
     public void ResetMovement()
     {
-        movementData.direction = Vector2.zero;
+        direction = Vector2.zero;
     }
 
     private void Walk()
     {
 
-        rb.velocity = new Vector2(movementData.direction.x, movementData.direction.y) * movementData.speed;
+        rb.velocity = new Vector2(direction.x, direction.y) * speed;
     }
 
 }
