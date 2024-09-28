@@ -19,7 +19,7 @@ public class PlayerAnimatorController : MonoBehaviour
     void FixedUpdate()
     {
         Debug.Log(currentAnimation);
-        CheckAnimation();
+        // CheckAnimation();
     }
 
     private void ChangeAnimation(string animation, float crossFadeAmount = 0.0005f)
@@ -34,54 +34,54 @@ public class PlayerAnimatorController : MonoBehaviour
         }
     }
 
-    private void CheckAnimation()
-    {
+    // private void CheckAnimation()
+    // {
 
-        var movement = FindObjectOfType<Movement>();
-        var sprite = FindObjectOfType<Sprite>();
+    //     var movement = FindObjectOfType<Movement>();
+    //     var sprite = FindObjectOfType<Sprite>();
 
 
-        if (movement.movementData.direction.y == 1)
-        {
-            ChangeAnimation("Player_Walk_N");
-        }
-        else if (movement.movementData.direction.y == -1)
-        {
-            ChangeAnimation("Player_Walk_S");
-        }
-        else if (movement.movementData.direction.x == 1)
-        {
-            sprite.spriteRenderer.flipX = false;
-            ChangeAnimation("Player_Walk_E");
-        }
-        else if (movement.movementData.direction.x == -1)
-        {
-            sprite.spriteRenderer.flipX = true;
-            ChangeAnimation("Player_Walk_E");
-        }
-        else if (movement.movementData.direction.y >= 0.5 && movement.movementData.direction.x >= 0.5)
-        {
-            sprite.spriteRenderer.flipX = false;
-            ChangeAnimation("Player_Walk_E");
-        }
-        else if (movement.movementData.direction.y <= -0.5 && movement.movementData.direction.x >= 0.5)
-        {
-            sprite.spriteRenderer.flipX = false;
-            ChangeAnimation("Player_Walk_E");
-        }
-        else if (movement.movementData.direction.y <= -0.5 && movement.movementData.direction.x <= -0.5)
-        {
-            sprite.spriteRenderer.flipX = true;
-            ChangeAnimation("Player_Walk_E");
-        }
-        else if (movement.movementData.direction.y >= 0.5 && movement.movementData.direction.x <= -0.5)
-        {
-            sprite.spriteRenderer.flipX = true;
-            ChangeAnimation("Player_Walk_E");
-        }
-        else
-        {
-            ChangeAnimation("Player_Idle");
-        }
-    }
+    //     if (movement.movementData.direction.y == 1)
+    //     {
+    //         ChangeAnimation("Player_Walk_N");
+    //     }
+    //     else if (movement.movementData.direction.y == -1)
+    //     {
+    //         ChangeAnimation("Player_Walk_S");
+    //     }
+    //     else if (movement.movementData.direction.x == 1)
+    //     {
+    //         sprite.spriteRenderer.flipX = false;
+    //         ChangeAnimation("Player_Walk_E");
+    //     }
+    //     else if (movement.movementData.direction.x == -1)
+    //     {
+    //         sprite.spriteRenderer.flipX = true;
+    //         ChangeAnimation("Player_Walk_E");
+    //     }
+    //     else if (movement.movementData.direction.y >= 0.5 && movement.movementData.direction.x >= 0.5)
+    //     {
+    //         sprite.spriteRenderer.flipX = false;
+    //         ChangeAnimation("Player_Walk_E");
+    //     }
+    //     else if (movement.movementData.direction.y <= -0.5 && movement.movementData.direction.x >= 0.5)
+    //     {
+    //         sprite.spriteRenderer.flipX = false;
+    //         ChangeAnimation("Player_Walk_E");
+    //     }
+    //     else if (movement.movementData.direction.y <= -0.5 && movement.movementData.direction.x <= -0.5)
+    //     {
+    //         sprite.spriteRenderer.flipX = true;
+    //         ChangeAnimation("Player_Walk_E");
+    //     }
+    //     else if (movement.movementData.direction.y >= 0.5 && movement.movementData.direction.x <= -0.5)
+    //     {
+    //         sprite.spriteRenderer.flipX = true;
+    //         ChangeAnimation("Player_Walk_E");
+    //     }
+    //     else
+    //     {
+    //         ChangeAnimation("Player_Idle");
+    //     }
+    // }
 }

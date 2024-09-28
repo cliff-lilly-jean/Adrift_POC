@@ -57,6 +57,7 @@
     "dotnet.defaultSolution": "Adrift_POC.sln",
     "cSpell.words": [
         "Cooldown",
+        "ctrls",
         "Frostfall",
         "Moonveil",
         "Thornbrook",

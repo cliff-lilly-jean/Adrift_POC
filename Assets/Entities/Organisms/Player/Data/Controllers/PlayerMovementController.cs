@@ -1,4 +1,3 @@
-using TMPro;
 using UnityEngine;
 
 [RequireComponent(typeof(Rigidbody2D))]
@@ -32,7 +31,7 @@ public class PlayerMovementController : MonoBehaviour
         controls.Player.Walk.performed -= _ => movement.GetDirection(controls);
         controls.Player.Walk.canceled -= _ => movement.ResetMovement();
 
-        movement.OnMovementChanged += Walk;
+        // movement.OnMovementChanged += Walk;
     }
 
     private void OnDisable()
