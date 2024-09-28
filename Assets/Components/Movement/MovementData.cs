@@ -1,16 +1,10 @@
 using UnityEngine;
 
-[CreateAssetMenu(menuName = "Data/Controllers/Movement/Movement Data")]
+[CreateAssetMenu(menuName = "Data/Movement/Movement Data")]
 public class MovementData : ScriptableObject
 {
     public float speed;
-    public float speedMax;
+    public float maxSpeed;
     public Vector2 direction;
-
-    private void Start()
-    {
-        speed = speedMax;
-    }
-
 
 }

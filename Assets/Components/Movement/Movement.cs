@@ -19,6 +19,9 @@ public class Movement : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        // Initialize speed to max speed
+        movementData.speed = movementData.maxSpeed;
+
         controls.Player.Walk.performed += _ => GetDirection(controls);
         controls.Player.Walk.canceled += _ => ResetMovement();
 
@@ -28,6 +31,7 @@ public class Movement : MonoBehaviour
     {
 
         controls.Enable();
+
     }
 
     private void OnDisable()
