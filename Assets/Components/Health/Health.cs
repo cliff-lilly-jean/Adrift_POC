@@ -4,17 +4,22 @@ using UnityEngine;
 
 public class Health : MonoBehaviour
 {
-    public HealthData _healthData;
+    public float currentHealth;
+    public float maxHealth;
 
     // Start is called before the first frame update
     void Start()
     {
-        _healthData._health = _healthData._healthMax;
+        currentHealth += maxHealth;
     }
 
-    // Update is called once per frame
-    void Update()
+    public void ChangeHealth(float amount)
     {
+        currentHealth += amount;
 
+        if (currentHealth <= 0)
+        {
+            gameObject.SetActive(false); // remove the game object
+        }
     }
 }

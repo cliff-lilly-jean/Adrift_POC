@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 5267864543303138833}
   - component: {fileID: 8658711131160772315}
   - component: {fileID: 8156678735598204377}
-  - component: {fileID: 1201714871584429264}
+  - component: {fileID: 7545698411001476316}
   m_Layer: 0
   m_Name: Night Soildier
   m_TagString: Untagged
@@ -112,9 +112,9 @@ Rigidbody2D:
   m_Interpolate: 1
   m_SleepingMode: 1
   m_CollisionDetection: 0
-  m_Constraints: 4
---- !u!61 &1201714871584429264
-BoxCollider2D:
+  m_Constraints: 7
+--- !u!70 &7545698411001476316
+CapsuleCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -145,16 +145,6 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -0.36727938, y: -0.55794406}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 4.875, y: 3.0625}
-    newSize: {x: 4.875, y: 3.0625}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  serializedVersion: 2
-  m_Size: {x: 0.50689465, y: 1.4675629}
-  m_EdgeRadius: 0
+  m_Offset: {x: -0.3739861, y: -0.55464697}
+  m_Size: {x: 0.51185507, y: 1.6585864}
+  m_Direction: 0
