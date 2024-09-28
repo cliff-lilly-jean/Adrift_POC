@@ -44,40 +44,40 @@ public class Sprite : MonoBehaviour
     {
 
 
-        if (movement.movementData.direction.y == 1)
+        if (movement.direction.y == 1)
         {
             ChangeAnimation("Player_Walk_N");
         }
-        else if (movement.movementData.direction.y == -1)
+        else if (movement.direction.y == -1)
         {
             ChangeAnimation("Player_Walk_S");
         }
-        else if (movement.movementData.direction.x == 1)
+        else if (movement.direction.x == 1)
         {
             spriteRenderer.flipX = false;
             ChangeAnimation("Player_Walk_E");
         }
-        else if (movement.movementData.direction.x == -1)
+        else if (movement.direction.x == -1)
         {
             spriteRenderer.flipX = true;
             ChangeAnimation("Player_Walk_E");
         }
-        else if (movement.movementData.direction.y >= 0.5 && movement.movementData.direction.x >= 0.5)
+        else if (movement.direction.y >= 0.5 && movement.direction.x >= 0.5)
         {
             spriteRenderer.flipX = false;
             ChangeAnimation("Player_Walk_E");
         }
-        else if (movement.movementData.direction.y <= -0.5 && movement.movementData.direction.x >= 0.5)
+        else if (movement.direction.y <= -0.5 && movement.direction.x >= 0.5)
         {
             spriteRenderer.flipX = false;
             ChangeAnimation("Player_Walk_E");
         }
-        else if (movement.movementData.direction.y <= -0.5 && movement.movementData.direction.x <= -0.5)
+        else if (movement.direction.y <= -0.5 && movement.direction.x <= -0.5)
         {
             spriteRenderer.flipX = true;
             ChangeAnimation("Player_Walk_E");
         }
-        else if (movement.movementData.direction.y >= 0.5 && movement.movementData.direction.x <= -0.5)
+        else if (movement.direction.y >= 0.5 && movement.direction.x <= -0.5)
         {
             spriteRenderer.flipX = true;
             ChangeAnimation("Player_Walk_E");
