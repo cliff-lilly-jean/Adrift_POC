@@ -12,19 +12,19 @@ public class Health : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        healthStats.currentHealth += healthStats.maxHealth;
+        healthStats.health = healthStats.maxHealth;
     }
 
     public void ChangeHealth(float amount)
     {
-        healthStats.currentHealth += amount;
+        healthStats.health += amount;
 
-        if (healthStats.currentHealth <= 0)
+        if (healthStats.health <= 0)
         {
-            gameObject.SetActive(false); // remove the game object
+            Destroy(gameObject); // remove the game object
         }
 
         // Invoke the event to notify subscribers of a change
-        OnHealthChange?.Invoke(healthStats.currentHealth);
+        OnHealthChange?.Invoke(healthStats.health);
     }
 }

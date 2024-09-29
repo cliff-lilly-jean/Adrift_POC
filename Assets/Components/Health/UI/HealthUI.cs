@@ -4,36 +4,45 @@ using UnityEngine.UI;
 public class HealthUI : MonoBehaviour
 {
     public HealthStats healthStats;
+    public Slider healthSlider;
 
-    public Sprite halfHeart;
-    public Sprite fullHeart;
-    public Image[] hearts;
 
     // Start is called before the first frame update
     void Start()
     {
+        healthStats.health = healthStats.maxHealth;
+
+        healthSlider.maxValue = healthStats.maxHealth;
+        healthSlider.value = healthStats.health;
+
         // Subscribe to the OnHealthChange delegate
         Health.OnHealthChange += UpdateHealthUI;
+    }
+
+    private void OnDestroy()
+    {
+        Health.OnHealthChange -= UpdateHealthUI;
     }
 
     // Update is called once per frame
     void Update()
     {
-        for (int i = 0; i < hearts.Length; i++)
-        {
-            if (healthStats.maxHealth > i)
-            {
-                hearts[i].enabled = true;
-            }
-            else
-            {
-                hearts[i].enabled = false;
-            }
-        }
+        // for (int i = 0; i < hearts.Length; i++)
+        // {
+        //     if (healthStats.maxHealth > i)
+        //     {
+        //         hearts[i].enabled = true;
+        //     }
+        //     else
+        //     {
+        //         hearts[i].enabled = false;
+        //     }
+        // }
     }
 
-    private void UpdateHealthUI(float currentHealth)
+    private void UpdateHealthUI(float health)
     {
-        Debug.Log("This is the current Health" + currentHealth);
+        healthSlider.value = healthStats.health;
+        Debug.Log("This is the current Health" + health);
     }
 }
