@@ -3,15 +3,14 @@ using UnityEngine;
 public abstract class Ability : MonoBehaviour
 {
     public AbilityData abilityData;
-
-    private AbilityType abilityType;
+    public AbilityType abilityType;
 
     [System.Serializable]
-    private enum AbilityType // TODO: Can we have an enum of Classes
+    public enum AbilityType // TODO: Can we have an enum of Classes
     {
         None,
-        Movement,
-        Aura
+        MovementAbility,
+        AuraAbility
     }
 
     public abstract void Use();
