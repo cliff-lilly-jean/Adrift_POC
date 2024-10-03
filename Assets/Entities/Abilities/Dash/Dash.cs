@@ -11,8 +11,8 @@ public class Dash : Ability
 
     private void Update()
     {
-        Debug.Log(type);
-        Debug.Log(GetAbilityDescription(type));
+        // Debug.Log(type);
+        // Debug.Log(GetAbilityDescription(type));
     }
 
     public override void Use()

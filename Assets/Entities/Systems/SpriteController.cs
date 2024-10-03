@@ -4,7 +4,8 @@ public class SpriteController : MonoBehaviour
 {
     private SpriteRenderer spriteRenderer;
     private Animator animator;
-    private Movement movement;
+    // private Movement movement;
+    private Vector2 direction;
 
     private string currentAnimation = "";
 
@@ -13,7 +14,7 @@ public class SpriteController : MonoBehaviour
     {
         spriteRenderer = GetComponent<SpriteRenderer>();
         animator = GetComponent<Animator>();
-        movement = GetComponent<Movement>();
+        // movement = GetComponent<Movement>();
     }
 
     // Update is called once per frame
@@ -43,41 +44,41 @@ public class SpriteController : MonoBehaviour
     private void CheckAnimation()
     {
 
-
-        if (movement.direction.y == 1)
+        // TODO:
+        if (direction.y == 1)
         {
             ChangeAnimation("Player_Walk_N");
         }
-        else if (movement.direction.y == -1)
+        else if (direction.y == -1)
         {
             ChangeAnimation("Player_Walk_S");
         }
-        else if (movement.direction.x == 1)
+        else if (direction.x == 1)
         {
             spriteRenderer.flipX = false;
             ChangeAnimation("Player_Walk_E");
         }
-        else if (movement.direction.x == -1)
+        else if (direction.x == -1)
         {
             spriteRenderer.flipX = true;
             ChangeAnimation("Player_Walk_E");
         }
-        else if (movement.direction.y >= 0.5 && movement.direction.x >= 0.5)
+        else if (direction.y >= 0.5 && direction.x >= 0.5)
         {
             spriteRenderer.flipX = false;
             ChangeAnimation("Player_Walk_E");
         }
-        else if (movement.direction.y <= -0.5 && movement.direction.x >= 0.5)
+        else if (direction.y <= -0.5 && direction.x >= 0.5)
         {
             spriteRenderer.flipX = false;
             ChangeAnimation("Player_Walk_E");
         }
-        else if (movement.direction.y <= -0.5 && movement.direction.x <= -0.5)
+        else if (direction.y <= -0.5 && direction.x <= -0.5)
         {
             spriteRenderer.flipX = true;
             ChangeAnimation("Player_Walk_E");
         }
-        else if (movement.direction.y >= 0.5 && movement.direction.x <= -0.5)
+        else if (direction.y >= 0.5 && direction.x <= -0.5)
         {
             spriteRenderer.flipX = true;
             ChangeAnimation("Player_Walk_E");
