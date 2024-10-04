@@ -19,7 +19,7 @@ public class Dash : Ability
     {
         //    TODO: Implement
 
-        AbilityType abilityType;
+        // AbilityType abilityType;
 
         // switch (abilityType)
         // {

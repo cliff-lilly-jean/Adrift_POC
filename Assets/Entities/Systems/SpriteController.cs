@@ -25,7 +25,6 @@ public class SpriteController : MonoBehaviour
 
     void FixedUpdate()
     {
-        Debug.Log(currentAnimation);
         CheckAnimation();
     }
 

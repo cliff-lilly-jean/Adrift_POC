@@ -43,6 +43,5 @@ public class HealthUI : MonoBehaviour
     private void UpdateHealthUI(float health)
     {
         healthSlider.value = healthStats.health;
-        Debug.Log("This is the current Health" + health);
     }
 }
