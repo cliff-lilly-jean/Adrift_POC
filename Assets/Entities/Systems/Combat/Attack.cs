@@ -9,7 +9,7 @@ public class Attack : MonoBehaviour
     private void OnCollisionEnter2D(Collision2D collision)
     {
         // TODO: Find a way to calculate damage based on a random number capped and the defense and armor stats
-        collision.gameObject.GetComponent<Health>().ChangeHealth(-damage);
+        collision.gameObject.GetComponentInChildren<Health>().ChangeHealth(-damage);
 
         // GameObject popUp = Instantiate(popUpPrefab, collision.transform.position, Quaternion.identity);
         // popUp.GetComponentInChildren<TMP_Text>().text = damage.ToString();

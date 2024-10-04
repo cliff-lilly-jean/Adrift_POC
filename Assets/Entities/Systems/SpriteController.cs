@@ -4,7 +4,7 @@ public class SpriteController : MonoBehaviour
 {
     private SpriteRenderer spriteRenderer;
     private Animator animator;
-    public MovementStats movementStats;
+    public MovementData data;
 
     private string currentAnimation = "";
 
@@ -42,40 +42,40 @@ public class SpriteController : MonoBehaviour
     private void CheckAnimation()
     {
 
-        if (movementStats.direction.y == 1)
+        if (data.direction.y == 1)
         {
             ChangeAnimation("Player_Walk_N");
         }
-        else if (movementStats.direction.y == -1)
+        else if (data.direction.y == -1)
         {
             ChangeAnimation("Player_Walk_S");
         }
-        else if (movementStats.direction.x == 1)
+        else if (data.direction.x == 1)
         {
             spriteRenderer.flipX = false;
             ChangeAnimation("Player_Walk_E");
         }
-        else if (movementStats.direction.x == -1)
+        else if (data.direction.x == -1)
         {
             spriteRenderer.flipX = true;
             ChangeAnimation("Player_Walk_E");
         }
-        else if (movementStats.direction.y >= 0.5 && movementStats.direction.x >= 0.5)
+        else if (data.direction.y >= 0.5 && data.direction.x >= 0.5)
         {
             spriteRenderer.flipX = false;
             ChangeAnimation("Player_Walk_E");
         }
-        else if (movementStats.direction.y <= -0.5 && movementStats.direction.x >= 0.5)
+        else if (data.direction.y <= -0.5 && data.direction.x >= 0.5)
         {
             spriteRenderer.flipX = false;
             ChangeAnimation("Player_Walk_E");
         }
-        else if (movementStats.direction.y <= -0.5 && movementStats.direction.x <= -0.5)
+        else if (data.direction.y <= -0.5 && data.direction.x <= -0.5)
         {
             spriteRenderer.flipX = true;
             ChangeAnimation("Player_Walk_E");
         }
-        else if (movementStats.direction.y >= 0.5 && movementStats.direction.x <= -0.5)
+        else if (data.direction.y >= 0.5 && data.direction.x <= -0.5)
         {
             spriteRenderer.flipX = true;
             ChangeAnimation("Player_Walk_E");
