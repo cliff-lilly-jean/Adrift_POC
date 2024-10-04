@@ -10,7 +10,7 @@ public class Movement : MonoBehaviour
 
     private void Awake()
     {
-        rb = FindObjectOfType<Rigidbody2D>();
+
     }
 
     // Start is called before the first frame update
@@ -18,6 +18,8 @@ public class Movement : MonoBehaviour
     {
         // Initialize speed to max speed
         movementStats.speed = movementStats.maxSpeed;
+
+        rb = GetComponentInParent<Rigidbody2D>();
     }
 
 
@@ -25,6 +27,7 @@ public class Movement : MonoBehaviour
     private void FixedUpdate()
     {
         Walk();
+        Debug.Log(rb.gameObject.name);
     }
 
 

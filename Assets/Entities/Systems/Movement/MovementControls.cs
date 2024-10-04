@@ -9,14 +9,20 @@ public class MovementControls : MonoBehaviour
     private void Awake()
     {
         controls = new Controls();
+
     }
 
     private void Start()
     {
-        movement = FindAnyObjectByType<Movement>();
+        movement = FindObjectOfType<Movement>();
 
         controls.Player.Walk.performed += _ => GetDirection();
         controls.Player.Walk.canceled += _ => ResetMovement();
+    }
+
+    private void Update()
+    {
+        Debug.Log(movement.gameObject.name);
     }
 
     private void OnEnable()
