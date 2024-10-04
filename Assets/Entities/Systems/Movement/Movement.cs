@@ -27,7 +27,6 @@ public class Movement : MonoBehaviour
     private void FixedUpdate()
     {
         Walk();
-        Debug.Log(rb.gameObject.name);
     }
 
 

@@ -20,11 +20,6 @@ public class MovementControls : MonoBehaviour
         controls.Player.Walk.canceled += _ => ResetMovement();
     }
 
-    private void Update()
-    {
-        Debug.Log(movement.gameObject.name);
-    }
-
     private void OnEnable()
     {
 
