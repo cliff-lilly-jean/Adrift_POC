@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 8658711131160772315}
   - component: {fileID: 8156678735598204377}
   - component: {fileID: 7545698411001476316}
+  - component: {fileID: 6954366188168134557}
   m_Layer: 0
   m_Name: Night Soildier
   m_TagString: Untagged
@@ -33,7 +34,6 @@ Transform:
   m_ConstrainProportionsScale: 1
   m_Children:
   - {fileID: 4221732088714033393}
-  - {fileID: 2025430372900007290}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &8658711131160772315
@@ -150,72 +150,19 @@ CapsuleCollider2D:
   m_Offset: {x: -0.3739861, y: -0.55464697}
   m_Size: {x: 0.51185507, y: 1.6585864}
   m_Direction: 0
---- !u!1001 &5293395908054513971
-PrefabInstance:
+--- !u!114 &6954366188168134557
+MonoBehaviour:
   m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    serializedVersion: 3
-    m_TransformParent: {fileID: 5267864543303138833}
-    m_Modifications:
-    - target: {fileID: 313499732172472446, guid: 991a6876d88f343b5b4b1e15d9ede588, type: 3}
-      propertyPath: damage
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 6155908013369955401, guid: 991a6876d88f343b5b4b1e15d9ede588, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: -0.10438363
-      objectReference: {fileID: 0}
-    - target: {fileID: 6155908013369955401, guid: 991a6876d88f343b5b4b1e15d9ede588, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 3.0718613
-      objectReference: {fileID: 0}
-    - target: {fileID: 6155908013369955401, guid: 991a6876d88f343b5b4b1e15d9ede588, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: -0.0697879
-      objectReference: {fileID: 0}
-    - target: {fileID: 6155908013369955401, guid: 991a6876d88f343b5b4b1e15d9ede588, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 6155908013369955401, guid: 991a6876d88f343b5b4b1e15d9ede588, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6155908013369955401, guid: 991a6876d88f343b5b4b1e15d9ede588, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6155908013369955401, guid: 991a6876d88f343b5b4b1e15d9ede588, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6155908013369955401, guid: 991a6876d88f343b5b4b1e15d9ede588, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6155908013369955401, guid: 991a6876d88f343b5b4b1e15d9ede588, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6155908013369955401, guid: 991a6876d88f343b5b4b1e15d9ede588, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 9052204608537160713, guid: 991a6876d88f343b5b4b1e15d9ede588, type: 3}
-      propertyPath: m_Name
-      value: Attack
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-    m_RemovedGameObjects: []
-    m_AddedGameObjects: []
-    m_AddedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 991a6876d88f343b5b4b1e15d9ede588, type: 3}
---- !u!4 &2025430372900007290 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 6155908013369955401, guid: 991a6876d88f343b5b4b1e15d9ede588, type: 3}
-  m_PrefabInstance: {fileID: 5293395908054513971}
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5786145368561343519}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 073954617d6d6384295de737d9a9816f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  damage: 1
 --- !u!1001 &8703317533344238693
 PrefabInstance:
   m_ObjectHideFlags: 0
