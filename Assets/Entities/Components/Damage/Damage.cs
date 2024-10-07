@@ -5,11 +5,10 @@ public class Damage : MonoBehaviour
 {
     public float damage;
     private Health targetHealth;
-    private PopUpDamage popUpDamage;
+
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
-        var totalDamage =
 
         if (collision.gameObject.tag == "Entity")
         {
@@ -22,4 +21,6 @@ public class Damage : MonoBehaviour
         }
 
     }
+
+    // TODO: setup a way to take in account the defense, health and critical hit chance to calculate the damage
 }
