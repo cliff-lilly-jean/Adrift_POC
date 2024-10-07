@@ -5,7 +5,9 @@ using UnityEngine;
 public class Health : MonoBehaviour
 {
     public HealthData data;
+    public Animator sliderFillAnim;
 
+    // TODO: Setup an event system instead of using imports of the HealthData
     public delegate void HealthChangeEvent(float amount);
     public static HealthChangeEvent OnHealthChange;
 
@@ -15,16 +17,17 @@ public class Health : MonoBehaviour
         data.health = data.maxHealth;
     }
 
-    public void ChangeHealth(float amount)
+    public void TakeDamage(float amount)
     {
-        data.health += amount;
+        data.health -= amount;
+        sliderFillAnim.Play("SliderUpdate");
 
         if (data.health <= 0)
         {
-            Destroy(gameObject); // remove the game object
+            Destroy(gameObject);
         }
 
-        // Invoke the event to notify subscribers of a change
+        // Trigger the health change event
         OnHealthChange?.Invoke(data.health);
     }
 }

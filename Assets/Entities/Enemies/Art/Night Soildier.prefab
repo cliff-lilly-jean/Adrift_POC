@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 8658711131160772315}
   - component: {fileID: 8156678735598204377}
   - component: {fileID: 7545698411001476316}
-  - component: {fileID: 6954366188168134557}
+  - component: {fileID: 4000478146377465212}
   m_Layer: 0
   m_Name: Night Soildier
   m_TagString: Untagged
@@ -150,7 +150,7 @@ CapsuleCollider2D:
   m_Offset: {x: -0.3739861, y: -0.55464697}
   m_Size: {x: 0.51185507, y: 1.6585864}
   m_Direction: 0
---- !u!114 &6954366188168134557
+--- !u!114 &4000478146377465212
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -159,10 +159,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 5786145368561343519}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 073954617d6d6384295de737d9a9816f, type: 3}
+  m_Script: {fileID: 11500000, guid: e682585151469489c8cf86f64fa96e04, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   damage: 1
+  healthGameObject: {fileID: 0}
 --- !u!1001 &8703317533344238693
 PrefabInstance:
   m_ObjectHideFlags: 0
