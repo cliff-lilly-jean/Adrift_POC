@@ -15,6 +15,7 @@ public class Damage : MonoBehaviour
             if (targetHealth == null)
             {
                 targetHealth = collision.gameObject.GetComponentInChildren<Health>();
+                Debug.Log("Entity Health");
             }
 
             targetHealth.TakeDamage(damage);
